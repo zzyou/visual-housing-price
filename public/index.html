@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Visual Housing Price</title>
+  </head>
+  <body>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+
+    <div id="root"></div>
+
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">Visual Housing Price</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Map</a></li>
+          <li><a href="#">Chart</a></li>
+          <li><a href="#">Menu</a></li>
+        </ul>
+  
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#">Menu</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Map</i></a>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Chart</i></a>
+      </div>
+    </nav>
+  
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header center teal-text text-lighten-2">Housing Price Index</h1>
+          <div class="row center">
+            <h5 class="header col s12 light">More accurate tracking of price change for the U.S. from 1975 to 2017</h5>
+          </div>
+          <div class="row center">
+            <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Visualization</a>
+          </div>
+          <br><br>
+  
+        </div>
+      </div>
+      <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+  
+  
+    <div class="container">
+      <div class="section">
+  
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+              <h5 class="center">Country Level</h5>
+  
+              <p class="light">Housing price change for the U.S. from 1975 to 2017.</p>
+            </div>
+          </div>
+  
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+              <h5 class="center">State Level</h5>
+  
+              <p class="light">Housing price change for all the states in the U.S. from 1975 to 2017.</p>
+            </div>
+          </div>
+  
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+              <h5 class="center">City Level</h5>
+  
+              <p class="light">Housing price change for all the cities in each state from 1975 to 2017.</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">Map &amp; D3 Visualization</h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+  
+    <div class="container">
+      <div class="section">
+  
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4>Contact Me</h4>
+            <p class="left-align light">Zhenzhen You, Software Engineer Apprentice at Techtonica.</p>
+            <svg></svg>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">Final project at Techtonica</h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+  
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Author Bio</h5>
+            <p class="grey-text text-lighten-4">Journalism + Sociology + Anthropology + Tech</p>
+  
+  
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Settings</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Map</a></li>
+              <li><a class="white-text" href="#!">Chart</a></li>
+              <li><a class="white-text" href="#!">List</a></li>
+              <li><a class="white-text" href="#!">State</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="white-text" href="#!">GitHub</a></li>
+              <li><a class="white-text" href="#!">LinkedIn</a></li>
+              <li><a class="white-text" href="#!">Twitter</a></li>
+              <li><a class="white-text" href="#!">Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        Made by <a class="brown-text text-lighten-3" href="#">Zhenzhen You</a>
+        </div>
+      </div>
+    </footer>
+  
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script>
+        d3.csv("data/HPIyear.csv")
+        .then(function(data) {
+          console.log(data[0]);
+
+          // d3 use == instead of ===
+          const stateData = data.filter(obj => obj.level == "State" && obj.yr == 2017);
+          console.log("stateData", stateData);
+          const statePrice = stateData.map(obj => obj.index_nsa);
+          console.log("statePrice", statePrice);
+          const stateName = stateData.map(obj=> obj.place_name);
+          console.log("stateName", stateName);
+
+
+          // const height = 500,
+          //     width = 16;
+
+          // const scaledData = d3.scaleLinear()
+          //             .domain([0, d3.max(data)])
+          //             .range([0, height]);
+
+          // const g = d3.select("svg")
+          //     .attr("height", height)
+          //     .attr("width", width * data.length)
+          //     .selectAll("g")
+          //     .data(data)
+          //     .enter()
+          //     .append("g")
+          //     .attr("transform", function(d, i) {
+          //         return "translate(" + i * width + ", " + (height - scaledData(d)) + ")"; 
+          //         });
+
+          // g.append("rect")
+          // .attr("fill", function(d) { return colors[data.indexOf(d)]; })
+          // .attr("height", scaledData)
+          // .attr("width", height);
+
+          // g.append("text")
+          // .attr("x", 0)
+          // .attr("y", scaledData)
+          // .attr("dy", "-0.35em")
+          // .text(function(d) { return d; });
+        });
+    </script>
+  </body>
+</html>
