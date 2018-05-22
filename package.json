@@ -5,7 +5,10 @@
         "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
     },
     "dependencies": {
-        "concurrently": "^3.5.1",
-        "express": "^4.16.3"
+        "express": "^4.16.3",
+        "mysql": "^2.15.0"
+    },
+    "devDependencies": {
+        "concurrently": "^3.5.1"
     }
 }

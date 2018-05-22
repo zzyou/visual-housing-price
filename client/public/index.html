@@ -199,55 +199,55 @@
         d3.csv("data/HPIyear.csv")
         .then(function(data) {
 // // one city price change from 1975 to 2017
-          const dataSF = data.filter(obj => (obj.level === "MSA" && obj.place_name.includes("San Francisco")));
-          console.log(dataSF);
+          // const dataSF = data.filter(obj => (obj.level === "MSA" && obj.place_name.includes("San Francisco")));
+          // console.log(dataSF);
 
-          const priceSF = dataSF.map(obj => obj.index_nsa);
-          console.log(priceSF);
+          // const priceSF = dataSF.map(obj => obj.index_nsa);
+          // console.log(priceSF);
 
-          const year = dataSF.map(obj => obj.yr);
-          console.log(year);
+          // const year = dataSF.map(obj => obj.yr);
+          // console.log(year);
 
-          const height = 500,
-              width = 45;
+          // const height = 500,
+          //     width = 45;
 
-          const scaledData = d3.scaleLinear()
-                      .domain([0, Math.max(...priceSF)])
-                      .range([0, height]);
+          // const scaledData = d3.scaleLinear()
+          //             .domain([0, Math.max(...priceSF)])
+          //             .range([0, height]);
 
-          const g = d3.select("svg")
-              .attr("height", height)
-              .attr("width", width * priceSF.length)
-              .selectAll("g")
-              .data(priceSF)
-              .enter()
-              .append("g")
-              .attr("transform", function(d, i) {
-                  return "translate(" + i * width + ", " + (height - scaledData(d)) + ")"; 
-                  });
+          // const g = d3.select("svg")
+          //     .attr("height", height)
+          //     .attr("width", width * priceSF.length)
+          //     .selectAll("g")
+          //     .data(priceSF)
+          //     .enter()
+          //     .append("g")
+          //     .attr("transform", function(d, i) {
+          //         return "translate(" + i * width + ", " + (height - scaledData(d)) + ")"; 
+          //         });
 
-          g.append("rect")
-          .attr("fill", function(d) {
-            if (d < 200) {
-                return "green";
-              } else if (d < 300) {
-                return "yellow";
-              } else if (d < 400) {
-                return "orange";
-              } else if (d >= 300 ) {
-                return "red";
-              }
-          })
-          .attr("stroke", "black")
-          .attr("stroke-width", 0.5)
-          .attr("height", scaledData)
-          .attr("width", width);
+          // g.append("rect")
+          // .attr("fill", function(d) {
+          //   if (d < 200) {
+          //       return "green";
+          //     } else if (d < 300) {
+          //       return "yellow";
+          //     } else if (d < 400) {
+          //       return "orange";
+          //     } else if (d >= 300 ) {
+          //       return "red";
+          //     }
+          // })
+          // .attr("stroke", "black")
+          // .attr("stroke-width", 0.5)
+          // .attr("height", scaledData)
+          // .attr("width", width);
 
-          g.append("text")
-          .attr("x", 0)
-          .attr("y", scaledData)
-          .attr("dy", "-0.35em")
-          .text(function(d) { return year[priceSF.indexOf(d)]; });
+          // g.append("text")
+          // .attr("x", 0)
+          // .attr("y", scaledData)
+          // .attr("dy", "-0.35em")
+          // .text(function(d) { return year[priceSF.indexOf(d)]; });
 
 
 // // cities in one state in 2017
