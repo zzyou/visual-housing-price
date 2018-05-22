@@ -133,8 +133,8 @@
         <div class="row">
           <div class="col s12 center">
             <h3><i class="mdi-content-send brown-text"></i></h3>
-            <h4>Contact Me</h4>
-            <p class="left-align light">Zhenzhen You, Software Engineer Apprentice at Techtonica.</p>
+            <h4>Housing Price Change</h4>
+            <p class="left-align light">level</p>
             <svg></svg>
           </div>
         </div>
@@ -198,29 +198,82 @@
     <script>
         d3.csv("data/HPIyear.csv")
         .then(function(data) {
-          console.log(data[0]);
+// // one city price change from 1975 to 2017
+          const dataSF = data.filter(obj => (obj.level === "MSA" && obj.place_name.includes("San Francisco")));
+          console.log(dataSF);
 
-          // d3 use == instead of ===
-          const stateData = data.filter(obj => obj.level == "State" && obj.yr == 2017);
-          console.log("stateData", stateData);
-          const statePrice = stateData.map(obj => obj.index_nsa);
-          console.log("statePrice", statePrice);
-          const stateName = stateData.map(obj=> obj.place_name);
-          console.log("stateName", stateName);
+          const priceSF = dataSF.map(obj => obj.index_nsa);
+          console.log(priceSF);
 
+          const year = dataSF.map(obj => obj.yr);
+          console.log(year);
+
+          const height = 500,
+              width = 45;
+
+          const scaledData = d3.scaleLinear()
+                      .domain([0, Math.max(...priceSF)])
+                      .range([0, height]);
+
+          const g = d3.select("svg")
+              .attr("height", height)
+              .attr("width", width * priceSF.length)
+              .selectAll("g")
+              .data(priceSF)
+              .enter()
+              .append("g")
+              .attr("transform", function(d, i) {
+                  return "translate(" + i * width + ", " + (height - scaledData(d)) + ")"; 
+                  });
+
+          g.append("rect")
+          .attr("fill", function(d) {
+            if (d < 200) {
+                return "green";
+              } else if (d < 300) {
+                return "yellow";
+              } else if (d < 400) {
+                return "orange";
+              } else if (d >= 300 ) {
+                return "red";
+              }
+          })
+          .attr("stroke", "black")
+          .attr("stroke-width", 0.5)
+          .attr("height", scaledData)
+          .attr("width", width);
+
+          g.append("text")
+          .attr("x", 0)
+          .attr("y", scaledData)
+          .attr("dy", "-0.35em")
+          .text(function(d) { return year[priceSF.indexOf(d)]; });
+
+
+// // cities in one state in 2017
+          // // cannot use regular expression?
+          // const cityCA = data.filter(obj => (obj.level === "MSA" && obj.place_name.includes(", CA") && obj.yr === "2017"));
+
+          // const sortedCityCA = cityCA.sort((a, b) => (a.index_nsa - b.index_nsa));
+
+          // const priceCA = sortedCityCA.map(obj => obj.index_nsa);
+          // console.log(priceCA);
+
+          // const nameCA = sortedCityCA.map(obj => obj.place_name);
+          // console.log(nameCA);
 
           // const height = 500,
-          //     width = 16;
+          //     width = 65;
 
           // const scaledData = d3.scaleLinear()
-          //             .domain([0, d3.max(data)])
+          //             .domain([0, Math.max(...priceCA)])
           //             .range([0, height]);
 
           // const g = d3.select("svg")
           //     .attr("height", height)
-          //     .attr("width", width * data.length)
+          //     .attr("width", width * priceCA.length)
           //     .selectAll("g")
-          //     .data(data)
+          //     .data(priceCA)
           //     .enter()
           //     .append("g")
           //     .attr("transform", function(d, i) {
@@ -228,15 +281,130 @@
           //         });
 
           // g.append("rect")
-          // .attr("fill", function(d) { return colors[data.indexOf(d)]; })
+          // .attr("fill", function(d) {
+          //   if (d < 200) {
+          //       return "green";
+          //     } else if (d < 300) {
+          //       return "yellow";
+          //     } else if (d < 400) {
+          //       return "orange";
+          //     } else if (d >= 300 ) {
+          //       return "red";
+          //     }
+          // })
+          // .attr("stroke", "black")
+          // .attr("stroke-width", 0.5)
           // .attr("height", scaledData)
-          // .attr("width", height);
+          // .attr("width", width);
 
           // g.append("text")
           // .attr("x", 0)
           // .attr("y", scaledData)
           // .attr("dy", "-0.35em")
-          // .text(function(d) { return d; });
+          // .text(function(d) { return nameCA[priceCA.indexOf(d)]; });
+
+
+
+// // one state price change from 1975 to 2017
+          // const dataCA = data.filter(obj => obj.level === "State" && obj.place_id === "CA");
+
+          // const priceCA = dataCA.map(obj => obj.index_nsa);
+          // console.log(priceCA);
+
+          // const year = dataCA.map(obj => obj.yr);
+
+          // const height = 500,
+          //     width = 35;
+
+          // const scaledData = d3.scaleLinear()
+          //             .domain([0, Math.max(...priceCA)])
+          //             .range([0, height]);
+
+          // const g = d3.select("svg")
+          //     .attr("height", height)
+          //     .attr("width", width * priceCA.length)
+          //     .selectAll("g")
+          //     .data(priceCA)
+          //     .enter()
+          //     .append("g")
+          //     .attr("transform", function(d, i) {
+          //         return "translate(" + i * width + ", " + (height - scaledData(d)) + ")"; 
+          //         });
+
+          // g.append("rect")
+          // .attr("fill", function(d) {
+          //   if (d < 100) {
+          //       return "green";
+          //     } else if (d < 200) {
+          //       return "yellow";
+          //     } else if (d < 300) {
+          //       return "orange";
+          //     } else if (d >= 300 ) {
+          //       return "red";
+          //     }
+          // })
+          // .attr("stroke", "black")
+          // .attr("stroke-width", 0.5)
+          // .attr("height", scaledData)
+          // .attr("width", width);
+
+          // g.append("text")
+          // .attr("x", 0)
+          // .attr("y", scaledData)
+          // .attr("dy", "-0.35em")
+          // .text(function(d) { return year[priceCA.indexOf(d)]; });
+
+
+
+
+// // all states' price change in 2017
+          // const stateData = data.filter(obj => obj.level === "State" && obj.yr === "2017");
+          // const sortedStateData = stateData.sort((a, b) => (a.index_nsa - b.index_nsa));         
+          // const statePrice = sortedStateData.map(obj => obj.index_nsa);
+          // const stateName = sortedStateData.map(obj=> obj.place_id);
+
+          // const height = 500,
+          //     width = 25;
+
+          // const scaledData = d3.scaleLinear()
+          //             .domain([0, Math.max(...statePrice)])
+          //             .range([0, height]);
+
+          // const g = d3.select("svg")
+          //     .attr("height", height)
+          //     .attr("width", width * statePrice.length)
+          //     .selectAll("g")
+          //     .data(statePrice)
+          //     .enter()
+          //     .append("g")
+          //     .attr("transform", function(d, i) {
+          //         return "translate(" + i * width + ", " + (height - scaledData(d)) + ")"; 
+          //         });
+
+          // // .attr("fill", callback), the callback function cannot be defined elsewhere?
+          // g.append("rect")
+          // .attr("fill", function(d) {
+          //   if (d < 300) {
+          //       return "green";
+          //     } else if (d < 400) {
+          //       return "yellow";
+          //     } else if (d < 500) {
+          //       return "orange";
+          //     } else if (d >= 500 ) {
+          //       return "red";
+          //     }
+          // })
+          // .attr("stroke", "black")
+          // .attr("stroke-width", 0.5)
+          // .attr("height", scaledData)
+          // .attr("width", width);
+
+          // g.append("text")
+          // .attr("x", 0)
+          // .attr("y", scaledData)
+          // .attr("dy", "-0.35em")
+          // .text(function(d) { return stateName[statePrice.indexOf(d)]; });
+
         });
     </script>
   </body>
