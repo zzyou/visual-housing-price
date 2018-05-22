@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 
-const callApi = async () => {
-  // cannot use route '/data', seems to be a reserved word?
-  const response = await fetch ('/hello');
+// cannot use route '/data', seems to be a reserved word?
+const callApi = async (route) => {
+  const response = await fetch(route);
   const body = await response.json();
-  console.log(body);
   return body;
 }
 
@@ -15,20 +14,19 @@ class App extends Component {
   }
 
   componentDidMount() {
-    callApi()
-    .then(res => {
-      console.log(res);
+    callApi('/states/2017')
+    .then(res =>
+      // console.log(res);
       this.setState({
-        response: res.express
-      });
-    })
+        response: res.data[0].place_id
+      })
+    )
     .catch(err => {
       console.log(err);
     })
   }
 
   render() {
-    console.log(this.state);
     return <div>{this.state.response}</div>;
   }
 }
