@@ -68,8 +68,8 @@ class App extends Component {
           >
           <SideNavItem userView
             user={{
-              background: 'img/office.jpg',
-              image: 'img/yuna.jpg',
+              background: '#',
+              image: '#',
               name: 'John Doe',
               email: 'jdandturk@gmail.com'
             }}
@@ -82,7 +82,7 @@ class App extends Component {
         </SideNav>
         <Button>Housing Price</Button>
         <Col m={6} s={12}>
-            <Card className='blue-grey darken-1' textClassName='white-text' title='Card title' actions={[<a href='#'>This is a link</a>]}>
+            <Card className='blue-grey darken-1' textClassName='white-text' title='Card title' actions={[<a href='#' key='#'>This is a link</a>]}>
             I am a very simple card.
             </Card>
         </Col>
@@ -96,7 +96,7 @@ class App extends Component {
         <Row>
             <Input name='group1' type='checkbox' value='red' label='Red' />
             <Input name='group1' type='checkbox' value='yellow' label='Yellow' defaultValue='checked' />
-            <Input name='group1' type='checkbox' value='green' label='Green' className='filled-in' defaultChecked='checked' />
+            {/* <Input name='group1' type='checkbox' value='green' label='Green' className='filled-in' defaultChecked='checked' /> */}
             <Input name='group1' type='checkbox' value='brown' label='Brown' disabled='disabled' />
         </Row>
         <Row>
@@ -130,7 +130,7 @@ class App extends Component {
         >
             <h5 className="white-text">Footer Content</h5>
             <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-        </Footer>;
+        </Footer>
       </div>
     )
   }
