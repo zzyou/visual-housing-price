@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#000000">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
 
     <!--
       manifest.json provides metadata used when your web app is added to the
@@ -41,7 +44,10 @@
       You need to enable JavaScript to run this app.
     </noscript>
 
-    <nav class="white" role="navigation">
+    <div id="root"></div>
+
+
+    <!-- <nav class="white" role="navigation">
       <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="brand-logo">Visual Housing Price</a>
         <ul class="right hide-on-med-and-down">
@@ -74,13 +80,12 @@
         </div>
       </div>
       <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
-    </div>
+    </div> -->
   
-  
-    <div class="container">
+        <!--   Icon Section   -->  
+    <!-- <div class="container">
       <div class="section">
   
-        <!--   Icon Section   -->
         <div class="row">
           <div class="col s12 m4">
             <div class="icon-block">
@@ -133,8 +138,7 @@
             <h3><i class="mdi-content-send brown-text"></i></h3>
             <h4>Housing Price Change</h4>
             <p class="left-align light">2017</p>
-            <!-- <svg></svg> -->
-            <div id="root"></div>        
+            <svg></svg>        
           </div>
         </div>
   
@@ -187,13 +191,18 @@
         Made by <a class="brown-text text-lighten-3" href="#">Zhenzhen You</a>
         </div>
       </div>
-    </footer>
+    </footer> -->
   
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="path/to/your/bundle.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="js/init.js"></script> -->
+
+    <!-- <script src="https://d3js.org/d3.v5.js"></script> -->
     <script>
         // d3.csv("data/HPIyear.csv")
         // .then(function(data) {
@@ -303,7 +312,6 @@
           // .text(function(d) { return nameCA[priceCA.indexOf(d)]; });
 
 
-
 // // one state price change from 1975 to 2017
           // const dataCA = data.filter(obj => obj.level === "State" && obj.place_id === "CA");
 
@@ -352,8 +360,6 @@
           // .attr("y", scaledData)
           // .attr("dy", "-0.35em")
           // .text(function(d) { return year[priceCA.indexOf(d)]; });
-
-
 
 
 // // all states' price change in 2017
