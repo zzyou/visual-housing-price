@@ -7,12 +7,12 @@ class D3Analysis extends Component {
         // // cannot use sort(), map() methods for array in d3?
         // const statePrice = this.props.myprice;
         // const stateName = this.props.myname;
-        console.log(this.props.data);
+
         let statePrice = [];
         let stateName = [];
         for (let obj of this.props.data) {
             statePrice.push(obj.index_nsa);
-            stateName.push(obj.price_id);
+            stateName.push(obj.place_id);
         }
 
         const height = 500,

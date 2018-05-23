@@ -15,7 +15,7 @@ class App extends Component {
   //   myprice: ''
   // }
   state = {
-    response: ''
+    response: []
   }
 
   componentDidMount() {
