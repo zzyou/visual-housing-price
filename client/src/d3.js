@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { scaleLinear } from 'd3-scale';
 import { select } from 'd3-selection';
 
-class D3Analysis extends Component {
+class D3 extends Component {
     render() {
         // // cannot use sort(), map() methods for array in d3?
         // const statePrice = this.props.myprice;
@@ -63,4 +63,4 @@ class D3Analysis extends Component {
     }
 };
 
-export default D3Analysis;
+export default D3;
