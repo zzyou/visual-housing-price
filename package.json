@@ -5,6 +5,7 @@
         "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
     },
     "dependencies": {
+        "body-parser": "^1.18.3",
         "express": "^4.16.3",
         "mysql": "^2.15.0"
     },
