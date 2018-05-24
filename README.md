@@ -1,14 +1,16 @@
 # Visual Housing Price
-Final Project at Techtonica  
+Final Project at Techtonica.  
 
 
-**Tools**: Node, Express, API, React, D3.
+**Tools**: _Node, Express, API, React, D3_
+
 
 ### [Data](https://www.fhfa.gov/KeyTopics/pages/house-price-index.aspx)
 #### Housing Price Index (HPI)
 > The HPI is a broad measure of the movement of single-family house prices in the United States. The HPI is a weighted, repeat-sales index, meaning that it measures average price changes in repeat sales or refinancings on the same properties.  This information is obtained by reviewing repeat mortgage transactions on single-family properties whose mortgages have been purchased or securitized by Fannie Mae or Freddie Mac since January 1975.  
 >  
 > -- *Federal Housing Finance Agency*
+
 
 ### How to Set Up
 * In terminal, clone the repo, `git clone https://github.com/zzyou/visual-housing-price.git`.
@@ -32,6 +34,7 @@ IGNORE 1 ROWS
 ```
 * In terminal, `cd visual`, `yarn dev`, enjoy!
 
+
 ### Function and Feature
 Visualization of Housing Price Index (HPI) in the U.S., using chart and map.
 * Chart of price change in country level, state level, city level.
@@ -39,20 +42,21 @@ Visualization of Housing Price Index (HPI) in the U.S., using chart and map.
 * Map of price change in state level.
 * Map of price change across time (1975 - 2017).
 
-### Wireframe
 
+### Wireframe
 |Visual Housing Price|Dropdown|  
 |---|---|  
 |**_Map/Chart_**|  
 |Copyright/Social Logo|
 
-### Data Model
 
+### Data Model
 #### Housing Price Index
 * **Level**: country level, state level, city level
 * **Name**: state name or city name
 * **Year**: 1975 - 2017
 * **Price**: housing price index
+
 
 ### Visual Design
 * **Audience**: homebuyer or anyone interested in housing price change.
@@ -61,5 +65,4 @@ Visualization of Housing Price Index (HPI) in the U.S., using chart and map.
 * **Font**: google font Slabo
 * **Text size**: 26px for page title, 11px for chart description and menu/button.
 * **Image**: map and chart
-
 * **Responsive design**: Navbar will become hamburger icon for mobile users. Map and chart will stay full screen for both computer users and mobile users.
