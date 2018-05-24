@@ -41,10 +41,10 @@ Visualization of Housing Price Index (HPI) in the U.S., using chart and map.
 
 ### Wireframe
 
-| Visual Housing Price | Map            | Chart | Dropdown   |  
-| -------------------- |:--------------:| ----- | --------  :|  
-| Map/Chart |  
-| Copyright/Social Logo |  
+|Visual Housing Price|Map|Chart|Dropdown|  
+|---|---|---|---|  
+|Map/Chart|  
+|Copyright/Social Logo|
 
 ### Data Model
 
