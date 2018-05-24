@@ -32,7 +32,9 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
 (id,level,place_name,place_id,yr,index_nsa); 
 ```
-* In terminal, `cd visual`, `yarn dev`, enjoy!
+* In terminal, `cd visual`, `npm install`, install all node modules for server side.
+* In terminal, `cd client`, `npm install`, install all node modules for client side.
+* In terminal, `cd ../`, go back to root directory, run `yarn dev`, enjoy!
 
 
 ### Function and Feature

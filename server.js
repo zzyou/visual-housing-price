@@ -10,15 +10,17 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-const reactPort = process.env.REACT_PORT || 4000;
-const mysqlPort = process.env.MYSQL_PORT || 3306;
+// const reactPort = process.env.REACT_PORT || 4000;
+// const mysqlPort = process.env.MYSQL_PORT || 3306;
+
+const reactPort = keys.reactPort || 4000;
 
 const connection = mysql.createConnection({
-    host: keys.dbHost,
-    port: mysqlPort,
-    user: keys.dbUser,
-    password: keys.dbPassword,
-    database: keys.dbName
+    host: keys.dbHost || "localhost",
+    port: keys.dbPort || 3306,
+    user: keys.dbUser || "root",
+    password: keys.dbPassword || "",
+    database: keys.dbName || "finalProject"
 });
 
 const mysqlConnect = (getData) => {
