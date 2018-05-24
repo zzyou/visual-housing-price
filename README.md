@@ -1,5 +1,8 @@
 # Visual Housing Price
-Final Project at Techtonica
+Final Project at Techtonica  
+
+
+**Tools**: Node, Express, API, React, D3.
 
 ### [Data](https://www.fhfa.gov/KeyTopics/pages/house-price-index.aspx)
 #### Housing Price Index (HPI)
@@ -31,10 +34,6 @@ IGNORE 1 ROWS
 
 ### Function and Feature
 Visualization of Housing Price Index (HPI) in the U.S., using chart and map.
-
-
-**Tools**: Node, Express, API, React, D3.
-
 * Chart of price change in country level, state level, city level.
 * Chart of one location's price change across time (1975 - 2017).
 * Map of price change in state level.
@@ -44,23 +43,23 @@ Visualization of Housing Price Index (HPI) in the U.S., using chart and map.
 
 |Visual Housing Price|Dropdown|  
 |---|---|  
-|*Map/Chart*|  
+|**_Map/Chart_**|  
 |Copyright/Social Logo|
 
 ### Data Model
 
-**Housing Price Index**
-* Level: country level, state level, city level
-* Name: state name or city name
-* Year: 1975 - 2017
-* Price: housing price index
+#### Housing Price Index
+* **Level**: country level, state level, city level
+* **Name**: state name or city name
+* **Year**: 1975 - 2017
+* **Price**: housing price index
 
 ### Visual Design
-* Audience: homebuyer or anyone interested in housing price change.
-* Category: descriptive analysis of housing price change.
-* Color: white
-* Font: google font Slabo
-* Text size: 26px for page title, 11px for chart description and menu/button.
-* Image: map and chart
+* **Audience**: homebuyer or anyone interested in housing price change.
+* **Category**: descriptive analysis of housing price change.
+* **Color**: white
+* **Font**: google font Slabo
+* **Text size**: 26px for page title, 11px for chart description and menu/button.
+* **Image**: map and chart
 
-* Responsive design: Navbar will become hamburger icon for mobile users. Map and chart will stay full screen for both computer users and mobile users.
+* **Responsive design**: Navbar will become hamburger icon for mobile users. Map and chart will stay full screen for both computer users and mobile users.
