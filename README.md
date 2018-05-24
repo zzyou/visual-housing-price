@@ -43,14 +43,12 @@ Visualization of Housing Price Index (HPI) in the U.S., using chart and map.
 
 | Visual Housing Price | Map            | Chart | Dropdown   |
 | -------------------- |:--------------:| ----- | --------  :|
-|                      |                |       |            |
-|                      | Map/Chart      |       |            |
-|                      |                |       |            |
-| Copyright            |                |       |Social Logo |
+| Map/Chart |
+| Copyright/Social Logo |
 
 ### Data Model
 
-** Housing Price Index **
+**Housing Price Index**
 * Level: country level, state level, city level
 * Name: state name or city name
 * Year: 1975 - 2017
