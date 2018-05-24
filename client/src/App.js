@@ -80,18 +80,20 @@ class App extends Component {
           <SideNavItem subheader>Subheader</SideNavItem>
           <SideNavItem waves href='#!third'>Third Link With Waves</SideNavItem>
         </SideNav>
+
         <Button>Housing Price</Button>
+
         <Col m={6} s={12}>
             <Card className='blue-grey darken-1' textClassName='white-text' title='Card title' actions={[<a href='#' key='#'>This is a link</a>]}>
             I am a very simple card.
             </Card>
         </Col>
         <Row>
-          <Input s={12} type='select' label="Materialize Select" defaultValue='2'>
-            <option value='1'>Option 1</option>
-            <option value='2'>Option 2</option>
-            <option value='3'>Option 3</option>
-          </Input>
+            <Input s={12} type='select' label="Materialize Select" defaultValue='2'>
+              <option value='1'>Option 1</option>
+              <option value='2'>Option 2</option>
+              <option value='3'>Option 3</option>
+            </Input>
         </Row>
         <Row>
             <Input name='group1' type='checkbox' value='red' label='Red' />
@@ -114,7 +116,7 @@ class App extends Component {
           </Col>
         </Row>
         <Pagination items={10} activePage={2} maxButtons={8} />
-        <Footer copyrights="&copy 2015 Copyright Text" 
+        <Footer copyrights="&copy; 2018 Copyright Text" 
           moreLinks={
             <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
           }

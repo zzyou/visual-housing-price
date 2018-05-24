@@ -16,11 +16,11 @@ class D3 extends Component {
         }
 
         const height = 500,
-            width = 25;
+              width = 25;
 
         const scaledData = scaleLinear()
-                    .domain([0, Math.max(...statePrice)])
-                    .range([0, height]);
+                           .domain([0, Math.max(...statePrice)])
+                           .range([0, height]);
 
         const node = this.node;
 
