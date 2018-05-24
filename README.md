@@ -3,14 +3,14 @@ Final Project at Techtonica
 
 ### [Data](https://www.fhfa.gov/KeyTopics/pages/house-price-index.aspx)
 #### Housing Price Index (HPI)
-> The HPI is a broad measure of the movement of single-family house prices in the United States. The HPI is a weighted, repeat-sales index, meaning that it measures average price changes in repeat sales or refinancings on the same properties.  This information is obtained by reviewing repeat mortgage transactions on single-family properties whose mortgages have been purchased or securitized by Fannie Mae or Freddie Mac since January 1975.
+> The HPI is a broad measure of the movement of single-family house prices in the United States. The HPI is a weighted, repeat-sales index, meaning that it measures average price changes in repeat sales or refinancings on the same properties.  This information is obtained by reviewing repeat mortgage transactions on single-family properties whose mortgages have been purchased or securitized by Fannie Mae or Freddie Mac since January 1975.  
 > -- *Federal Housing Finance Agency*
 
 ### How to Set Up
 * In terminal, clone the repo, `git clone https://github.com/zzyou/visual-housing-price.git`.
 * In terminal, type `brew install mysql`, install MySQL.
 * In terminal, type `brew services start mysql`, start MySQL.
-* Download and install `Sequel Pro` (http://www.sequelpro.com/).
+* Download and install [Sequel Pro](http://www.sequelpro.com/).
 * Open Sequel Pro, and create a connection using `Host: 127.0.0.1` and `Username: root`.
 * In the connection, add a database named `finalProject`.
 * Inside `finalProject` database, create a table called `HPIyear`.
