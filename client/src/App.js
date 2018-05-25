@@ -22,6 +22,29 @@ class App extends Component {
   // will only update the state when the page is first loaded.
   // won't update the state when the page is being refresed.
   // need to think an alternative way.
+  
+  // UNSAFE_componentWillMount() {
+  //   callApi('/states/2017/CA')
+  //   .then(res => {
+  //     console.log(res);
+  //     const data = JSON.parse(JSON.stringify(res));
+  //     const sortedStateData = data.sort((a, b) => (a.index_nsa - b.index_nsa));
+  //     // const statePrice = sortedStateData.map(obj => obj.index_nsa);
+  //     // const stateName = sortedStateData.map(obj=> obj.place_id);
+      
+  //     // return this.setState({
+  //     //   myprice: statePrice,
+  //     //   myname: stateName
+  //     // })
+  //     return this.setState({
+  //       response: sortedStateData
+  //     })
+  //   })
+  //   .catch(err => {
+  //     console.log(err);
+  //   })
+  // }
+
   UNSAFE_componentWillMount() {
     callApi('/states/2017')
     .then(res => {
