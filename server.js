@@ -50,7 +50,6 @@ app.get('/states/:state/:year', (req, res) => {
     mysqlConnect((closeConnection) => {
         connection.query(sqlQuery, [`%, ${stateName}%`, year], function(error, result, field) {
             if (error) throw error;
-            console.log(result);
             const data = JSON.parse(JSON.stringify(result));
             return res.send(data);
         })

@@ -19,9 +19,10 @@ class App extends Component {
     response: []
   }
 
-  // // will only update the state when the page is first loaded.
-  // // won't update the state when the page is being refresed.
-  // // need to think an alternative way.
+  // will only update the state when the page is first loaded.
+  // won't update the state when the page is being refresed.
+  // need to think an alternative way.
+  
   // UNSAFE_componentWillMount() {
   //   callApi('/states/2017/CA')
   //   .then(res => {
@@ -47,7 +48,6 @@ class App extends Component {
   UNSAFE_componentWillMount() {
     callApi('/states/2017')
     .then(res => {
-      console.log(res);
       const data = JSON.parse(JSON.stringify(res));
       const sortedStateData = data.sort((a, b) => (a.index_nsa - b.index_nsa));
       // const statePrice = sortedStateData.map(obj => obj.index_nsa);

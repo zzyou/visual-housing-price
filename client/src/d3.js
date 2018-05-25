@@ -14,7 +14,6 @@ class D3 extends Component {
             statePrice.push(obj.index_nsa);
             stateName.push(obj.place_id);
         }
-        // console.log(statePrice);
 
         const height = 500,
               width = 25;
