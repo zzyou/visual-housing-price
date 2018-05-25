@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const mysql = require("mysql");
-const keys = require("./keys");
+// const keys = require("./keys");
 
 const app = express();
 
@@ -14,11 +14,11 @@ const reactPort = process.env.REACT_PORT || 4000;
 const mysqlPort = process.env.MYSQL_PORT || 3306;
 
 const connection = mysql.createConnection({
-    host: keys.dbHost,
-    port: mysqlPort,
-    user: keys.dbUser,
-    password: keys.dbPassword,
-    database: keys.dbName
+    host: "127.0.0.1",
+    port: 3306,
+    user: "root",
+    password: "",
+    database: "finalProject"
 });
 
 const mysqlConnect = (getData) => {

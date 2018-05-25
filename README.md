@@ -17,7 +17,7 @@ Final Project at Techtonica.
 * In terminal, `cd visual-housing-price`, run `brew install mysql`, install MySQL.
 * In terminal, run `brew services start mysql`, start MySQL.
 * Download and install [Sequel Pro](http://www.sequelpro.com/).
-* Open Sequel Pro, and create a connection using `Host: 127.0.0.1` and `Username: root`. The port is 3306 by default.
+* Open Sequel Pro, create a connection using `Host: 127.0.0.1` and `Username: root`. The port is 3306 by default.
 * In the connection, add a database named `finalProject`.
 * Go to `finalProject` database, run the following query to create a table called `HPIyear`.
 ```
