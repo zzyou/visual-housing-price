@@ -13,15 +13,25 @@ Final Project at Techtonica.
 
 
 ### How to Set Up
-* In terminal, clone the repo, `git clone https://github.com/zzyou/visual-housing-price.git`.
-* In terminal, type `brew install mysql`, install MySQL.
-* In terminal, type `brew services start mysql`, start MySQL.
+* In terminal, in home directory `~`, clone the repo, `git clone https://github.com/zzyou/visual-housing-price.git`.
+* In terminal, `cd visual-housing-price`, run `brew install mysql`, install MySQL.
+* In terminal, run `brew services start mysql`, start MySQL.
 * Download and install [Sequel Pro](http://www.sequelpro.com/).
-* Open Sequel Pro, and create a connection using `Host: 127.0.0.1` and `Username: root`.
+* Open Sequel Pro, and create a connection using `Host: 127.0.0.1` and `Username: root`. The port is 3306 by default.
 * In the connection, add a database named `finalProject`.
-* Inside `finalProject` database, create a table called `HPIyear`.
-* For `HPIyear` table, add six columns: `id (INT), level (VARCHAR), place_name (VARCHAR), place_id (VARCHAR), yr (INT), index_nsa (FLOAT)`. 
-* Then run the following query to load data into the database:
+* Go to `finalProject` database, run the following query to create a table called `HPIyear`.
+```
+CREATE TABlE HPIyear (
+id INT(11), 
+level VARCHAR(80), 
+place_name VARCHAR(80), 
+place_id VARCHAR(80), 
+yr INT(11), 
+index_nsa FLOAT,
+PRIMARY KEY (id)
+);
+```
+* Then run another query to load data into `HPIyear` table:
 ```
 LOAD DATA LOCAL INFILE
 '~/visual/client/public/data/HPIyear.csv'
@@ -32,9 +42,9 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
 (id,level,place_name,place_id,yr,index_nsa); 
 ```
-* In terminal, `cd visual`, `npm install`, install all node modules for server side.
-* In terminal, `cd client`, `npm install`, install all node modules for client side.
-* In terminal, `cd ../`, go back to root directory, run `yarn dev`, enjoy!
+* In terminal, `cd client`, run `npm install`, install all node modules for client side.
+* In terminal, `cd ../` to go back to the root directory, run `npm install`, install all node modules for server side.
+* In terminal, still in the root directory, run `yarn dev`, enjoy!
 
 
 ### Function and Feature
