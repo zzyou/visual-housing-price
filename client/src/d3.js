@@ -4,13 +4,10 @@ import { select } from 'd3-selection';
 
 class D3 extends Component {
     render() {
-        // // cannot use sort(), map() methods for array in d3?
-        // const statePrice = this.props.myprice;
-        // const stateName = this.props.myname;
-
+        const data = this.props.data;
         let statePrice = [];
         let stateName = [];
-        for (let obj of this.props.data) {
+        for (let obj of data) {
             statePrice.push(obj.index_nsa);
             stateName.push(obj.place_id);
         }
@@ -59,7 +56,7 @@ class D3 extends Component {
         .attr("dy", "-0.35em")
         .text(function(d) { return stateName[statePrice.indexOf(d)]; });
 
-        return <svg ref={node => this.node = node} width={500} height={500}></svg>;        
+        return <svg ref={node => this.node = node} width={500} height={500}></svg>;
     }
 };
 
