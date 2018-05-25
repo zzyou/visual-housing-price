@@ -11,10 +11,7 @@ const callApi = async (route) => {
 };
 
 class App extends Component {
-  // state = {
-  //   myname: '',
-  //   myprice: ''
-  // }
+  // can I rewrite the state to { stateName: '', statePrice: 0 }?
   state = {
     response: []
   }
@@ -29,13 +26,7 @@ class App extends Component {
   //     console.log(res);
   //     const data = JSON.parse(JSON.stringify(res));
   //     const sortedStateData = data.sort((a, b) => (a.index_nsa - b.index_nsa));
-  //     // const statePrice = sortedStateData.map(obj => obj.index_nsa);
-  //     // const stateName = sortedStateData.map(obj=> obj.place_id);
-      
-  //     // return this.setState({
-  //     //   myprice: statePrice,
-  //     //   myname: stateName
-  //     // })
+
   //     return this.setState({
   //       response: sortedStateData
   //     })
@@ -50,13 +41,7 @@ class App extends Component {
     .then(res => {
       const data = JSON.parse(JSON.stringify(res));
       const sortedStateData = data.sort((a, b) => (a.index_nsa - b.index_nsa));
-      // const statePrice = sortedStateData.map(obj => obj.index_nsa);
-      // const stateName = sortedStateData.map(obj=> obj.place_id);
-      
-      // return this.setState({
-      //   myprice: statePrice,
-      //   myname: stateName
-      // })
+
       return this.setState({
         response: sortedStateData
       })
@@ -67,8 +52,6 @@ class App extends Component {
   }
 
   render() {
-    // return <div>{this.state.myname}</div>;
-    // return <D3Analysis myname={this.state.myname} myprice={this.state.myprice} />;
     return (
       <div>
         <Navbar brand='logo' right>
