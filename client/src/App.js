@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Card, Col, Dropdown, Footer, Input, Navbar, NavItem, Icon, Pagination, ProgressBar, Row, SideNav, SideNavItem } from 'react-materialize';
 import './App.css';
-import D3 from './D3';
+import D3 from './d3';
 
 // cannot use route '/data', seems to be a reserved word?
 const callApi = async (route) => {

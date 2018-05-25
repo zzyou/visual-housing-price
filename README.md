@@ -22,13 +22,13 @@ Final Project at Techtonica.
 * Go to `finalProject` database, run the following query to create a table called `HPIyear`.
 ```
 CREATE TABlE HPIyear (
-id INT(11), 
-level VARCHAR(80), 
-place_name VARCHAR(80), 
-place_id VARCHAR(80), 
-yr INT(11), 
-index_nsa FLOAT,
-PRIMARY KEY (id)
+    id INT(11), 
+    level VARCHAR(80), 
+    place_name VARCHAR(80), 
+    place_id VARCHAR(80), 
+    yr INT(11), 
+    index_nsa FLOAT,
+    PRIMARY KEY (id)
 );
 ```
 * Then run another query to load data into `HPIyear` table:
