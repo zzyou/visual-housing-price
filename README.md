@@ -21,7 +21,7 @@ Final Project at Techtonica.
 * In the connection, add a database named `finalProject`.
 * Go to `finalProject` database, run the following query to create a table called `HPIyear`.
 ```
-CREATE TABlE HPIyear (
+CREATE TABLE HPIyear (
     id INT(11), 
     level VARCHAR(80), 
     place_name VARCHAR(80), 
@@ -34,13 +34,13 @@ CREATE TABlE HPIyear (
 * Then run another query to load data into `HPIyear` table:
 ```
 LOAD DATA LOCAL INFILE
-'~/visual/client/public/data/HPIyear.csv'
+    '~/visual/client/public/data/HPIyear.csv'
 INTO TABLE HPIyear
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
-(id,level,place_name,place_id,yr,index_nsa); 
+    (id, level, place_name, place_id, yr, index_nsa);
 ```
 * In terminal, `cd client`, run `npm install`, install all node modules for client side.
 * In terminal, `cd ../` to go back to the root directory, run `npm install`, install all node modules for server side.
