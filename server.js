@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const mysql = require("mysql");
-// const keys = require("./keys");
+require('dotenv').config();
 
 const app = express();
 
