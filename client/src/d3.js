@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { scaleLinear } from 'd3-scale';
+import { scaleLinear, scaleBand } from 'd3-scale';
 import { select } from 'd3-selection';
+import { axisBottom, axisLeft } from 'd3-axis';
+import { max } from 'd3-array';
 
 class D3 extends Component {
     render() {
@@ -36,13 +38,13 @@ class D3 extends Component {
         g.append("rect")
         .attr("fill", function(d) {
             if (d < 300) {
-                return "green";
+                return "#1a9641";
             } else if (d < 400) {
-            return "yellow";
+                return "#a6d96a";
             } else if (d < 500) {
-            return "orange";
+                return "#fdae61";
             } else if (d >= 500 ) {
-            return "red";
+                return "#d7191c";
             }
         })
         .attr("stroke", "black")

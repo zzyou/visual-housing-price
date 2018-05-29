@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Button, Card, Col, Dropdown, Footer, Input, Navbar, NavItem, Icon, Pagination, ProgressBar, Row, SideNav, SideNavItem } from 'react-materialize';
+// import { Button, Card, Col, Dropdown, Footer, Input, Navbar, NavItem, Icon, Pagination, ProgressBar, Row, SideNav, SideNavItem } from 'react-materialize';
 import './App.css';
-import D3 from './d3';
+// import D3 from './d3';
+import Chart from './Component/Chart';
 
 // cannot use route '/data', seems to be a reserved word?
 const callApi = async (route) => {
@@ -54,7 +55,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar brand='logo' right>
+        {/* <Navbar brand='logo' right>
           <NavItem href='get-started.html'><Icon>search</Icon></NavItem>
           <NavItem href='get-started.html'><Icon>view_module</Icon></NavItem>
           <NavItem href='get-started.html'><Icon>refresh</Icon></NavItem>
@@ -103,17 +104,19 @@ class App extends Component {
         </Row>
         <Row>
             <Input name='group1' type='checkbox' value='red' label='Red' />
-            <Input name='group1' type='checkbox' value='yellow' label='Yellow' defaultValue='checked' />
+            <Input name='group1' type='checkbox' value='yellow' label='Yellow' defaultValue='checked' /> */}
             {/* <Input name='group1' type='checkbox' value='green' label='Green' className='filled-in' defaultChecked='checked' /> */}
-            <Input name='group1' type='checkbox' value='brown' label='Brown' disabled='disabled' />
+            {/* <Input name='group1' type='checkbox' value='brown' label='Brown' disabled='disabled' />
         </Row>
         <Row>
           <Input name='on' type='date' onChange={function(e, value) {}} />
-        </Row>
+        </Row> */}
 
-        <D3 data={this.state.response} />
+        {/* <D3 data={this.state.response} /> */}
+        
+        <Chart data={this.state.response} />
 
-        <Row>
+        {/* <Row>
           <Col s={12}>
             <ProgressBar progress={70}/>
           </Col>
@@ -138,7 +141,7 @@ class App extends Component {
         >
             <h5 className="white-text">Footer Content</h5>
             <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-        </Footer>
+        </Footer> */}
       </div>
     )
   }
