@@ -401,9 +401,11 @@
 
 
 // /* one city price change */
+
         // d3.csv("data/HPIyear.csv")
         // .then(function(data) {
-// // one city price change from 1975 to 2017
+
+// /* one city price change from 1975 to 2017 */
           // const dataSF = data.filter(obj => (obj.level === "MSA" && obj.place_name.includes("San Francisco")));
           // console.log(dataSF);
 
@@ -560,54 +562,54 @@
 
 
 // /* all states' price change in 2017 */
-          // const stateData = data.filter(obj => obj.level === "State" && obj.yr === "2017");
-          // const sortedStateData = stateData.sort((a, b) => (a.index_nsa - b.index_nsa));         
-          // const statePrice = sortedStateData.map(obj => obj.index_nsa);
-          // const stateName = sortedStateData.map(obj=> obj.place_id);
+//           const stateData = data.filter(obj => obj.level === "State" && obj.yr === "2017");
+//           const sortedStateData = stateData.sort((a, b) => (a.index_nsa - b.index_nsa));         
+//           const statePrice = sortedStateData.map(obj => obj.index_nsa);
+//           const stateName = sortedStateData.map(obj=> obj.place_id);
 
-          // const height = 500,
-          //     width = 25;
+//           const height = 500,
+//               width = 25;
 
-          // const scaledData = d3.scaleLinear()
-          //             .domain([0, Math.max(...statePrice)])
-          //             .range([0, height]);
+//           const scaledData = d3.scaleLinear()
+//                       .domain([0, Math.max(...statePrice)])
+//                       .range([0, height]);
 
-          // const g = d3.select("svg")
-          //     .attr("height", height)
-          //     .attr("width", width * statePrice.length)
-          //     .selectAll("g")
-          //     .data(statePrice)
-          //     .enter()
-          //     .append("g")
-          //     .attr("transform", function(d, i) {
-          //         return "translate(" + i * width + ", " + (height - scaledData(d)) + ")"; 
-          //         });
+//           const g = d3.select("body").append("svg")
+//               .attr("height", height)
+//               .attr("width", width * statePrice.length)
+//               .selectAll("g")
+//               .data(statePrice)
+//               .enter()
+//               .append("g")
+//               .attr("transform", function(d, i) {
+//                   return "translate(" + i * width + ", " + (height - scaledData(d)) + ")"; 
+//                   });
 
-          // // .attr("fill", callback), the callback function cannot be defined elsewhere?
-          // g.append("rect")
-          // .attr("fill", function(d) {
-          //   if (d < 300) {
-          //       return "green";
-          //     } else if (d < 400) {
-          //       return "yellow";
-          //     } else if (d < 500) {
-          //       return "orange";
-          //     } else if (d >= 500 ) {
-          //       return "red";
-          //     }
-          // })
-          // .attr("stroke", "black")
-          // .attr("stroke-width", 0.5)
-          // .attr("height", scaledData)
-          // .attr("width", width);
+//           // .attr("fill", callback), the callback function cannot be defined elsewhere?
+//           g.append("rect")
+//           .attr("fill", function(d) {
+//             if (d < 300) {
+//                 return "green";
+//               } else if (d < 400) {
+//                 return "yellow";
+//               } else if (d < 500) {
+//                 return "orange";
+//               } else if (d >= 500 ) {
+//                 return "red";
+//               }
+//             })
+//           .attr("stroke", "black")
+//           .attr("stroke-width", 0.5)
+//           .attr("height", scaledData)
+//           .attr("width", width);
 
-          // g.append("text")
-          // .attr("x", 0)
-          // .attr("y", scaledData)
-          // .attr("dy", "-0.35em")
-          // .text(function(d) { return stateName[statePrice.indexOf(d)]; });
+//           g.append("text")
+//           .attr("x", 0)
+//           .attr("y", scaledData)
+//           .attr("dy", "-0.35em")
+//           .text(function(d) { return stateName[statePrice.indexOf(d)]; });
 
-        // });
+//         });
     </script>
   </body>
 </html>

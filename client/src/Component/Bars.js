@@ -1,15 +1,27 @@
 import React, { Component } from 'react';
 import { scaleLinear } from 'd3-scale';
-import { interpolateLab } from 'd3-interpolate';
+// import { interpolateLab } from 'd3-interpolate';
+
+const colorGenerator = (d) => {
+    if (d < 200) {
+        return "green";
+    } else if (d < 300) {
+        return "yellow";
+    } else if (d < 400) {
+        return "orange";
+    } else if (d >= 400 ) {
+        return "red";
+    }
+}
 
 class Bars extends Component {
     constructor(props) {
         super(props);
 
-        this.colorScale = scaleLinear()
-            .domain([0, this.props.maxValue])
-            .range(["#F3E5F5", "#7B1FA2"])
-            .interpolate(interpolateLab);
+        // this.colorScale = scaleLinear()
+        //     .domain([0, this.props.maxValue])
+        //     .range(["#F3E5F5", "#7B1FA2"])
+        //     .interpolate(interpolateLab);
     }
 
     render(){
@@ -25,7 +37,7 @@ class Bars extends Component {
                     y={yScale(datum.index_nsa)}
                     height={height - margins.bottom - scales.yScale(datum.index_nsa)}
                     width={xScale.bandwidth()}
-                    fill={this.colorScale(datum.index_nsa)}
+                    fill={colorGenerator(datum.index_nsa)}
                 />,
             )
         );
