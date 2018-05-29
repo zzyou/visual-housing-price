@@ -10,6 +10,7 @@
         "mysql": "^2.15.0"
     },
     "devDependencies": {
-        "concurrently": "^3.5.1"
+        "concurrently": "^3.5.1",
+        "dotenv": "^5.0.1"
     }
 }
