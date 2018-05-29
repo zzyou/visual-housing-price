@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default ChartComponent => (
+const ResponsiveWrapper = (ChartComponent) => (
     class ResponsiveChart extends Component {
         constructor(props) {
             super(props);
@@ -58,3 +58,5 @@ export default ChartComponent => (
         }
     }
 )
+
+export default ResponsiveWrapper;
