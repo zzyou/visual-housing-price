@@ -36,11 +36,10 @@ class App extends Component {
       callApi(`/states/${level}`)
         .then(res => {
           const data = JSON.parse(JSON.stringify(res));
-          const sortedStateData = data.sort((a, b) => (a.index_nsa - b.index_nsa));
-          console.log(sortedStateData[0]);
+          const sortedData = data.sort((a, b) => (a.index_nsa - b.index_nsa));
 
           return this.setState({
-            response: sortedStateData
+            response: sortedData
           })
         })
         .catch(err => {
