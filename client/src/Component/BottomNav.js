@@ -6,7 +6,7 @@ class BottomNav extends Component {
         return (
             <div>
                 <Footer 
-                    copyrights="&copy; 2018 Copyright Text" 
+                    copyrights="&copy; 2018 Zhenzhen You" 
                     moreLinks={
                         <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
                     }
@@ -20,8 +20,8 @@ class BottomNav extends Component {
                     }
                     className='example'
                 >
-                    <h5 className="white-text">Footer Content</h5>
-                    <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    <h5 className="white-text">Visual Housing Price</h5>
+                    <p className="grey-text text-lighten-4">Data based on Housing Price Index (HPI): a weighted, repeat-sales index, measuring average price changes in repeat sales or refinancings on the same single-family houses in the United States.</p>
                 </Footer>
             </div>
         );

@@ -93,25 +93,28 @@ class App extends Component {
   // }
 
   render() {
+    let optionsArr = [];
+    for (let yr = 2017; yr >= 1975; yr--) {
+      optionsArr.push(<option value={yr}>{yr}</option>);
+    }
+
     return (
       <div>
         <TopNav />
-
-        {/* <D3 data={this.state.response} /> */}
-
-        <Chart data={this.state.response} year={this.state.year} />
 
         <Row>
             <Input 
               value={this.state.year} 
               onChange={this.handleChange} 
-              s={12} type='select' label="Year"
+              s={1} type='select' label='Year'
             >
-                <option value='2017'>2017</option>
-                <option value='2000'>2000</option>
-                <option value='1975'>1975</option>
+              {optionsArr}
             </Input>
         </Row>
+
+        {/* <D3 data={this.state.response} /> */}
+
+        <Chart data={this.state.response} year={this.state.year} />
 
         <BottomNav />
       </div>
