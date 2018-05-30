@@ -21,15 +21,15 @@ class TopNav extends Component {
                     </Dropdown>
 
                     <SideNav
-                        trigger={<Button>SIDE NAV DEMO</Button>}
+                        trigger={<Button>SIDE NAV</Button>}
                         options={{ closeOnClick: true }}
                     >
                         <SideNavItem userView
                         user={{
                             background: '#',
                             image: '#',
-                            name: 'John Doe',
-                            email: 'jdandturk@gmail.com'
+                            name: 'Zhenzhen',
+                            email: 'zhenzhen@gmail.com'
                         }}
                         />
                         <SideNavItem href='#!icon' icon='cloud'>First Link With Icon</SideNavItem>
