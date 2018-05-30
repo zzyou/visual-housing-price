@@ -31,7 +31,7 @@ $mysqlPath -h $host -u $username -D $database_name -e "CREATE TABLE HPIyear (
 
 # echo Loading data into table $table_name...
 # $mysqlPath -h $host -u $username -D $database_name -e "LOAD DATA LOCAL INFILE 
-# '~/visual/client/public/data/HPIyear.csv'
+# '~/visual-housing-price/client/public/data/HPIyear.csv'
 # INTO TABLE HPIyear
 # FIELDS TERMINATED BY ','
 # ENCLOSED BY '\"'
