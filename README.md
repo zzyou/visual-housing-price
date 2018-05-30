@@ -34,7 +34,7 @@ CREATE TABLE HPIyear (
 * Then run another query to load data into `HPIyear` table:
 ```
 LOAD DATA LOCAL INFILE
-    '~/visual/client/public/data/HPIyear.csv'
+    '~/visual-housing-price/client/public/data/HPIyear.csv'
 INTO TABLE HPIyear
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
