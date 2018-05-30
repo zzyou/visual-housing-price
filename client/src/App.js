@@ -20,6 +20,7 @@ class App extends Component {
     super(props);
     this.state = {
       response: [],
+      level: 'State',
       year: '2017',
       stateName: ''
     }
@@ -28,14 +29,15 @@ class App extends Component {
   }
 
   getData() {
+    const level = this.state.level;
     const stateName = this.state.stateName;
-    const year = this.state.year;
 
     if (stateName === '') {
-      callApi(`/states/${year}`)
+      callApi(`/states/${level}`)
         .then(res => {
           const data = JSON.parse(JSON.stringify(res));
           const sortedStateData = data.sort((a, b) => (a.index_nsa - b.index_nsa));
+          console.log(sortedStateData[0]);
 
           return this.setState({
             response: sortedStateData
@@ -55,12 +57,11 @@ class App extends Component {
     this.setState({
       year: e.target.value
     });
-    this.getData();
   }
 
-  // will only update the state when the page is first loaded.
-  // won't update the state when the page is being refresed.
-  // need to think an alternative way.
+  // // will only update the state when the page is first loaded.
+  // //  won't update the state when the page is being refresed.
+  // // need to think an alternative way.
   // UNSAFE_componentWillMount() {
   //   callApi('/states/2017/CA')
   //   .then(res => {
@@ -99,16 +100,16 @@ class App extends Component {
 
         {/* <D3 data={this.state.response} /> */}
 
-        <Chart data={this.state.response} />
+        <Chart data={this.state.response} year={this.state.year} />
 
         <Row>
             <Input 
-              // value={this.state.year} 
-              // onChange={this.handleChange} 
+              value={this.state.year} 
+              onChange={this.handleChange} 
               s={12} type='select' label="Year"
             >
                 <option value='2017'>2017</option>
-                <option value='CA'>CA</option>
+                <option value='2000'>2000</option>
                 <option value='1975'>1975</option>
             </Input>
         </Row>

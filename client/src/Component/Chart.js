@@ -13,7 +13,11 @@ class Chart extends Component {
     }
 
     render() {
-        const data = this.props.data;
+        const rawData = this.props.data;
+        // d.yr is number, while this.props.year is string.
+        const year = +this.props.year;
+
+        const data = rawData.filter(d => d.yr === year);
 
         const margins = { top: 50, right: 20, bottom: 100, left: 60 };
         const svgDimensions = { 
