@@ -28,13 +28,26 @@ const mysqlConnect = (getData) => {
     })
 };
 
+app.get('/states/:level', (req, res) => {
+    const level = req.params.level;
+    const sqlQuery = "SELECT place_id, index_nsa, yr FROM HPIyear WHERE level = ?";
+    mysqlConnect((closeConnection) => {
+        connection.query(sqlQuery, [level], function(error, result, field) {
+            if (error) throw error;
+            const data = JSON.parse(JSON.stringify(result));
+            return res.send(data);
+        })
+        closeConnection();
+    })
+});
 
 // cannot use route '/data', seems to be a reserved word?
-app.get('/states/:year', (req, res) => {
+app.get('/states/:level/:year', (req, res) => {
+    const level = req.params.level;
     const year = req.params.year;
-    const sqlQuery = "SELECT place_id, index_nsa FROM HPIyear WHERE level = 'State' AND yr = ?";
+    const sqlQuery = "SELECT place_id, index_nsa FROM HPIyear WHERE level = ? AND yr = ?";
     mysqlConnect((closeConnection) => {
-        connection.query(sqlQuery, [year], function(error, result, field) {
+        connection.query(sqlQuery, [level, year], function(error, result, field) {
             if (error) throw error;
             const data = JSON.parse(JSON.stringify(result));
             return res.send(data);
@@ -43,19 +56,19 @@ app.get('/states/:year', (req, res) => {
     })
 });
 
-app.get('/states/:state/:year', (req, res) => {
-    const stateName = req.params.state;
-    const year = req.params.year;
-    const sqlQuery = `SELECT place_name, index_nsa FROM HPIyear WHERE level = 'MSA' AND place_name LIKE ? AND yr = ?`;
-    mysqlConnect((closeConnection) => {
-        connection.query(sqlQuery, [`%, ${stateName}%`, year], function(error, result, field) {
-            if (error) throw error;
-            const data = JSON.parse(JSON.stringify(result));
-            return res.send(data);
-        })
-        closeConnection();
-    })
-});
+// app.get('/states/:state/:year', (req, res) => {
+//     const stateName = req.params.state;
+//     const year = req.params.year;
+//     const sqlQuery = `SELECT place_name, index_nsa FROM HPIyear WHERE level = 'MSA' AND place_name LIKE ? AND yr = ?`;
+//     mysqlConnect((closeConnection) => {
+//         connection.query(sqlQuery, [`%, ${stateName}%`, year], function(error, result, field) {
+//             if (error) throw error;
+//             const data = JSON.parse(JSON.stringify(result));
+//             return res.send(data);
+//         })
+//         closeConnection();
+//     })
+// });
 
 app.listen(reactPort, () => {
     console.log(`Listening on port ${reactPort}.`);
