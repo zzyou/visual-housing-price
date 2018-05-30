@@ -5,6 +5,14 @@ class ChartControl extends Component {
     render() {
         return (
             <div>
+                <Row>
+                    <Input s={12} type='select' label="Year" defaultValue='2017'>
+                        <option value='2017'>2017</option>
+                        <option value='CA'>CA</option>
+                        <option value='1975'>1975</option>
+                    </Input>
+                </Row>
+
                 <Button>Housing Price</Button>
 
                 <Col m={6} s={12}>
@@ -12,14 +20,6 @@ class ChartControl extends Component {
                     I am a very simple card.
                     </Card>
                 </Col>
-
-                <Row>
-                    <Input s={12} type='select' label="Materialize Select" defaultValue='2'>
-                        <option value='1'>Option 1</option>
-                        <option value='2'>Option 2</option>
-                        <option value='3'>Option 3</option>
-                    </Input>
-                </Row>
 
                 <Row>
                     <Input name='group1' type='checkbox' value='red' label='Red' />
