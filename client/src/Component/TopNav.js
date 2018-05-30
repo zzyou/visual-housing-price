@@ -29,7 +29,7 @@ class TopNav extends Component {
                             background: '#',
                             image: '#',
                             name: 'Zhenzhen',
-                            email: 'zhenzhen@gmail.com'
+                            email: 'zhenzyou@gmail.com'
                         }}
                         />
                         <SideNavItem href='#!icon' icon='cloud'>First Link With Icon</SideNavItem>
