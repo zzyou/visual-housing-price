@@ -48,14 +48,14 @@ class App extends Component {
     }
   }
 
-  componentDidMount() {
-    this.getData();
-  }
-
   handleChange(e) {
     this.setState({
       year: e.target.value
     });
+  }
+
+  componentDidMount() {
+    this.getData();
   }
 
   // // will only update the state when the page is first loaded.
