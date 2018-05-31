@@ -95,7 +95,7 @@ class App extends Component {
   render() {
     let optionsArr = [];
     for (let yr = 2017; yr >= 1975; yr--) {
-      optionsArr.push(<option value={yr}>{yr}</option>);
+      optionsArr.push(<option value={yr} key={yr}>{yr}</option>);
     }
 
     return (
