@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { scaleLinear } from 'd3-scale';
-import { interpolateLab } from 'd3-interpolate';
+// import { scaleLinear } from 'd3-scale';
+// import { interpolateLab } from 'd3-interpolate';
 
 const colorGenerator = (d) => {
     if (d < 200) {
