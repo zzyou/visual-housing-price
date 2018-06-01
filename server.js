@@ -62,7 +62,7 @@ const mysqlConnect = (getData) => {
 
 app.get('/states/:level', (req, res) => {
     const level = req.params.level;
-    const sqlQuery = 'SELECT place_id, index_nsa, yr FROM HPIyear WHERE level = ?';
+    const sqlQuery = 'SELECT place_id, index_nsa, yr FROM HPIyear WHERE level = ? ORDER BY index_nsa';
     mysqlConnect((closeConnection) => {
         connection.query(sqlQuery, [level], function(error, result, field) {
             if (error) throw error;
@@ -77,7 +77,7 @@ app.get('/states/:level', (req, res) => {
 app.get('/states/:level/:year', (req, res) => {
     const level = req.params.level;
     const year = req.params.year;
-    const sqlQuery = 'SELECT place_id, index_nsa FROM HPIyear WHERE level = ? AND yr = ?';
+    const sqlQuery = 'SELECT place_id, index_nsa FROM HPIyear WHERE level = ? AND yr = ? ORDER BY index_nsa';
     mysqlConnect((closeConnection) => {
         connection.query(sqlQuery, [level, year], function(error, result, field) {
             if (error) throw error;
@@ -91,7 +91,7 @@ app.get('/states/:level/:year', (req, res) => {
 // app.get('/states/:state/:year', (req, res) => {
 //     const stateName = req.params.state;
 //     const year = req.params.year;
-//     const sqlQuery = `SELECT place_name, index_nsa FROM HPIyear WHERE level = 'MSA' AND place_name LIKE ? AND yr = ?`;
+//     const sqlQuery = `SELECT place_name, index_nsa FROM HPIyear WHERE level = 'MSA' AND place_name LIKE ? AND yr = ? ORDER BY index_nsa`;
 //     mysqlConnect((closeConnection) => {
 //         connection.query(sqlQuery, [`%, ${stateName}%`, year], function(error, result, field) {
 //             if (error) throw error;
