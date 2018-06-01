@@ -52,6 +52,7 @@ class Bars extends Component {
         const bars = (
             data.map(datum => 
                 <rect
+                    // onClick={this.props.onClick}
                     key={datum.place_id}
                     x={xScale(datum.place_id)}
                     y={yScale(datum.index_nsa)}

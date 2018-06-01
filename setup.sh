@@ -13,7 +13,7 @@ database_name='finalProject'
 table_name='HPIyear'
 
 echo Creating database $database_name...
-$mysqlPath -h $host -u $username -c "CREATE DATABASE $database_name;"
+$mysqlPath -h $host -u $username -e "CREATE DATABASE $database_name;"
 
 echo Creating table $table_name...
 $mysqlPath -h $host -u $username -D $database_name -e "CREATE TABLE HPIyear (

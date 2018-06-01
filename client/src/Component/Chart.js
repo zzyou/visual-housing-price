@@ -47,6 +47,7 @@ class Chart extends Component {
                 />
 
                 <Bars
+                    // onClick={this.handleClick}
                     scales={{ xScale, yScale }}
                     margins={margins}
                     data={data}
