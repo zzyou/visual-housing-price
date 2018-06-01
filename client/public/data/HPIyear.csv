@@ -382,49 +382,49 @@ id,"level","place_name","place_id",yr,index_nsa
 381,"MSA","Ames, IA","11180",2015,175.11
 382,"MSA","Ames, IA","11180",2016,183.2
 383,"MSA","Ames, IA","11180",2017,193.07
-384,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1975,24.09
-385,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1976,28.4
-386,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1977,35.98
-387,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1978,41.51
-388,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1979,47.14
-389,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1980,54.84
-390,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1981,62.1
-391,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1982,63.4
-392,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1983,64.3
-393,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1984,65.19
-394,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1985,67.33
-395,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1986,71.12
-396,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1987,78.92
-397,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1988,94.13
-398,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1989,115.54
-399,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1990,119.86
-400,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1991,117.14
-401,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1992,115.58
-402,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1993,109.81
-403,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1994,103.24
-404,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1995,100.81
-405,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1996,100.43
-406,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1997,102.77
-407,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1998,113.22
-408,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",1999,124.14
-409,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2000,137.76
-410,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2001,152.28
-411,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2002,172.58
-412,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2003,196.99
-413,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2004,248.59
-414,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2005,301.11
-415,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2006,336.9
-416,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2007,320.1
-417,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2008,262.51
-418,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2009,237.8
-419,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2010,238.22
-420,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2011,229.33
-421,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2012,229.24
-422,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2013,256.99
-423,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2014,283.55
-424,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2015,298.53
-425,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2016,315.57
-426,"MSA","Anaheim-Santa Ana-Irvine, CA (MSAD)","11244",2017,335.52
+384,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1975,24.09
+385,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1976,28.4
+386,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1977,35.98
+387,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1978,41.51
+388,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1979,47.14
+389,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1980,54.84
+390,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1981,62.1
+391,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1982,63.4
+392,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1983,64.3
+393,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1984,65.19
+394,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1985,67.33
+395,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1986,71.12
+396,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1987,78.92
+397,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1988,94.13
+398,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1989,115.54
+399,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1990,119.86
+400,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1991,117.14
+401,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1992,115.58
+402,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1993,109.81
+403,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1994,103.24
+404,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1995,100.81
+405,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1996,100.43
+406,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1997,102.77
+407,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1998,113.22
+408,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",1999,124.14
+409,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2000,137.76
+410,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2001,152.28
+411,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2002,172.58
+412,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2003,196.99
+413,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2004,248.59
+414,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2005,301.11
+415,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2006,336.9
+416,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2007,320.1
+417,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2008,262.51
+418,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2009,237.8
+419,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2010,238.22
+420,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2011,229.33
+421,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2012,229.24
+422,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2013,256.99
+423,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2014,283.55
+424,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2015,298.53
+425,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2016,315.57
+426,"MSA","Anaheim-Santa Ana-Irvine, CA","11244",2017,335.52
 427,"MSA","Anchorage, AK","11260",1978,61.58
 428,"MSA","Anchorage, AK","11260",1979,68.84
 429,"MSA","Anchorage, AK","11260",1982,96.94
@@ -1502,47 +1502,47 @@ id,"level","place_name","place_id",yr,index_nsa
 1501,"MSA","Boise City, ID","14260",2015,185.65
 1502,"MSA","Boise City, ID","14260",2016,202.94
 1503,"MSA","Boise City, ID","14260",2017,226.64
-1504,"MSA","Boston, MA (MSAD)","14454",1977,25.1
-1505,"MSA","Boston, MA (MSAD)","14454",1978,27.89
-1506,"MSA","Boston, MA (MSAD)","14454",1979,32.6
-1507,"MSA","Boston, MA (MSAD)","14454",1980,36.55
-1508,"MSA","Boston, MA (MSAD)","14454",1981,41.82
-1509,"MSA","Boston, MA (MSAD)","14454",1982,43.73
-1510,"MSA","Boston, MA (MSAD)","14454",1983,49.22
-1511,"MSA","Boston, MA (MSAD)","14454",1984,59.14
-1512,"MSA","Boston, MA (MSAD)","14454",1985,74.94
-1513,"MSA","Boston, MA (MSAD)","14454",1986,92.6
-1514,"MSA","Boston, MA (MSAD)","14454",1987,106.54
-1515,"MSA","Boston, MA (MSAD)","14454",1988,111.72
-1516,"MSA","Boston, MA (MSAD)","14454",1989,111.95
-1517,"MSA","Boston, MA (MSAD)","14454",1990,107.42
-1518,"MSA","Boston, MA (MSAD)","14454",1991,101.15
-1519,"MSA","Boston, MA (MSAD)","14454",1992,99.98
-1520,"MSA","Boston, MA (MSAD)","14454",1993,100.41
-1521,"MSA","Boston, MA (MSAD)","14454",1994,100.43
-1522,"MSA","Boston, MA (MSAD)","14454",1995,102.82
-1523,"MSA","Boston, MA (MSAD)","14454",1996,107.22
-1524,"MSA","Boston, MA (MSAD)","14454",1997,112.37
-1525,"MSA","Boston, MA (MSAD)","14454",1998,121.08
-1526,"MSA","Boston, MA (MSAD)","14454",1999,135.4
-1527,"MSA","Boston, MA (MSAD)","14454",2000,156.45
-1528,"MSA","Boston, MA (MSAD)","14454",2001,176.06
-1529,"MSA","Boston, MA (MSAD)","14454",2002,199.27
-1530,"MSA","Boston, MA (MSAD)","14454",2003,220.18
-1531,"MSA","Boston, MA (MSAD)","14454",2004,245.59
-1532,"MSA","Boston, MA (MSAD)","14454",2005,267.29
-1533,"MSA","Boston, MA (MSAD)","14454",2006,267.88
-1534,"MSA","Boston, MA (MSAD)","14454",2007,257.36
-1535,"MSA","Boston, MA (MSAD)","14454",2008,244.44
-1536,"MSA","Boston, MA (MSAD)","14454",2009,233.02
-1537,"MSA","Boston, MA (MSAD)","14454",2010,228.94
-1538,"MSA","Boston, MA (MSAD)","14454",2011,225.3
-1539,"MSA","Boston, MA (MSAD)","14454",2012,225.16
-1540,"MSA","Boston, MA (MSAD)","14454",2013,231.56
-1541,"MSA","Boston, MA (MSAD)","14454",2014,243.95
-1542,"MSA","Boston, MA (MSAD)","14454",2015,255.67
-1543,"MSA","Boston, MA (MSAD)","14454",2016,270.88
-1544,"MSA","Boston, MA (MSAD)","14454",2017,289.55
+1504,"MSA","Boston, MA","14454",1977,25.1
+1505,"MSA","Boston, MA","14454",1978,27.89
+1506,"MSA","Boston, MA","14454",1979,32.6
+1507,"MSA","Boston, MA","14454",1980,36.55
+1508,"MSA","Boston, MA","14454",1981,41.82
+1509,"MSA","Boston, MA","14454",1982,43.73
+1510,"MSA","Boston, MA","14454",1983,49.22
+1511,"MSA","Boston, MA","14454",1984,59.14
+1512,"MSA","Boston, MA","14454",1985,74.94
+1513,"MSA","Boston, MA","14454",1986,92.6
+1514,"MSA","Boston, MA","14454",1987,106.54
+1515,"MSA","Boston, MA","14454",1988,111.72
+1516,"MSA","Boston, MA","14454",1989,111.95
+1517,"MSA","Boston, MA","14454",1990,107.42
+1518,"MSA","Boston, MA","14454",1991,101.15
+1519,"MSA","Boston, MA","14454",1992,99.98
+1520,"MSA","Boston, MA","14454",1993,100.41
+1521,"MSA","Boston, MA","14454",1994,100.43
+1522,"MSA","Boston, MA","14454",1995,102.82
+1523,"MSA","Boston, MA","14454",1996,107.22
+1524,"MSA","Boston, MA","14454",1997,112.37
+1525,"MSA","Boston, MA","14454",1998,121.08
+1526,"MSA","Boston, MA","14454",1999,135.4
+1527,"MSA","Boston, MA","14454",2000,156.45
+1528,"MSA","Boston, MA","14454",2001,176.06
+1529,"MSA","Boston, MA","14454",2002,199.27
+1530,"MSA","Boston, MA","14454",2003,220.18
+1531,"MSA","Boston, MA","14454",2004,245.59
+1532,"MSA","Boston, MA","14454",2005,267.29
+1533,"MSA","Boston, MA","14454",2006,267.88
+1534,"MSA","Boston, MA","14454",2007,257.36
+1535,"MSA","Boston, MA","14454",2008,244.44
+1536,"MSA","Boston, MA","14454",2009,233.02
+1537,"MSA","Boston, MA","14454",2010,228.94
+1538,"MSA","Boston, MA","14454",2011,225.3
+1539,"MSA","Boston, MA","14454",2012,225.16
+1540,"MSA","Boston, MA","14454",2013,231.56
+1541,"MSA","Boston, MA","14454",2014,243.95
+1542,"MSA","Boston, MA","14454",2015,255.67
+1543,"MSA","Boston, MA","14454",2016,270.88
+1544,"MSA","Boston, MA","14454",2017,289.55
 1545,"MSA","Boulder, CO","14500",1978,38.18
 1546,"MSA","Boulder, CO","14500",1979,43.03
 1547,"MSA","Boulder, CO","14500",1980,46.27
@@ -1883,87 +1883,87 @@ id,"level","place_name","place_id",yr,index_nsa
 1882,"MSA","California-Lexington Park, MD","15680",2015,199.69
 1883,"MSA","California-Lexington Park, MD","15680",2016,201.99
 1884,"MSA","California-Lexington Park, MD","15680",2017,208.22
-1885,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1977,24.38
-1886,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1978,27.92
-1887,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1979,33.86
-1888,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1980,37.01
-1889,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1981,41.88
-1890,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1982,44.24
-1891,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1983,48.94
-1892,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1984,60.29
-1893,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1985,76.19
-1894,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1986,93.23
-1895,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1987,104.58
-1896,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1988,108.47
-1897,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1989,108.05
-1898,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1990,103.49
-1899,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1991,97.72
-1900,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1992,97.44
-1901,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1993,98.41
-1902,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1994,99.42
-1903,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1995,102.15
-1904,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1996,106.47
-1905,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1997,112.21
-1906,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1998,120.85
-1907,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",1999,134.87
-1908,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2000,155.71
-1909,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2001,174.18
-1910,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2002,192.88
-1911,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2003,207.83
-1912,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2004,227.49
-1913,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2005,246.37
-1914,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2006,245.29
-1915,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2007,237.43
-1916,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2008,226.93
-1917,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2009,218.5
-1918,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2010,216.05
-1919,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2011,213.6
-1920,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2012,213.81
-1921,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2013,221.85
-1922,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2014,234.43
-1923,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2015,246.19
-1924,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2016,259.47
-1925,"MSA","Cambridge-Newton-Framingham, MA (MSAD)","15764",2017,278.64
-1926,"MSA","Camden, NJ (MSAD)","15804",1978,34.74
-1927,"MSA","Camden, NJ (MSAD)","15804",1979,41.56
-1928,"MSA","Camden, NJ (MSAD)","15804",1980,48.85
-1929,"MSA","Camden, NJ (MSAD)","15804",1981,51.89
-1930,"MSA","Camden, NJ (MSAD)","15804",1982,53.5
-1931,"MSA","Camden, NJ (MSAD)","15804",1983,55.05
-1932,"MSA","Camden, NJ (MSAD)","15804",1984,58.02
-1933,"MSA","Camden, NJ (MSAD)","15804",1985,62.2
-1934,"MSA","Camden, NJ (MSAD)","15804",1986,68.97
-1935,"MSA","Camden, NJ (MSAD)","15804",1987,82.12
-1936,"MSA","Camden, NJ (MSAD)","15804",1988,95.59
-1937,"MSA","Camden, NJ (MSAD)","15804",1989,101.59
-1938,"MSA","Camden, NJ (MSAD)","15804",1990,102.48
-1939,"MSA","Camden, NJ (MSAD)","15804",1991,101.39
-1940,"MSA","Camden, NJ (MSAD)","15804",1992,101.98
-1941,"MSA","Camden, NJ (MSAD)","15804",1993,102.54
-1942,"MSA","Camden, NJ (MSAD)","15804",1994,101.75
-1943,"MSA","Camden, NJ (MSAD)","15804",1995,101.61
-1944,"MSA","Camden, NJ (MSAD)","15804",1996,102.83
-1945,"MSA","Camden, NJ (MSAD)","15804",1997,103.58
-1946,"MSA","Camden, NJ (MSAD)","15804",1998,106.73
-1947,"MSA","Camden, NJ (MSAD)","15804",1999,108.45
-1948,"MSA","Camden, NJ (MSAD)","15804",2000,112.43
-1949,"MSA","Camden, NJ (MSAD)","15804",2001,121.15
-1950,"MSA","Camden, NJ (MSAD)","15804",2002,133.29
-1951,"MSA","Camden, NJ (MSAD)","15804",2003,147.81
-1952,"MSA","Camden, NJ (MSAD)","15804",2004,170.48
-1953,"MSA","Camden, NJ (MSAD)","15804",2005,197.3
-1954,"MSA","Camden, NJ (MSAD)","15804",2006,216.62
-1955,"MSA","Camden, NJ (MSAD)","15804",2007,220.53
-1956,"MSA","Camden, NJ (MSAD)","15804",2008,210.56
-1957,"MSA","Camden, NJ (MSAD)","15804",2009,196.67
-1958,"MSA","Camden, NJ (MSAD)","15804",2010,188.59
-1959,"MSA","Camden, NJ (MSAD)","15804",2011,177.76
-1960,"MSA","Camden, NJ (MSAD)","15804",2012,171.04
-1961,"MSA","Camden, NJ (MSAD)","15804",2013,170.88
-1962,"MSA","Camden, NJ (MSAD)","15804",2014,173.46
-1963,"MSA","Camden, NJ (MSAD)","15804",2015,176.95
-1964,"MSA","Camden, NJ (MSAD)","15804",2016,180.79
-1965,"MSA","Camden, NJ (MSAD)","15804",2017,184.21
+1885,"MSA","Cambridge-Newton-Framingham, MA","15764",1977,24.38
+1886,"MSA","Cambridge-Newton-Framingham, MA","15764",1978,27.92
+1887,"MSA","Cambridge-Newton-Framingham, MA","15764",1979,33.86
+1888,"MSA","Cambridge-Newton-Framingham, MA","15764",1980,37.01
+1889,"MSA","Cambridge-Newton-Framingham, MA","15764",1981,41.88
+1890,"MSA","Cambridge-Newton-Framingham, MA","15764",1982,44.24
+1891,"MSA","Cambridge-Newton-Framingham, MA","15764",1983,48.94
+1892,"MSA","Cambridge-Newton-Framingham, MA","15764",1984,60.29
+1893,"MSA","Cambridge-Newton-Framingham, MA","15764",1985,76.19
+1894,"MSA","Cambridge-Newton-Framingham, MA","15764",1986,93.23
+1895,"MSA","Cambridge-Newton-Framingham, MA","15764",1987,104.58
+1896,"MSA","Cambridge-Newton-Framingham, MA","15764",1988,108.47
+1897,"MSA","Cambridge-Newton-Framingham, MA","15764",1989,108.05
+1898,"MSA","Cambridge-Newton-Framingham, MA","15764",1990,103.49
+1899,"MSA","Cambridge-Newton-Framingham, MA","15764",1991,97.72
+1900,"MSA","Cambridge-Newton-Framingham, MA","15764",1992,97.44
+1901,"MSA","Cambridge-Newton-Framingham, MA","15764",1993,98.41
+1902,"MSA","Cambridge-Newton-Framingham, MA","15764",1994,99.42
+1903,"MSA","Cambridge-Newton-Framingham, MA","15764",1995,102.15
+1904,"MSA","Cambridge-Newton-Framingham, MA","15764",1996,106.47
+1905,"MSA","Cambridge-Newton-Framingham, MA","15764",1997,112.21
+1906,"MSA","Cambridge-Newton-Framingham, MA","15764",1998,120.85
+1907,"MSA","Cambridge-Newton-Framingham, MA","15764",1999,134.87
+1908,"MSA","Cambridge-Newton-Framingham, MA","15764",2000,155.71
+1909,"MSA","Cambridge-Newton-Framingham, MA","15764",2001,174.18
+1910,"MSA","Cambridge-Newton-Framingham, MA","15764",2002,192.88
+1911,"MSA","Cambridge-Newton-Framingham, MA","15764",2003,207.83
+1912,"MSA","Cambridge-Newton-Framingham, MA","15764",2004,227.49
+1913,"MSA","Cambridge-Newton-Framingham, MA","15764",2005,246.37
+1914,"MSA","Cambridge-Newton-Framingham, MA","15764",2006,245.29
+1915,"MSA","Cambridge-Newton-Framingham, MA","15764",2007,237.43
+1916,"MSA","Cambridge-Newton-Framingham, MA","15764",2008,226.93
+1917,"MSA","Cambridge-Newton-Framingham, MA","15764",2009,218.5
+1918,"MSA","Cambridge-Newton-Framingham, MA","15764",2010,216.05
+1919,"MSA","Cambridge-Newton-Framingham, MA","15764",2011,213.6
+1920,"MSA","Cambridge-Newton-Framingham, MA","15764",2012,213.81
+1921,"MSA","Cambridge-Newton-Framingham, MA","15764",2013,221.85
+1922,"MSA","Cambridge-Newton-Framingham, MA","15764",2014,234.43
+1923,"MSA","Cambridge-Newton-Framingham, MA","15764",2015,246.19
+1924,"MSA","Cambridge-Newton-Framingham, MA","15764",2016,259.47
+1925,"MSA","Cambridge-Newton-Framingham, MA","15764",2017,278.64
+1926,"MSA","Camden, NJ","15804",1978,34.74
+1927,"MSA","Camden, NJ","15804",1979,41.56
+1928,"MSA","Camden, NJ","15804",1980,48.85
+1929,"MSA","Camden, NJ","15804",1981,51.89
+1930,"MSA","Camden, NJ","15804",1982,53.5
+1931,"MSA","Camden, NJ","15804",1983,55.05
+1932,"MSA","Camden, NJ","15804",1984,58.02
+1933,"MSA","Camden, NJ","15804",1985,62.2
+1934,"MSA","Camden, NJ","15804",1986,68.97
+1935,"MSA","Camden, NJ","15804",1987,82.12
+1936,"MSA","Camden, NJ","15804",1988,95.59
+1937,"MSA","Camden, NJ","15804",1989,101.59
+1938,"MSA","Camden, NJ","15804",1990,102.48
+1939,"MSA","Camden, NJ","15804",1991,101.39
+1940,"MSA","Camden, NJ","15804",1992,101.98
+1941,"MSA","Camden, NJ","15804",1993,102.54
+1942,"MSA","Camden, NJ","15804",1994,101.75
+1943,"MSA","Camden, NJ","15804",1995,101.61
+1944,"MSA","Camden, NJ","15804",1996,102.83
+1945,"MSA","Camden, NJ","15804",1997,103.58
+1946,"MSA","Camden, NJ","15804",1998,106.73
+1947,"MSA","Camden, NJ","15804",1999,108.45
+1948,"MSA","Camden, NJ","15804",2000,112.43
+1949,"MSA","Camden, NJ","15804",2001,121.15
+1950,"MSA","Camden, NJ","15804",2002,133.29
+1951,"MSA","Camden, NJ","15804",2003,147.81
+1952,"MSA","Camden, NJ","15804",2004,170.48
+1953,"MSA","Camden, NJ","15804",2005,197.3
+1954,"MSA","Camden, NJ","15804",2006,216.62
+1955,"MSA","Camden, NJ","15804",2007,220.53
+1956,"MSA","Camden, NJ","15804",2008,210.56
+1957,"MSA","Camden, NJ","15804",2009,196.67
+1958,"MSA","Camden, NJ","15804",2010,188.59
+1959,"MSA","Camden, NJ","15804",2011,177.76
+1960,"MSA","Camden, NJ","15804",2012,171.04
+1961,"MSA","Camden, NJ","15804",2013,170.88
+1962,"MSA","Camden, NJ","15804",2014,173.46
+1963,"MSA","Camden, NJ","15804",2015,176.95
+1964,"MSA","Camden, NJ","15804",2016,180.79
+1965,"MSA","Camden, NJ","15804",2017,184.21
 1966,"MSA","Canton-Massillon, OH","15940",1977,48.91
 1967,"MSA","Canton-Massillon, OH","15940",1978,51.8
 1968,"MSA","Canton-Massillon, OH","15940",1979,58.4
@@ -2488,49 +2488,49 @@ id,"level","place_name","place_id",yr,index_nsa
 2487,"MSA","Cheyenne, WY","16940",2015,212.87
 2488,"MSA","Cheyenne, WY","16940",2016,222.56
 2489,"MSA","Cheyenne, WY","16940",2017,234.32
-2490,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1975,30.72
-2491,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1976,32.95
-2492,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1977,38.89
-2493,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1978,44.74
-2494,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1979,46.34
-2495,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1980,46.42
-2496,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1981,49.79
-2497,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1982,48.24
-2498,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1983,50.47
-2499,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1984,53.6
-2500,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1985,56.13
-2501,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1986,60.39
-2502,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1987,67.54
-2503,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1988,74.69
-2504,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1989,80.74
-2505,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1990,85.1
-2506,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1991,88.25
-2507,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1992,91.72
-2508,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1993,94.91
-2509,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1994,98.52
-2510,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1995,101.91
-2511,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1996,105.13
-2512,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1997,108.37
-2513,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1998,112.1
-2514,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",1999,117.49
-2515,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2000,126.71
-2516,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2001,135.47
-2517,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2002,145.6
-2518,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2003,154.81
-2519,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2004,170.1
-2520,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2005,188.18
-2521,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2006,201.41
-2522,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2007,203.79
-2523,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2008,192.69
-2524,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2009,175.17
-2525,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2010,162.46
-2526,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2011,152.11
-2527,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2012,147.69
-2528,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2013,149.96
-2529,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2014,157.36
-2530,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2015,164.11
-2531,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2016,170.33
-2532,"MSA","Chicago-Naperville-Arlington Heights, IL (MSAD)","16974",2017,178.58
+2490,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1975,30.72
+2491,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1976,32.95
+2492,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1977,38.89
+2493,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1978,44.74
+2494,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1979,46.34
+2495,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1980,46.42
+2496,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1981,49.79
+2497,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1982,48.24
+2498,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1983,50.47
+2499,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1984,53.6
+2500,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1985,56.13
+2501,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1986,60.39
+2502,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1987,67.54
+2503,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1988,74.69
+2504,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1989,80.74
+2505,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1990,85.1
+2506,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1991,88.25
+2507,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1992,91.72
+2508,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1993,94.91
+2509,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1994,98.52
+2510,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1995,101.91
+2511,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1996,105.13
+2512,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1997,108.37
+2513,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1998,112.1
+2514,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",1999,117.49
+2515,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2000,126.71
+2516,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2001,135.47
+2517,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2002,145.6
+2518,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2003,154.81
+2519,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2004,170.1
+2520,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2005,188.18
+2521,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2006,201.41
+2522,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2007,203.79
+2523,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2008,192.69
+2524,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2009,175.17
+2525,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2010,162.46
+2526,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2011,152.11
+2527,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2012,147.69
+2528,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2013,149.96
+2529,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2014,157.36
+2530,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2015,164.11
+2531,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2016,170.33
+2532,"MSA","Chicago-Naperville-Arlington Heights, IL","16974",2017,178.58
 2533,"MSA","Chico, CA","17020",1979,54.6
 2534,"MSA","Chico, CA","17020",1980,59.37
 2535,"MSA","Chico, CA","17020",1981,64.85
@@ -3118,48 +3118,48 @@ id,"level","place_name","place_id",yr,index_nsa
 3117,"MSA","Cumberland, MD-WV","19060",2015,154.39
 3118,"MSA","Cumberland, MD-WV","19060",2016,155.68
 3119,"MSA","Cumberland, MD-WV","19060",2017,163.19
-3120,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1976,42.58
-3121,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1977,48.35
-3122,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1978,56.74
-3123,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1979,68.1
-3124,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1980,77.45
-3125,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1981,84.47
-3126,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1982,89.2
-3127,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1983,94.77
-3128,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1984,100.72
-3129,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1985,105.48
-3130,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1986,108.39
-3131,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1987,103.27
-3132,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1988,97.1
-3133,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1989,94.76
-3134,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1990,94.85
-3135,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1991,96.26
-3136,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1992,98.73
-3137,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1993,100.31
-3138,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1994,100.75
-3139,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1995,102.16
-3140,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1996,105.4
-3141,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1997,108.45
-3142,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1998,114.26
-3143,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",1999,120.93
-3144,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2000,128.61
-3145,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2001,137.26
-3146,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2002,142.48
-3147,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2003,146.28
-3148,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2004,149.44
-3149,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2005,154.05
-3150,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2006,158.65
-3151,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2007,163.37
-3152,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2008,165.04
-3153,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2009,164.74
-3154,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2010,162.65
-3155,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2011,159.29
-3156,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2012,161.07
-3157,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2013,169.99
-3158,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2014,185.18
-3159,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2015,203.21
-3160,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2016,224.26
-3161,"MSA","Dallas-Plano-Irving, TX (MSAD)","19124",2017,249.42
+3120,"MSA","Dallas-Plano-Irving, TX","19124",1976,42.58
+3121,"MSA","Dallas-Plano-Irving, TX","19124",1977,48.35
+3122,"MSA","Dallas-Plano-Irving, TX","19124",1978,56.74
+3123,"MSA","Dallas-Plano-Irving, TX","19124",1979,68.1
+3124,"MSA","Dallas-Plano-Irving, TX","19124",1980,77.45
+3125,"MSA","Dallas-Plano-Irving, TX","19124",1981,84.47
+3126,"MSA","Dallas-Plano-Irving, TX","19124",1982,89.2
+3127,"MSA","Dallas-Plano-Irving, TX","19124",1983,94.77
+3128,"MSA","Dallas-Plano-Irving, TX","19124",1984,100.72
+3129,"MSA","Dallas-Plano-Irving, TX","19124",1985,105.48
+3130,"MSA","Dallas-Plano-Irving, TX","19124",1986,108.39
+3131,"MSA","Dallas-Plano-Irving, TX","19124",1987,103.27
+3132,"MSA","Dallas-Plano-Irving, TX","19124",1988,97.1
+3133,"MSA","Dallas-Plano-Irving, TX","19124",1989,94.76
+3134,"MSA","Dallas-Plano-Irving, TX","19124",1990,94.85
+3135,"MSA","Dallas-Plano-Irving, TX","19124",1991,96.26
+3136,"MSA","Dallas-Plano-Irving, TX","19124",1992,98.73
+3137,"MSA","Dallas-Plano-Irving, TX","19124",1993,100.31
+3138,"MSA","Dallas-Plano-Irving, TX","19124",1994,100.75
+3139,"MSA","Dallas-Plano-Irving, TX","19124",1995,102.16
+3140,"MSA","Dallas-Plano-Irving, TX","19124",1996,105.4
+3141,"MSA","Dallas-Plano-Irving, TX","19124",1997,108.45
+3142,"MSA","Dallas-Plano-Irving, TX","19124",1998,114.26
+3143,"MSA","Dallas-Plano-Irving, TX","19124",1999,120.93
+3144,"MSA","Dallas-Plano-Irving, TX","19124",2000,128.61
+3145,"MSA","Dallas-Plano-Irving, TX","19124",2001,137.26
+3146,"MSA","Dallas-Plano-Irving, TX","19124",2002,142.48
+3147,"MSA","Dallas-Plano-Irving, TX","19124",2003,146.28
+3148,"MSA","Dallas-Plano-Irving, TX","19124",2004,149.44
+3149,"MSA","Dallas-Plano-Irving, TX","19124",2005,154.05
+3150,"MSA","Dallas-Plano-Irving, TX","19124",2006,158.65
+3151,"MSA","Dallas-Plano-Irving, TX","19124",2007,163.37
+3152,"MSA","Dallas-Plano-Irving, TX","19124",2008,165.04
+3153,"MSA","Dallas-Plano-Irving, TX","19124",2009,164.74
+3154,"MSA","Dallas-Plano-Irving, TX","19124",2010,162.65
+3155,"MSA","Dallas-Plano-Irving, TX","19124",2011,159.29
+3156,"MSA","Dallas-Plano-Irving, TX","19124",2012,161.07
+3157,"MSA","Dallas-Plano-Irving, TX","19124",2013,169.99
+3158,"MSA","Dallas-Plano-Irving, TX","19124",2014,185.18
+3159,"MSA","Dallas-Plano-Irving, TX","19124",2015,203.21
+3160,"MSA","Dallas-Plano-Irving, TX","19124",2016,224.26
+3161,"MSA","Dallas-Plano-Irving, TX","19124",2017,249.42
 3162,"MSA","Dalton, GA","19140",1984,70.68
 3163,"MSA","Dalton, GA","19140",1985,74.79
 3164,"MSA","Dalton, GA","19140",1986,78.97
@@ -3516,48 +3516,48 @@ id,"level","place_name","place_id",yr,index_nsa
 3515,"MSA","Des Moines-West Des Moines, IA","19780",2015,171.25
 3516,"MSA","Des Moines-West Des Moines, IA","19780",2016,179.26
 3517,"MSA","Des Moines-West Des Moines, IA","19780",2017,189.19
-3518,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1976,36.38
-3519,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1977,38.37
-3520,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1978,45.5
-3521,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1979,55.6
-3522,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1980,58.39
-3523,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1981,60.1
-3524,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1982,56.25
-3525,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1983,53.18
-3526,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1984,52.62
-3527,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1985,54.64
-3528,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1986,59.58
-3529,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1987,67.4
-3530,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1988,73.13
-3531,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1989,78.65
-3532,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1990,83.67
-3533,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1991,87.08
-3534,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1992,90.25
-3535,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1993,92.74
-3536,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1994,96.43
-3537,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1995,103.27
-3538,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1996,112.29
-3539,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1997,122.44
-3540,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1998,131.74
-3541,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",1999,143.25
-3542,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2000,154.85
-3543,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2001,165.17
-3544,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2002,172.89
-3545,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2003,178.38
-3546,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2004,183.49
-3547,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2005,186.83
-3548,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2006,181.56
-3549,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2007,168.31
-3550,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2008,144.71
-3551,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2009,126.77
-3552,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2010,116.51
-3553,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2011,112.85
-3554,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2012,113.91
-3555,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2013,124.48
-3556,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2014,135.67
-3557,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2015,144.2
-3558,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2016,153.04
-3559,"MSA","Detroit-Dearborn-Livonia, MI (MSAD)","19804",2017,165.34
+3518,"MSA","Detroit-Dearborn-Livonia, MI","19804",1976,36.38
+3519,"MSA","Detroit-Dearborn-Livonia, MI","19804",1977,38.37
+3520,"MSA","Detroit-Dearborn-Livonia, MI","19804",1978,45.5
+3521,"MSA","Detroit-Dearborn-Livonia, MI","19804",1979,55.6
+3522,"MSA","Detroit-Dearborn-Livonia, MI","19804",1980,58.39
+3523,"MSA","Detroit-Dearborn-Livonia, MI","19804",1981,60.1
+3524,"MSA","Detroit-Dearborn-Livonia, MI","19804",1982,56.25
+3525,"MSA","Detroit-Dearborn-Livonia, MI","19804",1983,53.18
+3526,"MSA","Detroit-Dearborn-Livonia, MI","19804",1984,52.62
+3527,"MSA","Detroit-Dearborn-Livonia, MI","19804",1985,54.64
+3528,"MSA","Detroit-Dearborn-Livonia, MI","19804",1986,59.58
+3529,"MSA","Detroit-Dearborn-Livonia, MI","19804",1987,67.4
+3530,"MSA","Detroit-Dearborn-Livonia, MI","19804",1988,73.13
+3531,"MSA","Detroit-Dearborn-Livonia, MI","19804",1989,78.65
+3532,"MSA","Detroit-Dearborn-Livonia, MI","19804",1990,83.67
+3533,"MSA","Detroit-Dearborn-Livonia, MI","19804",1991,87.08
+3534,"MSA","Detroit-Dearborn-Livonia, MI","19804",1992,90.25
+3535,"MSA","Detroit-Dearborn-Livonia, MI","19804",1993,92.74
+3536,"MSA","Detroit-Dearborn-Livonia, MI","19804",1994,96.43
+3537,"MSA","Detroit-Dearborn-Livonia, MI","19804",1995,103.27
+3538,"MSA","Detroit-Dearborn-Livonia, MI","19804",1996,112.29
+3539,"MSA","Detroit-Dearborn-Livonia, MI","19804",1997,122.44
+3540,"MSA","Detroit-Dearborn-Livonia, MI","19804",1998,131.74
+3541,"MSA","Detroit-Dearborn-Livonia, MI","19804",1999,143.25
+3542,"MSA","Detroit-Dearborn-Livonia, MI","19804",2000,154.85
+3543,"MSA","Detroit-Dearborn-Livonia, MI","19804",2001,165.17
+3544,"MSA","Detroit-Dearborn-Livonia, MI","19804",2002,172.89
+3545,"MSA","Detroit-Dearborn-Livonia, MI","19804",2003,178.38
+3546,"MSA","Detroit-Dearborn-Livonia, MI","19804",2004,183.49
+3547,"MSA","Detroit-Dearborn-Livonia, MI","19804",2005,186.83
+3548,"MSA","Detroit-Dearborn-Livonia, MI","19804",2006,181.56
+3549,"MSA","Detroit-Dearborn-Livonia, MI","19804",2007,168.31
+3550,"MSA","Detroit-Dearborn-Livonia, MI","19804",2008,144.71
+3551,"MSA","Detroit-Dearborn-Livonia, MI","19804",2009,126.77
+3552,"MSA","Detroit-Dearborn-Livonia, MI","19804",2010,116.51
+3553,"MSA","Detroit-Dearborn-Livonia, MI","19804",2011,112.85
+3554,"MSA","Detroit-Dearborn-Livonia, MI","19804",2012,113.91
+3555,"MSA","Detroit-Dearborn-Livonia, MI","19804",2013,124.48
+3556,"MSA","Detroit-Dearborn-Livonia, MI","19804",2014,135.67
+3557,"MSA","Detroit-Dearborn-Livonia, MI","19804",2015,144.2
+3558,"MSA","Detroit-Dearborn-Livonia, MI","19804",2016,153.04
+3559,"MSA","Detroit-Dearborn-Livonia, MI","19804",2017,165.34
 3560,"MSA","Dothan, AL","20020",1989,88.42
 3561,"MSA","Dothan, AL","20020",1990,88.11
 3562,"MSA","Dothan, AL","20020",1991,89.33
@@ -3722,42 +3722,42 @@ id,"level","place_name","place_id",yr,index_nsa
 3721,"MSA","Durham-Chapel Hill, NC","20500",2015,181.79
 3722,"MSA","Durham-Chapel Hill, NC","20500",2016,191.52
 3723,"MSA","Durham-Chapel Hill, NC","20500",2017,207.13
-3724,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1982,51.22
-3725,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1983,53.76
-3726,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1984,60.86
-3727,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1985,70.07
-3728,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1986,86.63
-3729,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1987,106.35
-3730,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1988,113.65
-3731,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1989,113.24
-3732,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1990,111.17
-3733,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1991,109.1
-3734,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1992,110.41
-3735,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1993,106.61
-3736,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1994,102.74
-3737,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1995,102.19
-3738,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1996,105.49
-3739,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1997,106.75
-3740,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1998,111.71
-3741,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",1999,118.56
-3742,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2000,131.02
-3743,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2001,145.15
-3744,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2002,165.38
-3745,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2003,185.4
-3746,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2004,212.98
-3747,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2005,242.67
-3748,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2006,254.08
-3749,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2007,249.52
-3750,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2008,234.44
-3751,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2009,218.44
-3752,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2010,207.74
-3753,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2011,198.36
-3754,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2012,190.63
-3755,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2013,188.91
-3756,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2014,190.04
-3757,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2015,193.17
-3758,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2016,197.46
-3759,"MSA","Dutchess County-Putnam County, NY (MSAD)","20524",2017,205.7
+3724,"MSA","Dutchess County-Putnam County, NY","20524",1982,51.22
+3725,"MSA","Dutchess County-Putnam County, NY","20524",1983,53.76
+3726,"MSA","Dutchess County-Putnam County, NY","20524",1984,60.86
+3727,"MSA","Dutchess County-Putnam County, NY","20524",1985,70.07
+3728,"MSA","Dutchess County-Putnam County, NY","20524",1986,86.63
+3729,"MSA","Dutchess County-Putnam County, NY","20524",1987,106.35
+3730,"MSA","Dutchess County-Putnam County, NY","20524",1988,113.65
+3731,"MSA","Dutchess County-Putnam County, NY","20524",1989,113.24
+3732,"MSA","Dutchess County-Putnam County, NY","20524",1990,111.17
+3733,"MSA","Dutchess County-Putnam County, NY","20524",1991,109.1
+3734,"MSA","Dutchess County-Putnam County, NY","20524",1992,110.41
+3735,"MSA","Dutchess County-Putnam County, NY","20524",1993,106.61
+3736,"MSA","Dutchess County-Putnam County, NY","20524",1994,102.74
+3737,"MSA","Dutchess County-Putnam County, NY","20524",1995,102.19
+3738,"MSA","Dutchess County-Putnam County, NY","20524",1996,105.49
+3739,"MSA","Dutchess County-Putnam County, NY","20524",1997,106.75
+3740,"MSA","Dutchess County-Putnam County, NY","20524",1998,111.71
+3741,"MSA","Dutchess County-Putnam County, NY","20524",1999,118.56
+3742,"MSA","Dutchess County-Putnam County, NY","20524",2000,131.02
+3743,"MSA","Dutchess County-Putnam County, NY","20524",2001,145.15
+3744,"MSA","Dutchess County-Putnam County, NY","20524",2002,165.38
+3745,"MSA","Dutchess County-Putnam County, NY","20524",2003,185.4
+3746,"MSA","Dutchess County-Putnam County, NY","20524",2004,212.98
+3747,"MSA","Dutchess County-Putnam County, NY","20524",2005,242.67
+3748,"MSA","Dutchess County-Putnam County, NY","20524",2006,254.08
+3749,"MSA","Dutchess County-Putnam County, NY","20524",2007,249.52
+3750,"MSA","Dutchess County-Putnam County, NY","20524",2008,234.44
+3751,"MSA","Dutchess County-Putnam County, NY","20524",2009,218.44
+3752,"MSA","Dutchess County-Putnam County, NY","20524",2010,207.74
+3753,"MSA","Dutchess County-Putnam County, NY","20524",2011,198.36
+3754,"MSA","Dutchess County-Putnam County, NY","20524",2012,190.63
+3755,"MSA","Dutchess County-Putnam County, NY","20524",2013,188.91
+3756,"MSA","Dutchess County-Putnam County, NY","20524",2014,190.04
+3757,"MSA","Dutchess County-Putnam County, NY","20524",2015,193.17
+3758,"MSA","Dutchess County-Putnam County, NY","20524",2016,197.46
+3759,"MSA","Dutchess County-Putnam County, NY","20524",2017,205.7
 3760,"MSA","East Stroudsburg, PA","20700",1992,110.7
 3761,"MSA","East Stroudsburg, PA","20700",1993,108.23
 3762,"MSA","East Stroudsburg, PA","20700",1994,106.82
@@ -3885,45 +3885,45 @@ id,"level","place_name","place_id",yr,index_nsa
 3884,"MSA","El Paso, TX","21340",2015,164.34
 3885,"MSA","El Paso, TX","21340",2016,166.64
 3886,"MSA","El Paso, TX","21340",2017,171.83
-3887,"MSA","Elgin, IL (MSAD)","20994",1979,51.96
-3888,"MSA","Elgin, IL (MSAD)","20994",1980,52.26
-3889,"MSA","Elgin, IL (MSAD)","20994",1981,54.86
-3890,"MSA","Elgin, IL (MSAD)","20994",1982,47.9
-3891,"MSA","Elgin, IL (MSAD)","20994",1983,51.13
-3892,"MSA","Elgin, IL (MSAD)","20994",1984,54.17
-3893,"MSA","Elgin, IL (MSAD)","20994",1985,57.16
-3894,"MSA","Elgin, IL (MSAD)","20994",1986,60.96
-3895,"MSA","Elgin, IL (MSAD)","20994",1987,67.29
-3896,"MSA","Elgin, IL (MSAD)","20994",1988,74.34
-3897,"MSA","Elgin, IL (MSAD)","20994",1989,81.41
-3898,"MSA","Elgin, IL (MSAD)","20994",1990,86.81
-3899,"MSA","Elgin, IL (MSAD)","20994",1991,89.98
-3900,"MSA","Elgin, IL (MSAD)","20994",1992,92.82
-3901,"MSA","Elgin, IL (MSAD)","20994",1993,95.19
-3902,"MSA","Elgin, IL (MSAD)","20994",1994,98.42
-3903,"MSA","Elgin, IL (MSAD)","20994",1995,101.69
-3904,"MSA","Elgin, IL (MSAD)","20994",1996,104.92
-3905,"MSA","Elgin, IL (MSAD)","20994",1997,107.4
-3906,"MSA","Elgin, IL (MSAD)","20994",1998,110.67
-3907,"MSA","Elgin, IL (MSAD)","20994",1999,114.38
-3908,"MSA","Elgin, IL (MSAD)","20994",2000,121.33
-3909,"MSA","Elgin, IL (MSAD)","20994",2001,127.96
-3910,"MSA","Elgin, IL (MSAD)","20994",2002,135.49
-3911,"MSA","Elgin, IL (MSAD)","20994",2003,142.49
-3912,"MSA","Elgin, IL (MSAD)","20994",2004,154.13
-3913,"MSA","Elgin, IL (MSAD)","20994",2005,167.08
-3914,"MSA","Elgin, IL (MSAD)","20994",2006,175.92
-3915,"MSA","Elgin, IL (MSAD)","20994",2007,177.28
-3916,"MSA","Elgin, IL (MSAD)","20994",2008,168.81
-3917,"MSA","Elgin, IL (MSAD)","20994",2009,154.74
-3918,"MSA","Elgin, IL (MSAD)","20994",2010,142.59
-3919,"MSA","Elgin, IL (MSAD)","20994",2011,132
-3920,"MSA","Elgin, IL (MSAD)","20994",2012,125.82
-3921,"MSA","Elgin, IL (MSAD)","20994",2013,126.45
-3922,"MSA","Elgin, IL (MSAD)","20994",2014,132.21
-3923,"MSA","Elgin, IL (MSAD)","20994",2015,137.54
-3924,"MSA","Elgin, IL (MSAD)","20994",2016,143.02
-3925,"MSA","Elgin, IL (MSAD)","20994",2017,150.56
+3887,"MSA","Elgin, IL","20994",1979,51.96
+3888,"MSA","Elgin, IL","20994",1980,52.26
+3889,"MSA","Elgin, IL","20994",1981,54.86
+3890,"MSA","Elgin, IL","20994",1982,47.9
+3891,"MSA","Elgin, IL","20994",1983,51.13
+3892,"MSA","Elgin, IL","20994",1984,54.17
+3893,"MSA","Elgin, IL","20994",1985,57.16
+3894,"MSA","Elgin, IL","20994",1986,60.96
+3895,"MSA","Elgin, IL","20994",1987,67.29
+3896,"MSA","Elgin, IL","20994",1988,74.34
+3897,"MSA","Elgin, IL","20994",1989,81.41
+3898,"MSA","Elgin, IL","20994",1990,86.81
+3899,"MSA","Elgin, IL","20994",1991,89.98
+3900,"MSA","Elgin, IL","20994",1992,92.82
+3901,"MSA","Elgin, IL","20994",1993,95.19
+3902,"MSA","Elgin, IL","20994",1994,98.42
+3903,"MSA","Elgin, IL","20994",1995,101.69
+3904,"MSA","Elgin, IL","20994",1996,104.92
+3905,"MSA","Elgin, IL","20994",1997,107.4
+3906,"MSA","Elgin, IL","20994",1998,110.67
+3907,"MSA","Elgin, IL","20994",1999,114.38
+3908,"MSA","Elgin, IL","20994",2000,121.33
+3909,"MSA","Elgin, IL","20994",2001,127.96
+3910,"MSA","Elgin, IL","20994",2002,135.49
+3911,"MSA","Elgin, IL","20994",2003,142.49
+3912,"MSA","Elgin, IL","20994",2004,154.13
+3913,"MSA","Elgin, IL","20994",2005,167.08
+3914,"MSA","Elgin, IL","20994",2006,175.92
+3915,"MSA","Elgin, IL","20994",2007,177.28
+3916,"MSA","Elgin, IL","20994",2008,168.81
+3917,"MSA","Elgin, IL","20994",2009,154.74
+3918,"MSA","Elgin, IL","20994",2010,142.59
+3919,"MSA","Elgin, IL","20994",2011,132
+3920,"MSA","Elgin, IL","20994",2012,125.82
+3921,"MSA","Elgin, IL","20994",2013,126.45
+3922,"MSA","Elgin, IL","20994",2014,132.21
+3923,"MSA","Elgin, IL","20994",2015,137.54
+3924,"MSA","Elgin, IL","20994",2016,143.02
+3925,"MSA","Elgin, IL","20994",2017,150.56
 3926,"MSA","Elizabethtown-Fort Knox, KY","21060",1993,92.08
 3927,"MSA","Elizabethtown-Fort Knox, KY","21060",1994,95.86
 3928,"MSA","Elizabethtown-Fort Knox, KY","21060",1995,101.27
@@ -4528,49 +4528,49 @@ id,"level","place_name","place_id",yr,index_nsa
 4527,"MSA","Fort Collins, CO","22660",2015,225.26
 4528,"MSA","Fort Collins, CO","22660",2016,250.53
 4529,"MSA","Fort Collins, CO","22660",2017,277.86
-4530,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1975,42.52
-4531,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1976,48.68
-4532,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1977,48.52
-4533,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1978,52.56
-4534,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1979,55.11
-4535,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1980,63.38
-4536,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1981,70.7
-4537,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1982,74.48
-4538,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1983,76.73
-4539,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1984,75.9
-4540,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1985,74.81
-4541,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1986,78.81
-4542,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1987,82.82
-4543,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1988,87.82
-4544,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1989,91.16
-4545,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1990,92.72
-4546,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1991,93.3
-4547,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1992,95.49
-4548,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1993,97.66
-4549,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1994,99.51
-4550,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1995,101.85
-4551,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1996,103.91
-4552,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1997,105.89
-4553,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1998,110.63
-4554,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",1999,114.27
-4555,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2000,123.75
-4556,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2001,139.43
-4557,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2002,158.8
-4558,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2003,179.75
-4559,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2004,215.27
-4560,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2005,275.69
-4561,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2006,321.84
-4562,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2007,308.72
-4563,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2008,239.03
-4564,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2009,191.52
-4565,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2010,181.7
-4566,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2011,171.79
-4567,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2012,173.44
-4568,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2013,192.98
-4569,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2014,217.72
-4570,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2015,236.8
-4571,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2016,256.83
-4572,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL (MSAD)","22744",2017,278.81
+4530,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1975,42.52
+4531,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1976,48.68
+4532,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1977,48.52
+4533,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1978,52.56
+4534,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1979,55.11
+4535,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1980,63.38
+4536,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1981,70.7
+4537,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1982,74.48
+4538,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1983,76.73
+4539,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1984,75.9
+4540,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1985,74.81
+4541,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1986,78.81
+4542,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1987,82.82
+4543,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1988,87.82
+4544,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1989,91.16
+4545,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1990,92.72
+4546,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1991,93.3
+4547,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1992,95.49
+4548,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1993,97.66
+4549,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1994,99.51
+4550,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1995,101.85
+4551,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1996,103.91
+4552,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1997,105.89
+4553,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1998,110.63
+4554,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",1999,114.27
+4555,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2000,123.75
+4556,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2001,139.43
+4557,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2002,158.8
+4558,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2003,179.75
+4559,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2004,215.27
+4560,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2005,275.69
+4561,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2006,321.84
+4562,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2007,308.72
+4563,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2008,239.03
+4564,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2009,191.52
+4565,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2010,181.7
+4566,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2011,171.79
+4567,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2012,173.44
+4568,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2013,192.98
+4569,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2014,217.72
+4570,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2015,236.8
+4571,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2016,256.83
+4572,"MSA","Fort Lauderdale-Pompano Beach-Deerfield Beach, FL","22744",2017,278.81
 4573,"MSA","Fort Smith, AR-OK","22900",1985,81.69
 4574,"MSA","Fort Smith, AR-OK","22900",1986,82.58
 4575,"MSA","Fort Smith, AR-OK","22900",1987,83.77
@@ -4644,47 +4644,47 @@ id,"level","place_name","place_id",yr,index_nsa
 4643,"MSA","Fort Wayne, IN","23060",2015,141.53
 4644,"MSA","Fort Wayne, IN","23060",2016,148.04
 4645,"MSA","Fort Wayne, IN","23060",2017,156.67
-4646,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1977,51.55
-4647,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1978,58.96
-4648,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1979,70.14
-4649,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1980,79.39
-4650,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1981,85.2
-4651,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1982,88.1
-4652,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1983,92.69
-4653,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1984,98.03
-4654,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1985,100.84
-4655,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1986,104.01
-4656,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1987,101.32
-4657,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1988,95.39
-4658,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1989,93.65
-4659,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1990,94.09
-4660,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1991,94.72
-4661,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1992,96.32
-4662,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1993,98.33
-4663,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1994,99.79
-4664,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1995,101.84
-4665,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1996,104.84
-4666,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1997,107.46
-4667,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1998,112.2
-4668,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",1999,117.33
-4669,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2000,123.67
-4670,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2001,131.11
-4671,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2002,135.94
-4672,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2003,140.44
-4673,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2004,143.5
-4674,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2005,148.1
-4675,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2006,153.18
-4676,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2007,157.82
-4677,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2008,159
-4678,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2009,159.94
-4679,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2010,157.3
-4680,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2011,154.32
-4681,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2012,155.53
-4682,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2013,161.53
-4683,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2014,172.19
-4684,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2015,185.69
-4685,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2016,202.97
-4686,"MSA","Fort Worth-Arlington, TX (MSAD)","23104",2017,225.6
+4646,"MSA","Fort Worth-Arlington, TX","23104",1977,51.55
+4647,"MSA","Fort Worth-Arlington, TX","23104",1978,58.96
+4648,"MSA","Fort Worth-Arlington, TX","23104",1979,70.14
+4649,"MSA","Fort Worth-Arlington, TX","23104",1980,79.39
+4650,"MSA","Fort Worth-Arlington, TX","23104",1981,85.2
+4651,"MSA","Fort Worth-Arlington, TX","23104",1982,88.1
+4652,"MSA","Fort Worth-Arlington, TX","23104",1983,92.69
+4653,"MSA","Fort Worth-Arlington, TX","23104",1984,98.03
+4654,"MSA","Fort Worth-Arlington, TX","23104",1985,100.84
+4655,"MSA","Fort Worth-Arlington, TX","23104",1986,104.01
+4656,"MSA","Fort Worth-Arlington, TX","23104",1987,101.32
+4657,"MSA","Fort Worth-Arlington, TX","23104",1988,95.39
+4658,"MSA","Fort Worth-Arlington, TX","23104",1989,93.65
+4659,"MSA","Fort Worth-Arlington, TX","23104",1990,94.09
+4660,"MSA","Fort Worth-Arlington, TX","23104",1991,94.72
+4661,"MSA","Fort Worth-Arlington, TX","23104",1992,96.32
+4662,"MSA","Fort Worth-Arlington, TX","23104",1993,98.33
+4663,"MSA","Fort Worth-Arlington, TX","23104",1994,99.79
+4664,"MSA","Fort Worth-Arlington, TX","23104",1995,101.84
+4665,"MSA","Fort Worth-Arlington, TX","23104",1996,104.84
+4666,"MSA","Fort Worth-Arlington, TX","23104",1997,107.46
+4667,"MSA","Fort Worth-Arlington, TX","23104",1998,112.2
+4668,"MSA","Fort Worth-Arlington, TX","23104",1999,117.33
+4669,"MSA","Fort Worth-Arlington, TX","23104",2000,123.67
+4670,"MSA","Fort Worth-Arlington, TX","23104",2001,131.11
+4671,"MSA","Fort Worth-Arlington, TX","23104",2002,135.94
+4672,"MSA","Fort Worth-Arlington, TX","23104",2003,140.44
+4673,"MSA","Fort Worth-Arlington, TX","23104",2004,143.5
+4674,"MSA","Fort Worth-Arlington, TX","23104",2005,148.1
+4675,"MSA","Fort Worth-Arlington, TX","23104",2006,153.18
+4676,"MSA","Fort Worth-Arlington, TX","23104",2007,157.82
+4677,"MSA","Fort Worth-Arlington, TX","23104",2008,159
+4678,"MSA","Fort Worth-Arlington, TX","23104",2009,159.94
+4679,"MSA","Fort Worth-Arlington, TX","23104",2010,157.3
+4680,"MSA","Fort Worth-Arlington, TX","23104",2011,154.32
+4681,"MSA","Fort Worth-Arlington, TX","23104",2012,155.53
+4682,"MSA","Fort Worth-Arlington, TX","23104",2013,161.53
+4683,"MSA","Fort Worth-Arlington, TX","23104",2014,172.19
+4684,"MSA","Fort Worth-Arlington, TX","23104",2015,185.69
+4685,"MSA","Fort Worth-Arlington, TX","23104",2016,202.97
+4686,"MSA","Fort Worth-Arlington, TX","23104",2017,225.6
 4687,"MSA","Fresno, CA","23420",1977,46.55
 4688,"MSA","Fresno, CA","23420",1978,55.33
 4689,"MSA","Fresno, CA","23420",1979,64.4
@@ -4816,46 +4816,46 @@ id,"level","place_name","place_id",yr,index_nsa
 4815,"MSA","Gainesville, GA","23580",2015,169.17
 4816,"MSA","Gainesville, GA","23580",2016,179.15
 4817,"MSA","Gainesville, GA","23580",2017,194.58
-4818,"MSA","Gary, IN (MSAD)","23844",1978,51.59
-4819,"MSA","Gary, IN (MSAD)","23844",1979,57.39
-4820,"MSA","Gary, IN (MSAD)","23844",1980,59.31
-4821,"MSA","Gary, IN (MSAD)","23844",1981,62.18
-4822,"MSA","Gary, IN (MSAD)","23844",1982,59.85
-4823,"MSA","Gary, IN (MSAD)","23844",1983,59.76
-4824,"MSA","Gary, IN (MSAD)","23844",1984,58.18
-4825,"MSA","Gary, IN (MSAD)","23844",1985,59.06
-4826,"MSA","Gary, IN (MSAD)","23844",1986,60.65
-4827,"MSA","Gary, IN (MSAD)","23844",1987,62.27
-4828,"MSA","Gary, IN (MSAD)","23844",1988,66.48
-4829,"MSA","Gary, IN (MSAD)","23844",1989,72.7
-4830,"MSA","Gary, IN (MSAD)","23844",1990,78.68
-4831,"MSA","Gary, IN (MSAD)","23844",1991,84.18
-4832,"MSA","Gary, IN (MSAD)","23844",1992,89.08
-4833,"MSA","Gary, IN (MSAD)","23844",1993,94.19
-4834,"MSA","Gary, IN (MSAD)","23844",1994,99.05
-4835,"MSA","Gary, IN (MSAD)","23844",1995,102.96
-4836,"MSA","Gary, IN (MSAD)","23844",1996,107.22
-4837,"MSA","Gary, IN (MSAD)","23844",1997,110.08
-4838,"MSA","Gary, IN (MSAD)","23844",1998,114.08
-4839,"MSA","Gary, IN (MSAD)","23844",1999,116.29
-4840,"MSA","Gary, IN (MSAD)","23844",2000,118.76
-4841,"MSA","Gary, IN (MSAD)","23844",2001,124.58
-4842,"MSA","Gary, IN (MSAD)","23844",2002,128.53
-4843,"MSA","Gary, IN (MSAD)","23844",2003,132.74
-4844,"MSA","Gary, IN (MSAD)","23844",2004,137.93
-4845,"MSA","Gary, IN (MSAD)","23844",2005,145.99
-4846,"MSA","Gary, IN (MSAD)","23844",2006,152.72
-4847,"MSA","Gary, IN (MSAD)","23844",2007,157.42
-4848,"MSA","Gary, IN (MSAD)","23844",2008,155.99
-4849,"MSA","Gary, IN (MSAD)","23844",2009,151.14
-4850,"MSA","Gary, IN (MSAD)","23844",2010,147.65
-4851,"MSA","Gary, IN (MSAD)","23844",2011,143.72
-4852,"MSA","Gary, IN (MSAD)","23844",2012,143.24
-4853,"MSA","Gary, IN (MSAD)","23844",2013,145.27
-4854,"MSA","Gary, IN (MSAD)","23844",2014,148.21
-4855,"MSA","Gary, IN (MSAD)","23844",2015,153.05
-4856,"MSA","Gary, IN (MSAD)","23844",2016,156.88
-4857,"MSA","Gary, IN (MSAD)","23844",2017,163.05
+4818,"MSA","Gary, IN","23844",1978,51.59
+4819,"MSA","Gary, IN","23844",1979,57.39
+4820,"MSA","Gary, IN","23844",1980,59.31
+4821,"MSA","Gary, IN","23844",1981,62.18
+4822,"MSA","Gary, IN","23844",1982,59.85
+4823,"MSA","Gary, IN","23844",1983,59.76
+4824,"MSA","Gary, IN","23844",1984,58.18
+4825,"MSA","Gary, IN","23844",1985,59.06
+4826,"MSA","Gary, IN","23844",1986,60.65
+4827,"MSA","Gary, IN","23844",1987,62.27
+4828,"MSA","Gary, IN","23844",1988,66.48
+4829,"MSA","Gary, IN","23844",1989,72.7
+4830,"MSA","Gary, IN","23844",1990,78.68
+4831,"MSA","Gary, IN","23844",1991,84.18
+4832,"MSA","Gary, IN","23844",1992,89.08
+4833,"MSA","Gary, IN","23844",1993,94.19
+4834,"MSA","Gary, IN","23844",1994,99.05
+4835,"MSA","Gary, IN","23844",1995,102.96
+4836,"MSA","Gary, IN","23844",1996,107.22
+4837,"MSA","Gary, IN","23844",1997,110.08
+4838,"MSA","Gary, IN","23844",1998,114.08
+4839,"MSA","Gary, IN","23844",1999,116.29
+4840,"MSA","Gary, IN","23844",2000,118.76
+4841,"MSA","Gary, IN","23844",2001,124.58
+4842,"MSA","Gary, IN","23844",2002,128.53
+4843,"MSA","Gary, IN","23844",2003,132.74
+4844,"MSA","Gary, IN","23844",2004,137.93
+4845,"MSA","Gary, IN","23844",2005,145.99
+4846,"MSA","Gary, IN","23844",2006,152.72
+4847,"MSA","Gary, IN","23844",2007,157.42
+4848,"MSA","Gary, IN","23844",2008,155.99
+4849,"MSA","Gary, IN","23844",2009,151.14
+4850,"MSA","Gary, IN","23844",2010,147.65
+4851,"MSA","Gary, IN","23844",2011,143.72
+4852,"MSA","Gary, IN","23844",2012,143.24
+4853,"MSA","Gary, IN","23844",2013,145.27
+4854,"MSA","Gary, IN","23844",2014,148.21
+4855,"MSA","Gary, IN","23844",2015,153.05
+4856,"MSA","Gary, IN","23844",2016,156.88
+4857,"MSA","Gary, IN","23844",2017,163.05
 4858,"MSA","Gettysburg, PA","23900",1990,91.92
 4859,"MSA","Gettysburg, PA","23900",1991,94.71
 4860,"MSA","Gettysburg, PA","23900",1992,97.74
@@ -6832,46 +6832,46 @@ id,"level","place_name","place_id",yr,index_nsa
 6831,"MSA","Lake Charles, LA","29340",2015,200.14
 6832,"MSA","Lake Charles, LA","29340",2016,211.78
 6833,"MSA","Lake Charles, LA","29340",2017,220.01
-6834,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1978,44.48
-6835,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1979,45.48
-6836,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1980,43.93
-6837,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1981,48.28
-6838,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1982,47.59
-6839,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1983,49.76
-6840,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1984,51.91
-6841,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1985,55.7
-6842,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1986,60.21
-6843,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1987,67.32
-6844,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1988,74.55
-6845,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1989,80.69
-6846,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1990,85.22
-6847,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1991,88.98
-6848,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1992,92.13
-6849,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1993,95.08
-6850,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1994,98.49
-6851,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1995,101.79
-6852,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1996,104.87
-6853,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1997,107.84
-6854,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1998,111.13
-6855,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",1999,115.25
-6856,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2000,123.21
-6857,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2001,130.89
-6858,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2002,139.48
-6859,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2003,146.8
-6860,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2004,158.55
-6861,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2005,171.16
-6862,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2006,179.07
-6863,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2007,180.08
-6864,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2008,172.27
-6865,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2009,157.86
-6866,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2010,146.45
-6867,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2011,137.08
-6868,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2012,132.22
-6869,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2013,133.71
-6870,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2014,140.1
-6871,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2015,144.9
-6872,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2016,149.33
-6873,"MSA","Lake County-Kenosha County, IL-WI (MSAD)","29404",2017,155.64
+6834,"MSA","Lake County-Kenosha County, IL-WI","29404",1978,44.48
+6835,"MSA","Lake County-Kenosha County, IL-WI","29404",1979,45.48
+6836,"MSA","Lake County-Kenosha County, IL-WI","29404",1980,43.93
+6837,"MSA","Lake County-Kenosha County, IL-WI","29404",1981,48.28
+6838,"MSA","Lake County-Kenosha County, IL-WI","29404",1982,47.59
+6839,"MSA","Lake County-Kenosha County, IL-WI","29404",1983,49.76
+6840,"MSA","Lake County-Kenosha County, IL-WI","29404",1984,51.91
+6841,"MSA","Lake County-Kenosha County, IL-WI","29404",1985,55.7
+6842,"MSA","Lake County-Kenosha County, IL-WI","29404",1986,60.21
+6843,"MSA","Lake County-Kenosha County, IL-WI","29404",1987,67.32
+6844,"MSA","Lake County-Kenosha County, IL-WI","29404",1988,74.55
+6845,"MSA","Lake County-Kenosha County, IL-WI","29404",1989,80.69
+6846,"MSA","Lake County-Kenosha County, IL-WI","29404",1990,85.22
+6847,"MSA","Lake County-Kenosha County, IL-WI","29404",1991,88.98
+6848,"MSA","Lake County-Kenosha County, IL-WI","29404",1992,92.13
+6849,"MSA","Lake County-Kenosha County, IL-WI","29404",1993,95.08
+6850,"MSA","Lake County-Kenosha County, IL-WI","29404",1994,98.49
+6851,"MSA","Lake County-Kenosha County, IL-WI","29404",1995,101.79
+6852,"MSA","Lake County-Kenosha County, IL-WI","29404",1996,104.87
+6853,"MSA","Lake County-Kenosha County, IL-WI","29404",1997,107.84
+6854,"MSA","Lake County-Kenosha County, IL-WI","29404",1998,111.13
+6855,"MSA","Lake County-Kenosha County, IL-WI","29404",1999,115.25
+6856,"MSA","Lake County-Kenosha County, IL-WI","29404",2000,123.21
+6857,"MSA","Lake County-Kenosha County, IL-WI","29404",2001,130.89
+6858,"MSA","Lake County-Kenosha County, IL-WI","29404",2002,139.48
+6859,"MSA","Lake County-Kenosha County, IL-WI","29404",2003,146.8
+6860,"MSA","Lake County-Kenosha County, IL-WI","29404",2004,158.55
+6861,"MSA","Lake County-Kenosha County, IL-WI","29404",2005,171.16
+6862,"MSA","Lake County-Kenosha County, IL-WI","29404",2006,179.07
+6863,"MSA","Lake County-Kenosha County, IL-WI","29404",2007,180.08
+6864,"MSA","Lake County-Kenosha County, IL-WI","29404",2008,172.27
+6865,"MSA","Lake County-Kenosha County, IL-WI","29404",2009,157.86
+6866,"MSA","Lake County-Kenosha County, IL-WI","29404",2010,146.45
+6867,"MSA","Lake County-Kenosha County, IL-WI","29404",2011,137.08
+6868,"MSA","Lake County-Kenosha County, IL-WI","29404",2012,132.22
+6869,"MSA","Lake County-Kenosha County, IL-WI","29404",2013,133.71
+6870,"MSA","Lake County-Kenosha County, IL-WI","29404",2014,140.1
+6871,"MSA","Lake County-Kenosha County, IL-WI","29404",2015,144.9
+6872,"MSA","Lake County-Kenosha County, IL-WI","29404",2016,149.33
+6873,"MSA","Lake County-Kenosha County, IL-WI","29404",2017,155.64
 6874,"MSA","Lake Havasu City-Kingman, AZ","29420",1986,78.34
 6875,"MSA","Lake Havasu City-Kingman, AZ","29420",1987,78.52
 6876,"MSA","Lake Havasu City-Kingman, AZ","29420",1988,78.3
@@ -7523,49 +7523,49 @@ id,"level","place_name","place_id",yr,index_nsa
 7522,"MSA","Longview, WA","31020",2015,174.5
 7523,"MSA","Longview, WA","31020",2016,188.8
 7524,"MSA","Longview, WA","31020",2017,210.54
-7525,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1975,21.47
-7526,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1976,25.92
-7527,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1977,31.88
-7528,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1978,38.31
-7529,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1979,45.69
-7530,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1980,53.26
-7531,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1981,57.85
-7532,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1982,58.95
-7533,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1983,60.59
-7534,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1984,62.53
-7535,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1985,65.93
-7536,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1986,70.65
-7537,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1987,80.1
-7538,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1988,96.31
-7539,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1989,118.79
-7540,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1990,126.59
-7541,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1991,124.19
-7542,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1992,121.9
-7543,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1993,114.31
-7544,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1994,105.16
-7545,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1995,101.68
-7546,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1996,100.82
-7547,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1997,102.47
-7548,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1998,112.06
-7549,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",1999,120.24
-7550,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2000,129.78
-7551,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2001,142.35
-7552,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2002,161.03
-7553,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2003,184.53
-7554,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2004,232.53
-7555,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2005,288.9
-7556,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2006,334.76
-7557,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2007,329.58
-7558,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2008,268.87
-7559,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2009,233.84
-7560,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2010,230.73
-7561,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2011,221.19
-7562,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2012,220.29
-7563,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2013,245.04
-7564,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2014,273.99
-7565,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2015,292.37
-7566,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2016,312.83
-7567,"MSA","Los Angeles-Long Beach-Glendale, CA (MSAD)","31084",2017,339.32
+7525,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1975,21.47
+7526,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1976,25.92
+7527,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1977,31.88
+7528,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1978,38.31
+7529,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1979,45.69
+7530,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1980,53.26
+7531,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1981,57.85
+7532,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1982,58.95
+7533,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1983,60.59
+7534,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1984,62.53
+7535,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1985,65.93
+7536,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1986,70.65
+7537,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1987,80.1
+7538,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1988,96.31
+7539,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1989,118.79
+7540,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1990,126.59
+7541,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1991,124.19
+7542,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1992,121.9
+7543,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1993,114.31
+7544,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1994,105.16
+7545,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1995,101.68
+7546,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1996,100.82
+7547,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1997,102.47
+7548,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1998,112.06
+7549,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",1999,120.24
+7550,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2000,129.78
+7551,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2001,142.35
+7552,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2002,161.03
+7553,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2003,184.53
+7554,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2004,232.53
+7555,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2005,288.9
+7556,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2006,334.76
+7557,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2007,329.58
+7558,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2008,268.87
+7559,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2009,233.84
+7560,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2010,230.73
+7561,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2011,221.19
+7562,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2012,220.29
+7563,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2013,245.04
+7564,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2014,273.99
+7565,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2015,292.37
+7566,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2016,312.83
+7567,"MSA","Los Angeles-Long Beach-Glendale, CA","31084",2017,339.32
 7568,"MSA","Louisville/Jefferson County, KY-IN","31140",1976,37.26
 7569,"MSA","Louisville/Jefferson County, KY-IN","31140",1977,40.74
 7570,"MSA","Louisville/Jefferson County, KY-IN","31140",1978,46.07
@@ -8075,48 +8075,48 @@ id,"level","place_name","place_id",yr,index_nsa
 8074,"MSA","Merced, CA","32900",2015,179.6
 8075,"MSA","Merced, CA","32900",2016,193.42
 8076,"MSA","Merced, CA","32900",2017,212.5
-8077,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1976,36.32
-8078,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1977,39.63
-8079,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1978,42.71
-8080,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1979,51.8
-8081,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1980,61.08
-8082,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1981,64
-8083,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1982,69.5
-8084,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1983,68.86
-8085,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1984,68.2
-8086,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1985,67.67
-8087,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1986,70.25
-8088,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1987,72.24
-8089,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1988,76.95
-8090,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1989,80.66
-8091,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1990,83.26
-8092,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1991,85.42
-8093,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1992,88.49
-8094,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1993,93.95
-8095,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1994,98.51
-8096,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1995,102.61
-8097,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1996,106.39
-8098,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1997,108.48
-8099,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1998,114.09
-8100,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",1999,116.88
-8101,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2000,124.44
-8102,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2001,138.53
-8103,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2002,157.74
-8104,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2003,179.66
-8105,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2004,213.88
-8106,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2005,267.96
-8107,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2006,325
-8108,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2007,338.7
-8109,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2008,274.84
-8110,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2009,209.81
-8111,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2010,195.13
-8112,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2011,182.67
-8113,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2012,185.5
-8114,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2013,207.34
-8115,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2014,232.65
-8116,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2015,255.62
-8117,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2016,281.04
-8118,"MSA","Miami-Miami Beach-Kendall, FL (MSAD)","33124",2017,305.08
+8077,"MSA","Miami-Miami Beach-Kendall, FL","33124",1976,36.32
+8078,"MSA","Miami-Miami Beach-Kendall, FL","33124",1977,39.63
+8079,"MSA","Miami-Miami Beach-Kendall, FL","33124",1978,42.71
+8080,"MSA","Miami-Miami Beach-Kendall, FL","33124",1979,51.8
+8081,"MSA","Miami-Miami Beach-Kendall, FL","33124",1980,61.08
+8082,"MSA","Miami-Miami Beach-Kendall, FL","33124",1981,64
+8083,"MSA","Miami-Miami Beach-Kendall, FL","33124",1982,69.5
+8084,"MSA","Miami-Miami Beach-Kendall, FL","33124",1983,68.86
+8085,"MSA","Miami-Miami Beach-Kendall, FL","33124",1984,68.2
+8086,"MSA","Miami-Miami Beach-Kendall, FL","33124",1985,67.67
+8087,"MSA","Miami-Miami Beach-Kendall, FL","33124",1986,70.25
+8088,"MSA","Miami-Miami Beach-Kendall, FL","33124",1987,72.24
+8089,"MSA","Miami-Miami Beach-Kendall, FL","33124",1988,76.95
+8090,"MSA","Miami-Miami Beach-Kendall, FL","33124",1989,80.66
+8091,"MSA","Miami-Miami Beach-Kendall, FL","33124",1990,83.26
+8092,"MSA","Miami-Miami Beach-Kendall, FL","33124",1991,85.42
+8093,"MSA","Miami-Miami Beach-Kendall, FL","33124",1992,88.49
+8094,"MSA","Miami-Miami Beach-Kendall, FL","33124",1993,93.95
+8095,"MSA","Miami-Miami Beach-Kendall, FL","33124",1994,98.51
+8096,"MSA","Miami-Miami Beach-Kendall, FL","33124",1995,102.61
+8097,"MSA","Miami-Miami Beach-Kendall, FL","33124",1996,106.39
+8098,"MSA","Miami-Miami Beach-Kendall, FL","33124",1997,108.48
+8099,"MSA","Miami-Miami Beach-Kendall, FL","33124",1998,114.09
+8100,"MSA","Miami-Miami Beach-Kendall, FL","33124",1999,116.88
+8101,"MSA","Miami-Miami Beach-Kendall, FL","33124",2000,124.44
+8102,"MSA","Miami-Miami Beach-Kendall, FL","33124",2001,138.53
+8103,"MSA","Miami-Miami Beach-Kendall, FL","33124",2002,157.74
+8104,"MSA","Miami-Miami Beach-Kendall, FL","33124",2003,179.66
+8105,"MSA","Miami-Miami Beach-Kendall, FL","33124",2004,213.88
+8106,"MSA","Miami-Miami Beach-Kendall, FL","33124",2005,267.96
+8107,"MSA","Miami-Miami Beach-Kendall, FL","33124",2006,325
+8108,"MSA","Miami-Miami Beach-Kendall, FL","33124",2007,338.7
+8109,"MSA","Miami-Miami Beach-Kendall, FL","33124",2008,274.84
+8110,"MSA","Miami-Miami Beach-Kendall, FL","33124",2009,209.81
+8111,"MSA","Miami-Miami Beach-Kendall, FL","33124",2010,195.13
+8112,"MSA","Miami-Miami Beach-Kendall, FL","33124",2011,182.67
+8113,"MSA","Miami-Miami Beach-Kendall, FL","33124",2012,185.5
+8114,"MSA","Miami-Miami Beach-Kendall, FL","33124",2013,207.34
+8115,"MSA","Miami-Miami Beach-Kendall, FL","33124",2014,232.65
+8116,"MSA","Miami-Miami Beach-Kendall, FL","33124",2015,255.62
+8117,"MSA","Miami-Miami Beach-Kendall, FL","33124",2016,281.04
+8118,"MSA","Miami-Miami Beach-Kendall, FL","33124",2017,305.08
 8119,"MSA","Michigan City-La Porte, IN","33140",1986,58.81
 8120,"MSA","Michigan City-La Porte, IN","33140",1987,61.28
 8121,"MSA","Michigan City-La Porte, IN","33140",1988,64.74
@@ -8479,48 +8479,48 @@ id,"level","place_name","place_id",yr,index_nsa
 8478,"MSA","Monroe, MI","33780",2015,145.61
 8479,"MSA","Monroe, MI","33780",2016,152.03
 8480,"MSA","Monroe, MI","33780",2017,160.47
-8481,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1976,33.1
-8482,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1977,33.23
-8483,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1978,36.06
-8484,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1979,39.67
-8485,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1980,44.28
-8486,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1981,47.1
-8487,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1982,47.74
-8488,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1983,50.67
-8489,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1984,54.75
-8490,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1985,59.45
-8491,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1986,66.7
-8492,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1987,80.29
-8493,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1988,93.8
-8494,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1989,99.52
-8495,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1990,100.49
-8496,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1991,100.69
-8497,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1992,101.87
-8498,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1993,102.35
-8499,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1994,101.31
-8500,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1995,101.59
-8501,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1996,102.75
-8502,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1997,103.82
-8503,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1998,107.08
-8504,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",1999,111.33
-8505,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2000,117.88
-8506,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2001,126.37
-8507,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2002,138.2
-8508,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2003,150.66
-8509,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2004,171.38
-8510,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2005,193.61
-8511,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2006,207.27
-8512,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2007,210.37
-8513,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2008,205.27
-8514,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2009,197.88
-8515,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2010,192.76
-8516,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2011,187.76
-8517,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2012,185.4
-8518,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2013,187.57
-8519,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2014,191.14
-8520,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2015,196.52
-8521,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2016,201.81
-8522,"MSA","Montgomery County-Bucks County-Chester County, PA (MSAD)","33874",2017,209
+8481,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1976,33.1
+8482,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1977,33.23
+8483,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1978,36.06
+8484,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1979,39.67
+8485,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1980,44.28
+8486,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1981,47.1
+8487,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1982,47.74
+8488,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1983,50.67
+8489,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1984,54.75
+8490,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1985,59.45
+8491,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1986,66.7
+8492,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1987,80.29
+8493,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1988,93.8
+8494,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1989,99.52
+8495,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1990,100.49
+8496,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1991,100.69
+8497,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1992,101.87
+8498,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1993,102.35
+8499,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1994,101.31
+8500,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1995,101.59
+8501,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1996,102.75
+8502,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1997,103.82
+8503,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1998,107.08
+8504,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",1999,111.33
+8505,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2000,117.88
+8506,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2001,126.37
+8507,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2002,138.2
+8508,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2003,150.66
+8509,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2004,171.38
+8510,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2005,193.61
+8511,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2006,207.27
+8512,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2007,210.37
+8513,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2008,205.27
+8514,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2009,197.88
+8515,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2010,192.76
+8516,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2011,187.76
+8517,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2012,185.4
+8518,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2013,187.57
+8519,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2014,191.14
+8520,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2015,196.52
+8521,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2016,201.81
+8522,"MSA","Montgomery County-Bucks County-Chester County, PA","33874",2017,209
 8523,"MSA","Montgomery, AL","33860",1986,83.88
 8524,"MSA","Montgomery, AL","33860",1987,85.55
 8525,"MSA","Montgomery, AL","33860",1988,86.75
@@ -8840,49 +8840,49 @@ id,"level","place_name","place_id",yr,index_nsa
 8839,"MSA","Nashville-Davidson--Murfreesboro--Franklin, TN","34980",2015,206
 8840,"MSA","Nashville-Davidson--Murfreesboro--Franklin, TN","34980",2016,225.77
 8841,"MSA","Nashville-Davidson--Murfreesboro--Franklin, TN","34980",2017,249.38
-8842,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1975,25.93
-8843,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1976,25.02
-8844,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1977,25.66
-8845,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1978,26.21
-8846,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1979,27.98
-8847,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1980,31.22
-8848,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1981,35.72
-8849,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1982,40.77
-8850,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1983,47.31
-8851,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1984,58.55
-8852,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1985,71.83
-8853,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1986,86.1
-8854,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1987,101.35
-8855,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1988,109.58
-8856,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1989,109
-8857,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1990,104.2
-8858,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1991,100.29
-8859,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1992,101.77
-8860,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1993,102.62
-8861,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1994,102.3
-8862,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1995,101.82
-8863,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1996,104.55
-8864,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1997,107.02
-8865,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1998,113.93
-8866,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",1999,125.67
-8867,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2000,143.7
-8868,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2001,160.76
-8869,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2002,183.69
-8870,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2003,207.76
-8871,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2004,240
-8872,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2005,275.67
-8873,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2006,294.81
-8874,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2007,291.17
-8875,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2008,273.92
-8876,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2009,257.04
-8877,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2010,247.51
-8878,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2011,240.63
-8879,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2012,236.02
-8880,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2013,237.09
-8881,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2014,243.73
-8882,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2015,253.63
-8883,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2016,263.96
-8884,"MSA","Nassau County-Suffolk County, NY (MSAD)","35004",2017,278.42
+8842,"MSA","Nassau County-Suffolk County, NY","35004",1975,25.93
+8843,"MSA","Nassau County-Suffolk County, NY","35004",1976,25.02
+8844,"MSA","Nassau County-Suffolk County, NY","35004",1977,25.66
+8845,"MSA","Nassau County-Suffolk County, NY","35004",1978,26.21
+8846,"MSA","Nassau County-Suffolk County, NY","35004",1979,27.98
+8847,"MSA","Nassau County-Suffolk County, NY","35004",1980,31.22
+8848,"MSA","Nassau County-Suffolk County, NY","35004",1981,35.72
+8849,"MSA","Nassau County-Suffolk County, NY","35004",1982,40.77
+8850,"MSA","Nassau County-Suffolk County, NY","35004",1983,47.31
+8851,"MSA","Nassau County-Suffolk County, NY","35004",1984,58.55
+8852,"MSA","Nassau County-Suffolk County, NY","35004",1985,71.83
+8853,"MSA","Nassau County-Suffolk County, NY","35004",1986,86.1
+8854,"MSA","Nassau County-Suffolk County, NY","35004",1987,101.35
+8855,"MSA","Nassau County-Suffolk County, NY","35004",1988,109.58
+8856,"MSA","Nassau County-Suffolk County, NY","35004",1989,109
+8857,"MSA","Nassau County-Suffolk County, NY","35004",1990,104.2
+8858,"MSA","Nassau County-Suffolk County, NY","35004",1991,100.29
+8859,"MSA","Nassau County-Suffolk County, NY","35004",1992,101.77
+8860,"MSA","Nassau County-Suffolk County, NY","35004",1993,102.62
+8861,"MSA","Nassau County-Suffolk County, NY","35004",1994,102.3
+8862,"MSA","Nassau County-Suffolk County, NY","35004",1995,101.82
+8863,"MSA","Nassau County-Suffolk County, NY","35004",1996,104.55
+8864,"MSA","Nassau County-Suffolk County, NY","35004",1997,107.02
+8865,"MSA","Nassau County-Suffolk County, NY","35004",1998,113.93
+8866,"MSA","Nassau County-Suffolk County, NY","35004",1999,125.67
+8867,"MSA","Nassau County-Suffolk County, NY","35004",2000,143.7
+8868,"MSA","Nassau County-Suffolk County, NY","35004",2001,160.76
+8869,"MSA","Nassau County-Suffolk County, NY","35004",2002,183.69
+8870,"MSA","Nassau County-Suffolk County, NY","35004",2003,207.76
+8871,"MSA","Nassau County-Suffolk County, NY","35004",2004,240
+8872,"MSA","Nassau County-Suffolk County, NY","35004",2005,275.67
+8873,"MSA","Nassau County-Suffolk County, NY","35004",2006,294.81
+8874,"MSA","Nassau County-Suffolk County, NY","35004",2007,291.17
+8875,"MSA","Nassau County-Suffolk County, NY","35004",2008,273.92
+8876,"MSA","Nassau County-Suffolk County, NY","35004",2009,257.04
+8877,"MSA","Nassau County-Suffolk County, NY","35004",2010,247.51
+8878,"MSA","Nassau County-Suffolk County, NY","35004",2011,240.63
+8879,"MSA","Nassau County-Suffolk County, NY","35004",2012,236.02
+8880,"MSA","Nassau County-Suffolk County, NY","35004",2013,237.09
+8881,"MSA","Nassau County-Suffolk County, NY","35004",2014,243.73
+8882,"MSA","Nassau County-Suffolk County, NY","35004",2015,253.63
+8883,"MSA","Nassau County-Suffolk County, NY","35004",2016,263.96
+8884,"MSA","Nassau County-Suffolk County, NY","35004",2017,278.42
 8885,"MSA","New Bern, NC","35100",1988,80.78
 8886,"MSA","New Bern, NC","35100",1989,82.9
 8887,"MSA","New Bern, NC","35100",1990,86.75
@@ -8995,91 +8995,91 @@ id,"level","place_name","place_id",yr,index_nsa
 8994,"MSA","New Orleans-Metairie, LA","35380",2015,210.24
 8995,"MSA","New Orleans-Metairie, LA","35380",2016,222.32
 8996,"MSA","New Orleans-Metairie, LA","35380",2017,229.44
-8997,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1975,25.47
-8998,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1976,25.8
-8999,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1977,27.43
-9000,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1978,30.02
-9001,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1979,35.47
-9002,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1980,39.97
-9003,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1981,42.39
-9004,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1982,44.22
-9005,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1983,48.59
-9006,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1984,55.91
-9007,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1985,66.05
-9008,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1986,82.18
-9009,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1987,101.51
-9010,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1988,110.23
-9011,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1989,109.45
-9012,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1990,104.81
-9013,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1991,100.58
-9014,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1992,101.21
-9015,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1993,102.21
-9016,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1994,101.48
-9017,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1995,101.81
-9018,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1996,104.15
-9019,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1997,106.16
-9020,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1998,111.56
-9021,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",1999,119.2
-9022,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2000,132.22
-9023,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2001,146.68
-9024,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2002,165.56
-9025,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2003,183.97
-9026,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2004,212.52
-9027,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2005,246.26
-9028,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2006,267
-9029,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2007,266.47
-9030,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2008,253.1
-9031,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2009,236.6
-9032,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2010,228.15
-9033,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2011,221.03
-9034,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2012,216.4
-9035,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2013,218.67
-9036,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2014,225.54
-9037,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2015,234.42
-9038,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2016,243.71
-9039,"MSA","New York-Jersey City-White Plains, NY-NJ (MSAD)","35614",2017,256.38
-9040,"MSA","Newark, NJ-PA (MSAD)","35084",1976,25.35
-9041,"MSA","Newark, NJ-PA (MSAD)","35084",1977,27.31
-9042,"MSA","Newark, NJ-PA (MSAD)","35084",1978,31.03
-9043,"MSA","Newark, NJ-PA (MSAD)","35084",1979,37.45
-9044,"MSA","Newark, NJ-PA (MSAD)","35084",1980,41.63
-9045,"MSA","Newark, NJ-PA (MSAD)","35084",1981,44.17
-9046,"MSA","Newark, NJ-PA (MSAD)","35084",1982,45.87
-9047,"MSA","Newark, NJ-PA (MSAD)","35084",1983,49.39
-9048,"MSA","Newark, NJ-PA (MSAD)","35084",1984,57.01
-9049,"MSA","Newark, NJ-PA (MSAD)","35084",1985,66.7
-9050,"MSA","Newark, NJ-PA (MSAD)","35084",1986,81.65
-9051,"MSA","Newark, NJ-PA (MSAD)","35084",1987,100.47
-9052,"MSA","Newark, NJ-PA (MSAD)","35084",1988,107.55
-9053,"MSA","Newark, NJ-PA (MSAD)","35084",1989,105.74
-9054,"MSA","Newark, NJ-PA (MSAD)","35084",1990,100.69
-9055,"MSA","Newark, NJ-PA (MSAD)","35084",1991,96.73
-9056,"MSA","Newark, NJ-PA (MSAD)","35084",1992,98.72
-9057,"MSA","Newark, NJ-PA (MSAD)","35084",1993,100.82
-9058,"MSA","Newark, NJ-PA (MSAD)","35084",1994,101.78
-9059,"MSA","Newark, NJ-PA (MSAD)","35084",1995,101.7
-9060,"MSA","Newark, NJ-PA (MSAD)","35084",1996,103.15
-9061,"MSA","Newark, NJ-PA (MSAD)","35084",1997,104.99
-9062,"MSA","Newark, NJ-PA (MSAD)","35084",1998,110.04
-9063,"MSA","Newark, NJ-PA (MSAD)","35084",1999,116.92
-9064,"MSA","Newark, NJ-PA (MSAD)","35084",2000,128.83
-9065,"MSA","Newark, NJ-PA (MSAD)","35084",2001,140.99
-9066,"MSA","Newark, NJ-PA (MSAD)","35084",2002,157.18
-9067,"MSA","Newark, NJ-PA (MSAD)","35084",2003,172.05
-9068,"MSA","Newark, NJ-PA (MSAD)","35084",2004,195.52
-9069,"MSA","Newark, NJ-PA (MSAD)","35084",2005,224.8
-9070,"MSA","Newark, NJ-PA (MSAD)","35084",2006,241.9
-9071,"MSA","Newark, NJ-PA (MSAD)","35084",2007,241.43
-9072,"MSA","Newark, NJ-PA (MSAD)","35084",2008,228.33
-9073,"MSA","Newark, NJ-PA (MSAD)","35084",2009,213.17
-9074,"MSA","Newark, NJ-PA (MSAD)","35084",2010,206.88
-9075,"MSA","Newark, NJ-PA (MSAD)","35084",2011,200.34
-9076,"MSA","Newark, NJ-PA (MSAD)","35084",2012,196.11
-9077,"MSA","Newark, NJ-PA (MSAD)","35084",2013,197.13
-9078,"MSA","Newark, NJ-PA (MSAD)","35084",2014,203.19
-9079,"MSA","Newark, NJ-PA (MSAD)","35084",2015,208.57
-9080,"MSA","Newark, NJ-PA (MSAD)","35084",2016,214.47
-9081,"MSA","Newark, NJ-PA (MSAD)","35084",2017,220.48
+8997,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1975,25.47
+8998,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1976,25.8
+8999,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1977,27.43
+9000,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1978,30.02
+9001,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1979,35.47
+9002,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1980,39.97
+9003,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1981,42.39
+9004,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1982,44.22
+9005,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1983,48.59
+9006,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1984,55.91
+9007,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1985,66.05
+9008,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1986,82.18
+9009,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1987,101.51
+9010,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1988,110.23
+9011,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1989,109.45
+9012,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1990,104.81
+9013,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1991,100.58
+9014,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1992,101.21
+9015,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1993,102.21
+9016,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1994,101.48
+9017,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1995,101.81
+9018,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1996,104.15
+9019,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1997,106.16
+9020,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1998,111.56
+9021,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",1999,119.2
+9022,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2000,132.22
+9023,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2001,146.68
+9024,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2002,165.56
+9025,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2003,183.97
+9026,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2004,212.52
+9027,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2005,246.26
+9028,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2006,267
+9029,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2007,266.47
+9030,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2008,253.1
+9031,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2009,236.6
+9032,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2010,228.15
+9033,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2011,221.03
+9034,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2012,216.4
+9035,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2013,218.67
+9036,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2014,225.54
+9037,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2015,234.42
+9038,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2016,243.71
+9039,"MSA","New York-Jersey City-White Plains, NY-NJ","35614",2017,256.38
+9040,"MSA","Newark, NJ-PA","35084",1976,25.35
+9041,"MSA","Newark, NJ-PA","35084",1977,27.31
+9042,"MSA","Newark, NJ-PA","35084",1978,31.03
+9043,"MSA","Newark, NJ-PA","35084",1979,37.45
+9044,"MSA","Newark, NJ-PA","35084",1980,41.63
+9045,"MSA","Newark, NJ-PA","35084",1981,44.17
+9046,"MSA","Newark, NJ-PA","35084",1982,45.87
+9047,"MSA","Newark, NJ-PA","35084",1983,49.39
+9048,"MSA","Newark, NJ-PA","35084",1984,57.01
+9049,"MSA","Newark, NJ-PA","35084",1985,66.7
+9050,"MSA","Newark, NJ-PA","35084",1986,81.65
+9051,"MSA","Newark, NJ-PA","35084",1987,100.47
+9052,"MSA","Newark, NJ-PA","35084",1988,107.55
+9053,"MSA","Newark, NJ-PA","35084",1989,105.74
+9054,"MSA","Newark, NJ-PA","35084",1990,100.69
+9055,"MSA","Newark, NJ-PA","35084",1991,96.73
+9056,"MSA","Newark, NJ-PA","35084",1992,98.72
+9057,"MSA","Newark, NJ-PA","35084",1993,100.82
+9058,"MSA","Newark, NJ-PA","35084",1994,101.78
+9059,"MSA","Newark, NJ-PA","35084",1995,101.7
+9060,"MSA","Newark, NJ-PA","35084",1996,103.15
+9061,"MSA","Newark, NJ-PA","35084",1997,104.99
+9062,"MSA","Newark, NJ-PA","35084",1998,110.04
+9063,"MSA","Newark, NJ-PA","35084",1999,116.92
+9064,"MSA","Newark, NJ-PA","35084",2000,128.83
+9065,"MSA","Newark, NJ-PA","35084",2001,140.99
+9066,"MSA","Newark, NJ-PA","35084",2002,157.18
+9067,"MSA","Newark, NJ-PA","35084",2003,172.05
+9068,"MSA","Newark, NJ-PA","35084",2004,195.52
+9069,"MSA","Newark, NJ-PA","35084",2005,224.8
+9070,"MSA","Newark, NJ-PA","35084",2006,241.9
+9071,"MSA","Newark, NJ-PA","35084",2007,241.43
+9072,"MSA","Newark, NJ-PA","35084",2008,228.33
+9073,"MSA","Newark, NJ-PA","35084",2009,213.17
+9074,"MSA","Newark, NJ-PA","35084",2010,206.88
+9075,"MSA","Newark, NJ-PA","35084",2011,200.34
+9076,"MSA","Newark, NJ-PA","35084",2012,196.11
+9077,"MSA","Newark, NJ-PA","35084",2013,197.13
+9078,"MSA","Newark, NJ-PA","35084",2014,203.19
+9079,"MSA","Newark, NJ-PA","35084",2015,208.57
+9080,"MSA","Newark, NJ-PA","35084",2016,214.47
+9081,"MSA","Newark, NJ-PA","35084",2017,220.48
 9082,"MSA","Niles-Benton Harbor, MI","35660",1982,38.65
 9083,"MSA","Niles-Benton Harbor, MI","35660",1984,53.75
 9084,"MSA","Niles-Benton Harbor, MI","35660",1985,53.9
@@ -9188,49 +9188,49 @@ id,"level","place_name","place_id",yr,index_nsa
 9187,"MSA","Norwich-New London, CT","35980",2015,176.94
 9188,"MSA","Norwich-New London, CT","35980",2016,179.11
 9189,"MSA","Norwich-New London, CT","35980",2017,185.74
-9190,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1975,20.93
-9191,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1976,24.37
-9192,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1977,30.19
-9193,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1978,35.02
-9194,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1979,41.2
-9195,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1980,49.73
-9196,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1981,54.56
-9197,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1982,54.85
-9198,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1983,56.25
-9199,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1984,58.22
-9200,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1985,62.1
-9201,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1986,66.67
-9202,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1987,73.06
-9203,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1988,82.86
-9204,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1989,101
-9205,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1990,109.85
-9206,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1991,107.9
-9207,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1992,107.43
-9208,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1993,105.36
-9209,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1994,102.02
-9210,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1995,100.9
-9211,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1996,100.82
-9212,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1997,105.06
-9213,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1998,115.31
-9214,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",1999,128.43
-9215,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2000,155.77
-9216,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2001,180.48
-9217,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2002,194.79
-9218,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2003,210.13
-9219,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2004,242.77
-9220,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2005,298.6
-9221,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2006,319.81
-9222,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2007,297.71
-9223,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2008,243.12
-9224,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2009,212.53
-9225,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2010,208.58
-9226,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2011,197.99
-9227,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2012,199.03
-9228,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2013,231.52
-9229,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2014,265.22
-9230,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2015,292.09
-9231,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2016,319.45
-9232,"MSA","Oakland-Hayward-Berkeley, CA (MSAD)","36084",2017,348.38
+9190,"MSA","Oakland-Hayward-Berkeley, CA","36084",1975,20.93
+9191,"MSA","Oakland-Hayward-Berkeley, CA","36084",1976,24.37
+9192,"MSA","Oakland-Hayward-Berkeley, CA","36084",1977,30.19
+9193,"MSA","Oakland-Hayward-Berkeley, CA","36084",1978,35.02
+9194,"MSA","Oakland-Hayward-Berkeley, CA","36084",1979,41.2
+9195,"MSA","Oakland-Hayward-Berkeley, CA","36084",1980,49.73
+9196,"MSA","Oakland-Hayward-Berkeley, CA","36084",1981,54.56
+9197,"MSA","Oakland-Hayward-Berkeley, CA","36084",1982,54.85
+9198,"MSA","Oakland-Hayward-Berkeley, CA","36084",1983,56.25
+9199,"MSA","Oakland-Hayward-Berkeley, CA","36084",1984,58.22
+9200,"MSA","Oakland-Hayward-Berkeley, CA","36084",1985,62.1
+9201,"MSA","Oakland-Hayward-Berkeley, CA","36084",1986,66.67
+9202,"MSA","Oakland-Hayward-Berkeley, CA","36084",1987,73.06
+9203,"MSA","Oakland-Hayward-Berkeley, CA","36084",1988,82.86
+9204,"MSA","Oakland-Hayward-Berkeley, CA","36084",1989,101
+9205,"MSA","Oakland-Hayward-Berkeley, CA","36084",1990,109.85
+9206,"MSA","Oakland-Hayward-Berkeley, CA","36084",1991,107.9
+9207,"MSA","Oakland-Hayward-Berkeley, CA","36084",1992,107.43
+9208,"MSA","Oakland-Hayward-Berkeley, CA","36084",1993,105.36
+9209,"MSA","Oakland-Hayward-Berkeley, CA","36084",1994,102.02
+9210,"MSA","Oakland-Hayward-Berkeley, CA","36084",1995,100.9
+9211,"MSA","Oakland-Hayward-Berkeley, CA","36084",1996,100.82
+9212,"MSA","Oakland-Hayward-Berkeley, CA","36084",1997,105.06
+9213,"MSA","Oakland-Hayward-Berkeley, CA","36084",1998,115.31
+9214,"MSA","Oakland-Hayward-Berkeley, CA","36084",1999,128.43
+9215,"MSA","Oakland-Hayward-Berkeley, CA","36084",2000,155.77
+9216,"MSA","Oakland-Hayward-Berkeley, CA","36084",2001,180.48
+9217,"MSA","Oakland-Hayward-Berkeley, CA","36084",2002,194.79
+9218,"MSA","Oakland-Hayward-Berkeley, CA","36084",2003,210.13
+9219,"MSA","Oakland-Hayward-Berkeley, CA","36084",2004,242.77
+9220,"MSA","Oakland-Hayward-Berkeley, CA","36084",2005,298.6
+9221,"MSA","Oakland-Hayward-Berkeley, CA","36084",2006,319.81
+9222,"MSA","Oakland-Hayward-Berkeley, CA","36084",2007,297.71
+9223,"MSA","Oakland-Hayward-Berkeley, CA","36084",2008,243.12
+9224,"MSA","Oakland-Hayward-Berkeley, CA","36084",2009,212.53
+9225,"MSA","Oakland-Hayward-Berkeley, CA","36084",2010,208.58
+9226,"MSA","Oakland-Hayward-Berkeley, CA","36084",2011,197.99
+9227,"MSA","Oakland-Hayward-Berkeley, CA","36084",2012,199.03
+9228,"MSA","Oakland-Hayward-Berkeley, CA","36084",2013,231.52
+9229,"MSA","Oakland-Hayward-Berkeley, CA","36084",2014,265.22
+9230,"MSA","Oakland-Hayward-Berkeley, CA","36084",2015,292.09
+9231,"MSA","Oakland-Hayward-Berkeley, CA","36084",2016,319.45
+9232,"MSA","Oakland-Hayward-Berkeley, CA","36084",2017,348.38
 9233,"MSA","Ocala, FL","36100",1986,94.26
 9234,"MSA","Ocala, FL","36100",1987,94.2
 9235,"MSA","Ocala, FL","36100",1988,96.58
@@ -9807,48 +9807,48 @@ id,"level","place_name","place_id",yr,index_nsa
 9806,"MSA","Peoria, IL","37900",2015,167.89
 9807,"MSA","Peoria, IL","37900",2016,170.37
 9808,"MSA","Peoria, IL","37900",2017,168.13
-9809,"MSA","Philadelphia, PA (MSAD)","37964",1976,36.16
-9810,"MSA","Philadelphia, PA (MSAD)","37964",1977,37.65
-9811,"MSA","Philadelphia, PA (MSAD)","37964",1978,39.24
-9812,"MSA","Philadelphia, PA (MSAD)","37964",1979,42.49
-9813,"MSA","Philadelphia, PA (MSAD)","37964",1980,46.04
-9814,"MSA","Philadelphia, PA (MSAD)","37964",1981,48.77
-9815,"MSA","Philadelphia, PA (MSAD)","37964",1982,49.56
-9816,"MSA","Philadelphia, PA (MSAD)","37964",1983,54.22
-9817,"MSA","Philadelphia, PA (MSAD)","37964",1984,57.65
-9818,"MSA","Philadelphia, PA (MSAD)","37964",1985,62.43
-9819,"MSA","Philadelphia, PA (MSAD)","37964",1986,69.71
-9820,"MSA","Philadelphia, PA (MSAD)","37964",1987,81.2
-9821,"MSA","Philadelphia, PA (MSAD)","37964",1988,93.28
-9822,"MSA","Philadelphia, PA (MSAD)","37964",1989,99.05
-9823,"MSA","Philadelphia, PA (MSAD)","37964",1990,102.01
-9824,"MSA","Philadelphia, PA (MSAD)","37964",1991,102.9
-9825,"MSA","Philadelphia, PA (MSAD)","37964",1992,104.61
-9826,"MSA","Philadelphia, PA (MSAD)","37964",1993,105.52
-9827,"MSA","Philadelphia, PA (MSAD)","37964",1994,103.17
-9828,"MSA","Philadelphia, PA (MSAD)","37964",1995,102.51
-9829,"MSA","Philadelphia, PA (MSAD)","37964",1996,103.58
-9830,"MSA","Philadelphia, PA (MSAD)","37964",1997,104.09
-9831,"MSA","Philadelphia, PA (MSAD)","37964",1998,107.68
-9832,"MSA","Philadelphia, PA (MSAD)","37964",1999,110.52
-9833,"MSA","Philadelphia, PA (MSAD)","37964",2000,115.02
-9834,"MSA","Philadelphia, PA (MSAD)","37964",2001,125.69
-9835,"MSA","Philadelphia, PA (MSAD)","37964",2002,138.51
-9836,"MSA","Philadelphia, PA (MSAD)","37964",2003,152.57
-9837,"MSA","Philadelphia, PA (MSAD)","37964",2004,176.06
-9838,"MSA","Philadelphia, PA (MSAD)","37964",2005,205.24
-9839,"MSA","Philadelphia, PA (MSAD)","37964",2006,224.84
-9840,"MSA","Philadelphia, PA (MSAD)","37964",2007,232.47
-9841,"MSA","Philadelphia, PA (MSAD)","37964",2008,230.61
-9842,"MSA","Philadelphia, PA (MSAD)","37964",2009,224.04
-9843,"MSA","Philadelphia, PA (MSAD)","37964",2010,219.61
-9844,"MSA","Philadelphia, PA (MSAD)","37964",2011,212.51
-9845,"MSA","Philadelphia, PA (MSAD)","37964",2012,210.51
-9846,"MSA","Philadelphia, PA (MSAD)","37964",2013,212.51
-9847,"MSA","Philadelphia, PA (MSAD)","37964",2014,217.4
-9848,"MSA","Philadelphia, PA (MSAD)","37964",2015,224.2
-9849,"MSA","Philadelphia, PA (MSAD)","37964",2016,234.06
-9850,"MSA","Philadelphia, PA (MSAD)","37964",2017,249.45
+9809,"MSA","Philadelphia, PA","37964",1976,36.16
+9810,"MSA","Philadelphia, PA","37964",1977,37.65
+9811,"MSA","Philadelphia, PA","37964",1978,39.24
+9812,"MSA","Philadelphia, PA","37964",1979,42.49
+9813,"MSA","Philadelphia, PA","37964",1980,46.04
+9814,"MSA","Philadelphia, PA","37964",1981,48.77
+9815,"MSA","Philadelphia, PA","37964",1982,49.56
+9816,"MSA","Philadelphia, PA","37964",1983,54.22
+9817,"MSA","Philadelphia, PA","37964",1984,57.65
+9818,"MSA","Philadelphia, PA","37964",1985,62.43
+9819,"MSA","Philadelphia, PA","37964",1986,69.71
+9820,"MSA","Philadelphia, PA","37964",1987,81.2
+9821,"MSA","Philadelphia, PA","37964",1988,93.28
+9822,"MSA","Philadelphia, PA","37964",1989,99.05
+9823,"MSA","Philadelphia, PA","37964",1990,102.01
+9824,"MSA","Philadelphia, PA","37964",1991,102.9
+9825,"MSA","Philadelphia, PA","37964",1992,104.61
+9826,"MSA","Philadelphia, PA","37964",1993,105.52
+9827,"MSA","Philadelphia, PA","37964",1994,103.17
+9828,"MSA","Philadelphia, PA","37964",1995,102.51
+9829,"MSA","Philadelphia, PA","37964",1996,103.58
+9830,"MSA","Philadelphia, PA","37964",1997,104.09
+9831,"MSA","Philadelphia, PA","37964",1998,107.68
+9832,"MSA","Philadelphia, PA","37964",1999,110.52
+9833,"MSA","Philadelphia, PA","37964",2000,115.02
+9834,"MSA","Philadelphia, PA","37964",2001,125.69
+9835,"MSA","Philadelphia, PA","37964",2002,138.51
+9836,"MSA","Philadelphia, PA","37964",2003,152.57
+9837,"MSA","Philadelphia, PA","37964",2004,176.06
+9838,"MSA","Philadelphia, PA","37964",2005,205.24
+9839,"MSA","Philadelphia, PA","37964",2006,224.84
+9840,"MSA","Philadelphia, PA","37964",2007,232.47
+9841,"MSA","Philadelphia, PA","37964",2008,230.61
+9842,"MSA","Philadelphia, PA","37964",2009,224.04
+9843,"MSA","Philadelphia, PA","37964",2010,219.61
+9844,"MSA","Philadelphia, PA","37964",2011,212.51
+9845,"MSA","Philadelphia, PA","37964",2012,210.51
+9846,"MSA","Philadelphia, PA","37964",2013,212.51
+9847,"MSA","Philadelphia, PA","37964",2014,217.4
+9848,"MSA","Philadelphia, PA","37964",2015,224.2
+9849,"MSA","Philadelphia, PA","37964",2016,234.06
+9850,"MSA","Philadelphia, PA","37964",2017,249.45
 9851,"MSA","Phoenix-Mesa-Scottsdale, AZ","38060",1977,44.25
 9852,"MSA","Phoenix-Mesa-Scottsdale, AZ","38060",1978,51.49
 9853,"MSA","Phoenix-Mesa-Scottsdale, AZ","38060",1979,62.42
@@ -10770,41 +10770,41 @@ id,"level","place_name","place_id",yr,index_nsa
 10769,"MSA","Rockford, IL","40420",2015,119.46
 10770,"MSA","Rockford, IL","40420",2016,122.76
 10771,"MSA","Rockford, IL","40420",2017,127.05
-10772,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1983,61.69
-10773,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1984,68.75
-10774,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1985,82.91
-10775,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1986,102.7
-10776,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1987,119.18
-10777,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1988,121.83
-10778,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1989,122.68
-10779,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1990,114.68
-10780,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1991,105.43
-10781,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1992,101.99
-10782,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1993,102.06
-10783,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1994,101.23
-10784,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1995,102.47
-10785,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1996,106.76
-10786,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1997,111.08
-10787,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1998,119.02
-10788,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",1999,130.35
-10789,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2000,149.95
-10790,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2001,168.52
-10791,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2002,188.07
-10792,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2003,204.88
-10793,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2004,226.04
-10794,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2005,248.32
-10795,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2006,253.23
-10796,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2007,248.09
-10797,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2008,235.31
-10798,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2009,219.94
-10799,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2010,212.54
-10800,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2011,206.12
-10801,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2012,204.84
-10802,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2013,208.26
-10803,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2014,217.46
-10804,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2015,227.76
-10805,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2016,237.87
-10806,"MSA","Rockingham County-Strafford County, NH (MSAD)","40484",2017,252.64
+10772,"MSA","Rockingham County-Strafford County, NH","40484",1983,61.69
+10773,"MSA","Rockingham County-Strafford County, NH","40484",1984,68.75
+10774,"MSA","Rockingham County-Strafford County, NH","40484",1985,82.91
+10775,"MSA","Rockingham County-Strafford County, NH","40484",1986,102.7
+10776,"MSA","Rockingham County-Strafford County, NH","40484",1987,119.18
+10777,"MSA","Rockingham County-Strafford County, NH","40484",1988,121.83
+10778,"MSA","Rockingham County-Strafford County, NH","40484",1989,122.68
+10779,"MSA","Rockingham County-Strafford County, NH","40484",1990,114.68
+10780,"MSA","Rockingham County-Strafford County, NH","40484",1991,105.43
+10781,"MSA","Rockingham County-Strafford County, NH","40484",1992,101.99
+10782,"MSA","Rockingham County-Strafford County, NH","40484",1993,102.06
+10783,"MSA","Rockingham County-Strafford County, NH","40484",1994,101.23
+10784,"MSA","Rockingham County-Strafford County, NH","40484",1995,102.47
+10785,"MSA","Rockingham County-Strafford County, NH","40484",1996,106.76
+10786,"MSA","Rockingham County-Strafford County, NH","40484",1997,111.08
+10787,"MSA","Rockingham County-Strafford County, NH","40484",1998,119.02
+10788,"MSA","Rockingham County-Strafford County, NH","40484",1999,130.35
+10789,"MSA","Rockingham County-Strafford County, NH","40484",2000,149.95
+10790,"MSA","Rockingham County-Strafford County, NH","40484",2001,168.52
+10791,"MSA","Rockingham County-Strafford County, NH","40484",2002,188.07
+10792,"MSA","Rockingham County-Strafford County, NH","40484",2003,204.88
+10793,"MSA","Rockingham County-Strafford County, NH","40484",2004,226.04
+10794,"MSA","Rockingham County-Strafford County, NH","40484",2005,248.32
+10795,"MSA","Rockingham County-Strafford County, NH","40484",2006,253.23
+10796,"MSA","Rockingham County-Strafford County, NH","40484",2007,248.09
+10797,"MSA","Rockingham County-Strafford County, NH","40484",2008,235.31
+10798,"MSA","Rockingham County-Strafford County, NH","40484",2009,219.94
+10799,"MSA","Rockingham County-Strafford County, NH","40484",2010,212.54
+10800,"MSA","Rockingham County-Strafford County, NH","40484",2011,206.12
+10801,"MSA","Rockingham County-Strafford County, NH","40484",2012,204.84
+10802,"MSA","Rockingham County-Strafford County, NH","40484",2013,208.26
+10803,"MSA","Rockingham County-Strafford County, NH","40484",2014,217.46
+10804,"MSA","Rockingham County-Strafford County, NH","40484",2015,227.76
+10805,"MSA","Rockingham County-Strafford County, NH","40484",2016,237.87
+10806,"MSA","Rockingham County-Strafford County, NH","40484",2017,252.64
 10807,"MSA","Rocky Mount, NC","40580",1985,81.05
 10808,"MSA","Rocky Mount, NC","40580",1986,83.25
 10809,"MSA","Rocky Mount, NC","40580",1987,84.92
@@ -11218,49 +11218,49 @@ id,"level","place_name","place_id",yr,index_nsa
 11217,"MSA","San Diego-Carlsbad, CA","41740",2015,280.25
 11218,"MSA","San Diego-Carlsbad, CA","41740",2016,299.18
 11219,"MSA","San Diego-Carlsbad, CA","41740",2017,323.8
-11220,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1975,18.83
-11221,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1976,21.73
-11222,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1977,27
-11223,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1978,30.39
-11224,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1979,36.89
-11225,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1980,44.47
-11226,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1981,46.14
-11227,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1982,46.03
-11228,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1983,49.49
-11229,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1984,51.71
-11230,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1985,56.01
-11231,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1986,62.28
-11232,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1987,72.92
-11233,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1988,89.93
-11234,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1989,108.83
-11235,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1990,112.48
-11236,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1991,107.1
-11237,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1992,105.21
-11238,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1993,102.14
-11239,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1994,100.22
-11240,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1995,100.44
-11241,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1996,101.71
-11242,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1997,109.7
-11243,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1998,123.12
-11244,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",1999,140.06
-11245,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2000,172.95
-11246,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2001,193.28
-11247,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2002,201.95
-11248,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2003,212.5
-11249,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2004,240.23
-11250,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2005,286.28
-11251,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2006,307.65
-11252,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2007,304.32
-11253,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2008,276.89
-11254,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2009,252.81
-11255,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2010,248.16
-11256,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2011,239.75
-11257,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2012,245.76
-11258,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2013,281.97
-11259,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2014,322.44
-11260,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2015,362.75
-11261,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2016,396.41
-11262,"MSA","San Francisco-Redwood City-South San Francisco, CA (MSAD)","41884",2017,424.01
+11220,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1975,18.83
+11221,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1976,21.73
+11222,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1977,27
+11223,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1978,30.39
+11224,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1979,36.89
+11225,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1980,44.47
+11226,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1981,46.14
+11227,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1982,46.03
+11228,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1983,49.49
+11229,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1984,51.71
+11230,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1985,56.01
+11231,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1986,62.28
+11232,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1987,72.92
+11233,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1988,89.93
+11234,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1989,108.83
+11235,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1990,112.48
+11236,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1991,107.1
+11237,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1992,105.21
+11238,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1993,102.14
+11239,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1994,100.22
+11240,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1995,100.44
+11241,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1996,101.71
+11242,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1997,109.7
+11243,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1998,123.12
+11244,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",1999,140.06
+11245,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2000,172.95
+11246,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2001,193.28
+11247,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2002,201.95
+11248,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2003,212.5
+11249,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2004,240.23
+11250,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2005,286.28
+11251,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2006,307.65
+11252,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2007,304.32
+11253,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2008,276.89
+11254,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2009,252.81
+11255,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2010,248.16
+11256,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2011,239.75
+11257,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2012,245.76
+11258,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2013,281.97
+11259,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2014,322.44
+11260,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2015,362.75
+11261,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2016,396.41
+11262,"MSA","San Francisco-Redwood City-South San Francisco, CA","41884",2017,424.01
 11263,"MSA","San Jose-Sunnyvale-Santa Clara, CA","41940",1975,18.82
 11264,"MSA","San Jose-Sunnyvale-Santa Clara, CA","41940",1976,21.39
 11265,"MSA","San Jose-Sunnyvale-Santa Clara, CA","41940",1977,27.56
@@ -11344,48 +11344,48 @@ id,"level","place_name","place_id",yr,index_nsa
 11343,"MSA","San Luis Obispo-Paso Robles-Arroyo Grande, CA","42020",2015,278.96
 11344,"MSA","San Luis Obispo-Paso Robles-Arroyo Grande, CA","42020",2016,299.53
 11345,"MSA","San Luis Obispo-Paso Robles-Arroyo Grande, CA","42020",2017,318.68
-11346,"MSA","San Rafael, CA (MSAD)","42034",1976,22.57
-11347,"MSA","San Rafael, CA (MSAD)","42034",1977,26.21
-11348,"MSA","San Rafael, CA (MSAD)","42034",1978,30.82
-11349,"MSA","San Rafael, CA (MSAD)","42034",1979,40.88
-11350,"MSA","San Rafael, CA (MSAD)","42034",1980,45.87
-11351,"MSA","San Rafael, CA (MSAD)","42034",1981,50.07
-11352,"MSA","San Rafael, CA (MSAD)","42034",1982,48.87
-11353,"MSA","San Rafael, CA (MSAD)","42034",1983,49.65
-11354,"MSA","San Rafael, CA (MSAD)","42034",1984,49.74
-11355,"MSA","San Rafael, CA (MSAD)","42034",1985,52.45
-11356,"MSA","San Rafael, CA (MSAD)","42034",1986,55.61
-11357,"MSA","San Rafael, CA (MSAD)","42034",1987,62.94
-11358,"MSA","San Rafael, CA (MSAD)","42034",1988,76.14
-11359,"MSA","San Rafael, CA (MSAD)","42034",1989,94.36
-11360,"MSA","San Rafael, CA (MSAD)","42034",1990,101.44
-11361,"MSA","San Rafael, CA (MSAD)","42034",1991,101.55
-11362,"MSA","San Rafael, CA (MSAD)","42034",1992,102.36
-11363,"MSA","San Rafael, CA (MSAD)","42034",1993,101.76
-11364,"MSA","San Rafael, CA (MSAD)","42034",1994,100.95
-11365,"MSA","San Rafael, CA (MSAD)","42034",1995,102.01
-11366,"MSA","San Rafael, CA (MSAD)","42034",1996,102.97
-11367,"MSA","San Rafael, CA (MSAD)","42034",1997,108.04
-11368,"MSA","San Rafael, CA (MSAD)","42034",1998,117.17
-11369,"MSA","San Rafael, CA (MSAD)","42034",1999,132.2
-11370,"MSA","San Rafael, CA (MSAD)","42034",2000,161.22
-11371,"MSA","San Rafael, CA (MSAD)","42034",2001,178.13
-11372,"MSA","San Rafael, CA (MSAD)","42034",2002,188.14
-11373,"MSA","San Rafael, CA (MSAD)","42034",2003,198.18
-11374,"MSA","San Rafael, CA (MSAD)","42034",2004,220.04
-11375,"MSA","San Rafael, CA (MSAD)","42034",2005,258.13
-11376,"MSA","San Rafael, CA (MSAD)","42034",2006,270.38
-11377,"MSA","San Rafael, CA (MSAD)","42034",2007,266
-11378,"MSA","San Rafael, CA (MSAD)","42034",2008,247.85
-11379,"MSA","San Rafael, CA (MSAD)","42034",2009,224.78
-11380,"MSA","San Rafael, CA (MSAD)","42034",2010,215.94
-11381,"MSA","San Rafael, CA (MSAD)","42034",2011,206.73
-11382,"MSA","San Rafael, CA (MSAD)","42034",2012,210.71
-11383,"MSA","San Rafael, CA (MSAD)","42034",2013,233.41
-11384,"MSA","San Rafael, CA (MSAD)","42034",2014,259.19
-11385,"MSA","San Rafael, CA (MSAD)","42034",2015,282.79
-11386,"MSA","San Rafael, CA (MSAD)","42034",2016,302.26
-11387,"MSA","San Rafael, CA (MSAD)","42034",2017,314.41
+11346,"MSA","San Rafael, CA","42034",1976,22.57
+11347,"MSA","San Rafael, CA","42034",1977,26.21
+11348,"MSA","San Rafael, CA","42034",1978,30.82
+11349,"MSA","San Rafael, CA","42034",1979,40.88
+11350,"MSA","San Rafael, CA","42034",1980,45.87
+11351,"MSA","San Rafael, CA","42034",1981,50.07
+11352,"MSA","San Rafael, CA","42034",1982,48.87
+11353,"MSA","San Rafael, CA","42034",1983,49.65
+11354,"MSA","San Rafael, CA","42034",1984,49.74
+11355,"MSA","San Rafael, CA","42034",1985,52.45
+11356,"MSA","San Rafael, CA","42034",1986,55.61
+11357,"MSA","San Rafael, CA","42034",1987,62.94
+11358,"MSA","San Rafael, CA","42034",1988,76.14
+11359,"MSA","San Rafael, CA","42034",1989,94.36
+11360,"MSA","San Rafael, CA","42034",1990,101.44
+11361,"MSA","San Rafael, CA","42034",1991,101.55
+11362,"MSA","San Rafael, CA","42034",1992,102.36
+11363,"MSA","San Rafael, CA","42034",1993,101.76
+11364,"MSA","San Rafael, CA","42034",1994,100.95
+11365,"MSA","San Rafael, CA","42034",1995,102.01
+11366,"MSA","San Rafael, CA","42034",1996,102.97
+11367,"MSA","San Rafael, CA","42034",1997,108.04
+11368,"MSA","San Rafael, CA","42034",1998,117.17
+11369,"MSA","San Rafael, CA","42034",1999,132.2
+11370,"MSA","San Rafael, CA","42034",2000,161.22
+11371,"MSA","San Rafael, CA","42034",2001,178.13
+11372,"MSA","San Rafael, CA","42034",2002,188.14
+11373,"MSA","San Rafael, CA","42034",2003,198.18
+11374,"MSA","San Rafael, CA","42034",2004,220.04
+11375,"MSA","San Rafael, CA","42034",2005,258.13
+11376,"MSA","San Rafael, CA","42034",2006,270.38
+11377,"MSA","San Rafael, CA","42034",2007,266
+11378,"MSA","San Rafael, CA","42034",2008,247.85
+11379,"MSA","San Rafael, CA","42034",2009,224.78
+11380,"MSA","San Rafael, CA","42034",2010,215.94
+11381,"MSA","San Rafael, CA","42034",2011,206.73
+11382,"MSA","San Rafael, CA","42034",2012,210.71
+11383,"MSA","San Rafael, CA","42034",2013,233.41
+11384,"MSA","San Rafael, CA","42034",2014,259.19
+11385,"MSA","San Rafael, CA","42034",2015,282.79
+11386,"MSA","San Rafael, CA","42034",2016,302.26
+11387,"MSA","San Rafael, CA","42034",2017,314.41
 11388,"MSA","Santa Cruz-Watsonville, CA","42100",1978,31.11
 11389,"MSA","Santa Cruz-Watsonville, CA","42100",1979,36.93
 11390,"MSA","Santa Cruz-Watsonville, CA","42100",1980,42.91
@@ -11611,49 +11611,49 @@ id,"level","place_name","place_id",yr,index_nsa
 11610,"MSA","Scranton--Wilkes-Barre--Hazleton, PA","42540",2015,165.52
 11611,"MSA","Scranton--Wilkes-Barre--Hazleton, PA","42540",2016,166.8
 11612,"MSA","Scranton--Wilkes-Barre--Hazleton, PA","42540",2017,170.94
-11613,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1975,20.39
-11614,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1976,23.13
-11615,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1977,27.99
-11616,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1978,36.36
-11617,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1979,42.77
-11618,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1980,47
-11619,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1981,48.36
-11620,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1982,48.46
-11621,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1983,49.35
-11622,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1984,50.67
-11623,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1985,52.41
-11624,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1986,54.03
-11625,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1987,56.72
-11626,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1988,60.74
-11627,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1989,70.65
-11628,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1990,89.79
-11629,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1991,92.6
-11630,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1992,94.53
-11631,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1993,96.29
-11632,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1994,98.92
-11633,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1995,101.44
-11634,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1996,104.7
-11635,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1997,111.12
-11636,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1998,121.64
-11637,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",1999,132.2
-11638,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2000,143.1
-11639,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2001,152.63
-11640,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2002,159.88
-11641,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2003,166.68
-11642,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2004,181.75
-11643,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2005,209.34
-11644,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2006,243.28
-11645,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2007,262.5
-11646,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2008,252.78
-11647,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2009,227.03
-11648,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2010,211.15
-11649,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2011,197.09
-11650,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2012,196.13
-11651,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2013,212.45
-11652,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2014,232.51
-11653,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2015,254.18
-11654,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2016,285.51
-11655,"MSA","Seattle-Bellevue-Everett, WA (MSAD)","42644",2017,325.47
+11613,"MSA","Seattle-Bellevue-Everett, WA","42644",1975,20.39
+11614,"MSA","Seattle-Bellevue-Everett, WA","42644",1976,23.13
+11615,"MSA","Seattle-Bellevue-Everett, WA","42644",1977,27.99
+11616,"MSA","Seattle-Bellevue-Everett, WA","42644",1978,36.36
+11617,"MSA","Seattle-Bellevue-Everett, WA","42644",1979,42.77
+11618,"MSA","Seattle-Bellevue-Everett, WA","42644",1980,47
+11619,"MSA","Seattle-Bellevue-Everett, WA","42644",1981,48.36
+11620,"MSA","Seattle-Bellevue-Everett, WA","42644",1982,48.46
+11621,"MSA","Seattle-Bellevue-Everett, WA","42644",1983,49.35
+11622,"MSA","Seattle-Bellevue-Everett, WA","42644",1984,50.67
+11623,"MSA","Seattle-Bellevue-Everett, WA","42644",1985,52.41
+11624,"MSA","Seattle-Bellevue-Everett, WA","42644",1986,54.03
+11625,"MSA","Seattle-Bellevue-Everett, WA","42644",1987,56.72
+11626,"MSA","Seattle-Bellevue-Everett, WA","42644",1988,60.74
+11627,"MSA","Seattle-Bellevue-Everett, WA","42644",1989,70.65
+11628,"MSA","Seattle-Bellevue-Everett, WA","42644",1990,89.79
+11629,"MSA","Seattle-Bellevue-Everett, WA","42644",1991,92.6
+11630,"MSA","Seattle-Bellevue-Everett, WA","42644",1992,94.53
+11631,"MSA","Seattle-Bellevue-Everett, WA","42644",1993,96.29
+11632,"MSA","Seattle-Bellevue-Everett, WA","42644",1994,98.92
+11633,"MSA","Seattle-Bellevue-Everett, WA","42644",1995,101.44
+11634,"MSA","Seattle-Bellevue-Everett, WA","42644",1996,104.7
+11635,"MSA","Seattle-Bellevue-Everett, WA","42644",1997,111.12
+11636,"MSA","Seattle-Bellevue-Everett, WA","42644",1998,121.64
+11637,"MSA","Seattle-Bellevue-Everett, WA","42644",1999,132.2
+11638,"MSA","Seattle-Bellevue-Everett, WA","42644",2000,143.1
+11639,"MSA","Seattle-Bellevue-Everett, WA","42644",2001,152.63
+11640,"MSA","Seattle-Bellevue-Everett, WA","42644",2002,159.88
+11641,"MSA","Seattle-Bellevue-Everett, WA","42644",2003,166.68
+11642,"MSA","Seattle-Bellevue-Everett, WA","42644",2004,181.75
+11643,"MSA","Seattle-Bellevue-Everett, WA","42644",2005,209.34
+11644,"MSA","Seattle-Bellevue-Everett, WA","42644",2006,243.28
+11645,"MSA","Seattle-Bellevue-Everett, WA","42644",2007,262.5
+11646,"MSA","Seattle-Bellevue-Everett, WA","42644",2008,252.78
+11647,"MSA","Seattle-Bellevue-Everett, WA","42644",2009,227.03
+11648,"MSA","Seattle-Bellevue-Everett, WA","42644",2010,211.15
+11649,"MSA","Seattle-Bellevue-Everett, WA","42644",2011,197.09
+11650,"MSA","Seattle-Bellevue-Everett, WA","42644",2012,196.13
+11651,"MSA","Seattle-Bellevue-Everett, WA","42644",2013,212.45
+11652,"MSA","Seattle-Bellevue-Everett, WA","42644",2014,232.51
+11653,"MSA","Seattle-Bellevue-Everett, WA","42644",2015,254.18
+11654,"MSA","Seattle-Bellevue-Everett, WA","42644",2016,285.51
+11655,"MSA","Seattle-Bellevue-Everett, WA","42644",2017,325.47
 11656,"MSA","Sebastian-Vero Beach, FL","42680",1983,87.58
 11657,"MSA","Sebastian-Vero Beach, FL","42680",1984,78.37
 11658,"MSA","Sebastian-Vero Beach, FL","42680",1985,78.3
@@ -11836,48 +11836,48 @@ id,"level","place_name","place_id",yr,index_nsa
 11835,"MSA","Sierra Vista-Douglas, AZ","43420",2015,156.9
 11836,"MSA","Sierra Vista-Douglas, AZ","43420",2016,159.72
 11837,"MSA","Sierra Vista-Douglas, AZ","43420",2017,165.53
-11838,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1976,31.51
-11839,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1977,33.61
-11840,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1978,38.86
-11841,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1979,45.22
-11842,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1980,49.77
-11843,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1981,54.28
-11844,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1982,54.66
-11845,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1983,53.91
-11846,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1984,56.77
-11847,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1985,59.91
-11848,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1986,64.28
-11849,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1987,72.75
-11850,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1988,85.14
-11851,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1989,97.4
-11852,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1990,100.78
-11853,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1991,101.24
-11854,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1992,102.4
-11855,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1993,102.78
-11856,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1994,101.46
-11857,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1995,101.17
-11858,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1996,101.77
-11859,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1997,102.34
-11860,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1998,105.07
-11861,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",1999,109.58
-11862,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2000,118.39
-11863,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2001,130.76
-11864,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2002,148.42
-11865,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2003,165.28
-11866,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2004,195.83
-11867,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2005,237.95
-11868,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2006,261.42
-11869,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2007,256.18
-11870,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2008,233.08
-11871,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2009,214.41
-11872,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2010,210.99
-11873,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2011,207.29
-11874,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2012,207.42
-11875,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2013,215.06
-11876,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2014,222.05
-11877,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2015,226.6
-11878,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2016,233.64
-11879,"MSA","Silver Spring-Frederick-Rockville, MD (MSAD)","43524",2017,241.26
+11838,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1976,31.51
+11839,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1977,33.61
+11840,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1978,38.86
+11841,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1979,45.22
+11842,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1980,49.77
+11843,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1981,54.28
+11844,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1982,54.66
+11845,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1983,53.91
+11846,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1984,56.77
+11847,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1985,59.91
+11848,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1986,64.28
+11849,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1987,72.75
+11850,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1988,85.14
+11851,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1989,97.4
+11852,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1990,100.78
+11853,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1991,101.24
+11854,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1992,102.4
+11855,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1993,102.78
+11856,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1994,101.46
+11857,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1995,101.17
+11858,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1996,101.77
+11859,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1997,102.34
+11860,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1998,105.07
+11861,"MSA","Silver Spring-Frederick-Rockville, MD","43524",1999,109.58
+11862,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2000,118.39
+11863,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2001,130.76
+11864,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2002,148.42
+11865,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2003,165.28
+11866,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2004,195.83
+11867,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2005,237.95
+11868,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2006,261.42
+11869,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2007,256.18
+11870,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2008,233.08
+11871,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2009,214.41
+11872,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2010,210.99
+11873,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2011,207.29
+11874,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2012,207.42
+11875,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2013,215.06
+11876,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2014,222.05
+11877,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2015,226.6
+11878,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2016,233.64
+11879,"MSA","Silver Spring-Frederick-Rockville, MD","43524",2017,241.26
 11880,"MSA","Sioux City, IA-NE-SD","43580",1988,67.92
 11881,"MSA","Sioux City, IA-NE-SD","43580",1989,69.89
 11882,"MSA","Sioux City, IA-NE-SD","43580",1990,74.6
@@ -12497,47 +12497,47 @@ id,"level","place_name","place_id",yr,index_nsa
 12496,"MSA","Syracuse, NY","45060",2015,160.17
 12497,"MSA","Syracuse, NY","45060",2016,163.91
 12498,"MSA","Syracuse, NY","45060",2017,169
-12499,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1977,33.27
-12500,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1978,37.84
-12501,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1979,43.83
-12502,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1980,48.51
-12503,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1981,50.8
-12504,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1982,51.4
-12505,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1983,54.53
-12506,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1984,56.5
-12507,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1985,56.8
-12508,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1986,58.35
-12509,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1987,58.75
-12510,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1988,60.82
-12511,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1989,66.51
-12512,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1990,77.95
-12513,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1991,86.49
-12514,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1992,92.34
-12515,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1993,96.75
-12516,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1994,98.96
-12517,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1995,102.42
-12518,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1996,104.73
-12519,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1997,107.81
-12520,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1998,114.18
-12521,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",1999,119.16
-12522,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2000,125.27
-12523,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2001,134.23
-12524,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2002,141.13
-12525,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2003,149.01
-12526,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2004,165.71
-12527,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2005,195.06
-12528,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2006,227.11
-12529,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2007,242.33
-12530,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2008,232.39
-12531,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2009,208.88
-12532,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2010,191.19
-12533,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2011,175.35
-12534,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2012,167.28
-12535,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2013,172.14
-12536,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2014,184.19
-12537,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2015,199.74
-12538,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2016,221.05
-12539,"MSA","Tacoma-Lakewood, WA (MSAD)","45104",2017,250.1
+12499,"MSA","Tacoma-Lakewood, WA","45104",1977,33.27
+12500,"MSA","Tacoma-Lakewood, WA","45104",1978,37.84
+12501,"MSA","Tacoma-Lakewood, WA","45104",1979,43.83
+12502,"MSA","Tacoma-Lakewood, WA","45104",1980,48.51
+12503,"MSA","Tacoma-Lakewood, WA","45104",1981,50.8
+12504,"MSA","Tacoma-Lakewood, WA","45104",1982,51.4
+12505,"MSA","Tacoma-Lakewood, WA","45104",1983,54.53
+12506,"MSA","Tacoma-Lakewood, WA","45104",1984,56.5
+12507,"MSA","Tacoma-Lakewood, WA","45104",1985,56.8
+12508,"MSA","Tacoma-Lakewood, WA","45104",1986,58.35
+12509,"MSA","Tacoma-Lakewood, WA","45104",1987,58.75
+12510,"MSA","Tacoma-Lakewood, WA","45104",1988,60.82
+12511,"MSA","Tacoma-Lakewood, WA","45104",1989,66.51
+12512,"MSA","Tacoma-Lakewood, WA","45104",1990,77.95
+12513,"MSA","Tacoma-Lakewood, WA","45104",1991,86.49
+12514,"MSA","Tacoma-Lakewood, WA","45104",1992,92.34
+12515,"MSA","Tacoma-Lakewood, WA","45104",1993,96.75
+12516,"MSA","Tacoma-Lakewood, WA","45104",1994,98.96
+12517,"MSA","Tacoma-Lakewood, WA","45104",1995,102.42
+12518,"MSA","Tacoma-Lakewood, WA","45104",1996,104.73
+12519,"MSA","Tacoma-Lakewood, WA","45104",1997,107.81
+12520,"MSA","Tacoma-Lakewood, WA","45104",1998,114.18
+12521,"MSA","Tacoma-Lakewood, WA","45104",1999,119.16
+12522,"MSA","Tacoma-Lakewood, WA","45104",2000,125.27
+12523,"MSA","Tacoma-Lakewood, WA","45104",2001,134.23
+12524,"MSA","Tacoma-Lakewood, WA","45104",2002,141.13
+12525,"MSA","Tacoma-Lakewood, WA","45104",2003,149.01
+12526,"MSA","Tacoma-Lakewood, WA","45104",2004,165.71
+12527,"MSA","Tacoma-Lakewood, WA","45104",2005,195.06
+12528,"MSA","Tacoma-Lakewood, WA","45104",2006,227.11
+12529,"MSA","Tacoma-Lakewood, WA","45104",2007,242.33
+12530,"MSA","Tacoma-Lakewood, WA","45104",2008,232.39
+12531,"MSA","Tacoma-Lakewood, WA","45104",2009,208.88
+12532,"MSA","Tacoma-Lakewood, WA","45104",2010,191.19
+12533,"MSA","Tacoma-Lakewood, WA","45104",2011,175.35
+12534,"MSA","Tacoma-Lakewood, WA","45104",2012,167.28
+12535,"MSA","Tacoma-Lakewood, WA","45104",2013,172.14
+12536,"MSA","Tacoma-Lakewood, WA","45104",2014,184.19
+12537,"MSA","Tacoma-Lakewood, WA","45104",2015,199.74
+12538,"MSA","Tacoma-Lakewood, WA","45104",2016,221.05
+12539,"MSA","Tacoma-Lakewood, WA","45104",2017,250.1
 12540,"MSA","Tallahassee, FL","45220",1980,59.57
 12541,"MSA","Tallahassee, FL","45220",1981,66.11
 12542,"MSA","Tallahassee, FL","45220",1982,71.92
@@ -13307,92 +13307,92 @@ id,"level","place_name","place_id",yr,index_nsa
 13306,"MSA","Warner Robins, GA","47580",2015,139.93
 13307,"MSA","Warner Robins, GA","47580",2016,141.03
 13308,"MSA","Warner Robins, GA","47580",2017,147.34
-13309,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1975,33.31
-13310,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1976,34.7
-13311,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1977,37.59
-13312,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1978,43.89
-13313,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1979,52.23
-13314,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1980,54.12
-13315,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1981,54.81
-13316,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1982,51.71
-13317,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1983,51.78
-13318,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1984,52.91
-13319,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1985,55.75
-13320,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1986,60.95
-13321,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1987,68.92
-13322,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1988,74.47
-13323,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1989,79.07
-13324,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1990,82.73
-13325,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1991,85.85
-13326,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1992,89
-13327,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1993,91.56
-13328,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1994,95.93
-13329,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1995,103.01
-13330,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1996,111.5
-13331,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1997,120.56
-13332,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1998,128.54
-13333,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",1999,137.2
-13334,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2000,147.43
-13335,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2001,155.92
-13336,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2002,162.37
-13337,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2003,167.24
-13338,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2004,173.28
-13339,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2005,178.42
-13340,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2006,174.34
-13341,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2007,162.93
-13342,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2008,143.7
-13343,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2009,127.73
-13344,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2010,117.14
-13345,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2011,114.53
-13346,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2012,117.52
-13347,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2013,130.83
-13348,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2014,143.79
-13349,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2015,152.14
-13350,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2016,160.98
-13351,"MSA","Warren-Troy-Farmington Hills, MI (MSAD)","47664",2017,173.9
-13352,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1975,31.2
-13353,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1976,32.46
-13354,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1977,35.11
-13355,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1978,39.75
-13356,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1979,44.62
-13357,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1980,50
-13358,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1981,52.4
-13359,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1982,53.72
-13360,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1983,56.64
-13361,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1984,59.49
-13362,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1985,63.33
-13363,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1986,68.33
-13364,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1987,77.59
-13365,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1988,90.12
-13366,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1989,99.39
-13367,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1990,101.56
-13368,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1991,101.15
-13369,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1992,102.18
-13370,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1993,102.46
-13371,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1994,101.74
-13372,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1995,101.54
-13373,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1996,102.77
-13374,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1997,103.2
-13375,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1998,106.42
-13376,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",1999,110.79
-13377,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2000,120.72
-13378,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2001,134.98
-13379,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2002,151.21
-13380,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2003,167.31
-13381,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2004,200.66
-13382,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2005,249.79
-13383,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2006,278.73
-13384,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2007,273.64
-13385,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2008,238.74
-13386,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2009,217.74
-13387,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2010,213.18
-13388,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2011,211.14
-13389,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2012,214.18
-13390,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2013,224.34
-13391,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2014,236.09
-13392,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2015,245.85
-13393,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2016,255.4
-13394,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV (MSAD)","47894",2017,267.02
+13309,"MSA","Warren-Troy-Farmington Hills, MI","47664",1975,33.31
+13310,"MSA","Warren-Troy-Farmington Hills, MI","47664",1976,34.7
+13311,"MSA","Warren-Troy-Farmington Hills, MI","47664",1977,37.59
+13312,"MSA","Warren-Troy-Farmington Hills, MI","47664",1978,43.89
+13313,"MSA","Warren-Troy-Farmington Hills, MI","47664",1979,52.23
+13314,"MSA","Warren-Troy-Farmington Hills, MI","47664",1980,54.12
+13315,"MSA","Warren-Troy-Farmington Hills, MI","47664",1981,54.81
+13316,"MSA","Warren-Troy-Farmington Hills, MI","47664",1982,51.71
+13317,"MSA","Warren-Troy-Farmington Hills, MI","47664",1983,51.78
+13318,"MSA","Warren-Troy-Farmington Hills, MI","47664",1984,52.91
+13319,"MSA","Warren-Troy-Farmington Hills, MI","47664",1985,55.75
+13320,"MSA","Warren-Troy-Farmington Hills, MI","47664",1986,60.95
+13321,"MSA","Warren-Troy-Farmington Hills, MI","47664",1987,68.92
+13322,"MSA","Warren-Troy-Farmington Hills, MI","47664",1988,74.47
+13323,"MSA","Warren-Troy-Farmington Hills, MI","47664",1989,79.07
+13324,"MSA","Warren-Troy-Farmington Hills, MI","47664",1990,82.73
+13325,"MSA","Warren-Troy-Farmington Hills, MI","47664",1991,85.85
+13326,"MSA","Warren-Troy-Farmington Hills, MI","47664",1992,89
+13327,"MSA","Warren-Troy-Farmington Hills, MI","47664",1993,91.56
+13328,"MSA","Warren-Troy-Farmington Hills, MI","47664",1994,95.93
+13329,"MSA","Warren-Troy-Farmington Hills, MI","47664",1995,103.01
+13330,"MSA","Warren-Troy-Farmington Hills, MI","47664",1996,111.5
+13331,"MSA","Warren-Troy-Farmington Hills, MI","47664",1997,120.56
+13332,"MSA","Warren-Troy-Farmington Hills, MI","47664",1998,128.54
+13333,"MSA","Warren-Troy-Farmington Hills, MI","47664",1999,137.2
+13334,"MSA","Warren-Troy-Farmington Hills, MI","47664",2000,147.43
+13335,"MSA","Warren-Troy-Farmington Hills, MI","47664",2001,155.92
+13336,"MSA","Warren-Troy-Farmington Hills, MI","47664",2002,162.37
+13337,"MSA","Warren-Troy-Farmington Hills, MI","47664",2003,167.24
+13338,"MSA","Warren-Troy-Farmington Hills, MI","47664",2004,173.28
+13339,"MSA","Warren-Troy-Farmington Hills, MI","47664",2005,178.42
+13340,"MSA","Warren-Troy-Farmington Hills, MI","47664",2006,174.34
+13341,"MSA","Warren-Troy-Farmington Hills, MI","47664",2007,162.93
+13342,"MSA","Warren-Troy-Farmington Hills, MI","47664",2008,143.7
+13343,"MSA","Warren-Troy-Farmington Hills, MI","47664",2009,127.73
+13344,"MSA","Warren-Troy-Farmington Hills, MI","47664",2010,117.14
+13345,"MSA","Warren-Troy-Farmington Hills, MI","47664",2011,114.53
+13346,"MSA","Warren-Troy-Farmington Hills, MI","47664",2012,117.52
+13347,"MSA","Warren-Troy-Farmington Hills, MI","47664",2013,130.83
+13348,"MSA","Warren-Troy-Farmington Hills, MI","47664",2014,143.79
+13349,"MSA","Warren-Troy-Farmington Hills, MI","47664",2015,152.14
+13350,"MSA","Warren-Troy-Farmington Hills, MI","47664",2016,160.98
+13351,"MSA","Warren-Troy-Farmington Hills, MI","47664",2017,173.9
+13352,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1975,31.2
+13353,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1976,32.46
+13354,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1977,35.11
+13355,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1978,39.75
+13356,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1979,44.62
+13357,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1980,50
+13358,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1981,52.4
+13359,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1982,53.72
+13360,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1983,56.64
+13361,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1984,59.49
+13362,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1985,63.33
+13363,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1986,68.33
+13364,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1987,77.59
+13365,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1988,90.12
+13366,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1989,99.39
+13367,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1990,101.56
+13368,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1991,101.15
+13369,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1992,102.18
+13370,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1993,102.46
+13371,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1994,101.74
+13372,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1995,101.54
+13373,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1996,102.77
+13374,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1997,103.2
+13375,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1998,106.42
+13376,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",1999,110.79
+13377,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2000,120.72
+13378,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2001,134.98
+13379,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2002,151.21
+13380,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2003,167.31
+13381,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2004,200.66
+13382,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2005,249.79
+13383,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2006,278.73
+13384,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2007,273.64
+13385,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2008,238.74
+13386,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2009,217.74
+13387,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2010,213.18
+13388,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2011,211.14
+13389,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2012,214.18
+13390,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2013,224.34
+13391,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2014,236.09
+13392,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2015,245.85
+13393,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2016,255.4
+13394,"MSA","Washington-Arlington-Alexandria, DC-VA-MD-WV","47894",2017,267.02
 13395,"MSA","Waterloo-Cedar Falls, IA","47940",1983,80.79
 13396,"MSA","Waterloo-Cedar Falls, IA","47940",1984,76.98
 13397,"MSA","Waterloo-Cedar Falls, IA","47940",1985,67.91
@@ -13549,47 +13549,47 @@ id,"level","place_name","place_id",yr,index_nsa
 13548,"MSA","Wenatchee, WA","48300",2015,195.89
 13549,"MSA","Wenatchee, WA","48300",2016,208.5
 13550,"MSA","Wenatchee, WA","48300",2017,228.86
-13551,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1977,45.42
-13552,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1978,51.61
-13553,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1979,59.66
-13554,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1980,68.29
-13555,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1981,74.52
-13556,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1982,76.27
-13557,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1983,79.41
-13558,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1984,79.86
-13559,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1985,80.88
-13560,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1986,83.66
-13561,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1987,87.39
-13562,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1988,92.48
-13563,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1989,97.25
-13564,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1990,98.43
-13565,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1991,98.47
-13566,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1992,99.84
-13567,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1993,100.1
-13568,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1994,100.21
-13569,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1995,102.03
-13570,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1996,104.15
-13571,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1997,106.37
-13572,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1998,111.51
-13573,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",1999,115.82
-13574,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2000,124.99
-13575,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2001,137.44
-13576,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2002,155.02
-13577,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2003,176.02
-13578,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2004,214.82
-13579,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2005,275.8
-13580,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2006,315.76
-13581,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2007,292.04
-13582,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2008,230.16
-13583,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2009,192.34
-13584,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2010,180.42
-13585,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2011,165.71
-13586,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2012,164.22
-13587,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2013,184.7
-13588,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2014,208.99
-13589,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2015,232.37
-13590,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2016,256.81
-13591,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL (MSAD)","48424",2017,280.65
+13551,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1977,45.42
+13552,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1978,51.61
+13553,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1979,59.66
+13554,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1980,68.29
+13555,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1981,74.52
+13556,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1982,76.27
+13557,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1983,79.41
+13558,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1984,79.86
+13559,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1985,80.88
+13560,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1986,83.66
+13561,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1987,87.39
+13562,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1988,92.48
+13563,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1989,97.25
+13564,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1990,98.43
+13565,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1991,98.47
+13566,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1992,99.84
+13567,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1993,100.1
+13568,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1994,100.21
+13569,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1995,102.03
+13570,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1996,104.15
+13571,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1997,106.37
+13572,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1998,111.51
+13573,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",1999,115.82
+13574,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2000,124.99
+13575,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2001,137.44
+13576,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2002,155.02
+13577,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2003,176.02
+13578,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2004,214.82
+13579,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2005,275.8
+13580,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2006,315.76
+13581,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2007,292.04
+13582,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2008,230.16
+13583,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2009,192.34
+13584,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2010,180.42
+13585,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2011,165.71
+13586,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2012,164.22
+13587,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2013,184.7
+13588,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2014,208.99
+13589,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2015,232.37
+13590,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2016,256.81
+13591,"MSA","West Palm Beach-Boca Raton-Delray Beach, FL","48424",2017,280.65
 13592,"MSA","Wheeling, WV-OH","48540",1993,92.13
 13593,"MSA","Wheeling, WV-OH","48540",1994,93.86
 13594,"MSA","Wheeling, WV-OH","48540",1995,96.38
@@ -13717,45 +13717,45 @@ id,"level","place_name","place_id",yr,index_nsa
 13716,"MSA","Williamsport, PA","48700",2015,194.32
 13717,"MSA","Williamsport, PA","48700",2016,198.44
 13718,"MSA","Williamsport, PA","48700",2017,197.82
-13719,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1979,41.7
-13720,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1980,46.44
-13721,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1981,47.05
-13722,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1982,50.85
-13723,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1983,52.96
-13724,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1984,56.62
-13725,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1985,61.43
-13726,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1986,68.48
-13727,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1987,78.37
-13728,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1988,87.06
-13729,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1989,96.04
-13730,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1990,99.1
-13731,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1991,100.75
-13732,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1992,102.12
-13733,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1993,102.58
-13734,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1994,101.07
-13735,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1995,101.26
-13736,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1996,102.8
-13737,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1997,104.07
-13738,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1998,108.14
-13739,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",1999,111.49
-13740,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2000,116.91
-13741,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2001,124.64
-13742,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2002,134.19
-13743,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2003,145.7
-13744,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2004,165.86
-13745,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2005,191.14
-13746,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2006,209.78
-13747,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2007,214.71
-13748,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2008,207.17
-13749,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2009,196.19
-13750,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2010,188.18
-13751,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2011,178.25
-13752,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2012,173.98
-13753,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2013,175.45
-13754,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2014,178.81
-13755,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2015,182.3
-13756,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2016,187.23
-13757,"MSA","Wilmington, DE-MD-NJ (MSAD)","48864",2017,189.88
+13719,"MSA","Wilmington, DE-MD-NJ","48864",1979,41.7
+13720,"MSA","Wilmington, DE-MD-NJ","48864",1980,46.44
+13721,"MSA","Wilmington, DE-MD-NJ","48864",1981,47.05
+13722,"MSA","Wilmington, DE-MD-NJ","48864",1982,50.85
+13723,"MSA","Wilmington, DE-MD-NJ","48864",1983,52.96
+13724,"MSA","Wilmington, DE-MD-NJ","48864",1984,56.62
+13725,"MSA","Wilmington, DE-MD-NJ","48864",1985,61.43
+13726,"MSA","Wilmington, DE-MD-NJ","48864",1986,68.48
+13727,"MSA","Wilmington, DE-MD-NJ","48864",1987,78.37
+13728,"MSA","Wilmington, DE-MD-NJ","48864",1988,87.06
+13729,"MSA","Wilmington, DE-MD-NJ","48864",1989,96.04
+13730,"MSA","Wilmington, DE-MD-NJ","48864",1990,99.1
+13731,"MSA","Wilmington, DE-MD-NJ","48864",1991,100.75
+13732,"MSA","Wilmington, DE-MD-NJ","48864",1992,102.12
+13733,"MSA","Wilmington, DE-MD-NJ","48864",1993,102.58
+13734,"MSA","Wilmington, DE-MD-NJ","48864",1994,101.07
+13735,"MSA","Wilmington, DE-MD-NJ","48864",1995,101.26
+13736,"MSA","Wilmington, DE-MD-NJ","48864",1996,102.8
+13737,"MSA","Wilmington, DE-MD-NJ","48864",1997,104.07
+13738,"MSA","Wilmington, DE-MD-NJ","48864",1998,108.14
+13739,"MSA","Wilmington, DE-MD-NJ","48864",1999,111.49
+13740,"MSA","Wilmington, DE-MD-NJ","48864",2000,116.91
+13741,"MSA","Wilmington, DE-MD-NJ","48864",2001,124.64
+13742,"MSA","Wilmington, DE-MD-NJ","48864",2002,134.19
+13743,"MSA","Wilmington, DE-MD-NJ","48864",2003,145.7
+13744,"MSA","Wilmington, DE-MD-NJ","48864",2004,165.86
+13745,"MSA","Wilmington, DE-MD-NJ","48864",2005,191.14
+13746,"MSA","Wilmington, DE-MD-NJ","48864",2006,209.78
+13747,"MSA","Wilmington, DE-MD-NJ","48864",2007,214.71
+13748,"MSA","Wilmington, DE-MD-NJ","48864",2008,207.17
+13749,"MSA","Wilmington, DE-MD-NJ","48864",2009,196.19
+13750,"MSA","Wilmington, DE-MD-NJ","48864",2010,188.18
+13751,"MSA","Wilmington, DE-MD-NJ","48864",2011,178.25
+13752,"MSA","Wilmington, DE-MD-NJ","48864",2012,173.98
+13753,"MSA","Wilmington, DE-MD-NJ","48864",2013,175.45
+13754,"MSA","Wilmington, DE-MD-NJ","48864",2014,178.81
+13755,"MSA","Wilmington, DE-MD-NJ","48864",2015,182.3
+13756,"MSA","Wilmington, DE-MD-NJ","48864",2016,187.23
+13757,"MSA","Wilmington, DE-MD-NJ","48864",2017,189.88
 13758,"MSA","Wilmington, NC","48900",1985,63.97
 13759,"MSA","Wilmington, NC","48900",1986,67.64
 13760,"MSA","Wilmington, NC","48900",1987,70.92
