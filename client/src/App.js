@@ -93,10 +93,10 @@ class App extends Component {
   // }
 
   render() {
-    let optionsArr = [];
-    for (let yr = 2017; yr >= 1975; yr--) {
-      optionsArr.push(<option value={yr} key={yr}>{yr}</option>);
-    }
+    // let optionsArr = [];
+    // for (let yr = 2017; yr >= 1975; yr--) {
+    //   optionsArr.push(<option value={yr} key={yr}>{yr}</option>);
+    // }
 
     return (
       <div>
@@ -106,9 +106,9 @@ class App extends Component {
             <Input 
               value={this.state.year} 
               onChange={this.handleChange} 
-              s={1} type='select' label='Year'
+              s={12} type='range' label='Year 1975 - 2017' min='1975' max='2017'
             >
-              {optionsArr}
+              {/* {optionsArr} */}
             </Input>
         </Row>
 
