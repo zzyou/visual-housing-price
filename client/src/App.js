@@ -15,7 +15,7 @@ const callApi = async (route) => {
 };
 
 class App extends Component {
-  // can I rewrite the state to { stateName: '', statePrice: 0 }?
+  // rethink this.state
   constructor(props) {
     super(props);
     this.state = {
@@ -92,20 +92,24 @@ class App extends Component {
     // for (let yr = 2017; yr >= 1975; yr--) {
     //   optionsArr.push(<option value={yr} key={yr}>{yr}</option>);
     // }
+    const rangeInput = () => (
+      <Row>
+          <Input 
+            defaultValue={this.state.year} 
+            onChange={this.handleChange} 
+            s={12} type='range' label='Year 1975 - 2017' min='1975' max='2017'>
+            {/* {optionsArr} */}
+          </Input>
+      </Row>
+    );
 
     return (
       <div>
         <TopNav />
 
-        <Row>
-            <Input 
-              defaultValue={this.state.year} 
-              onChange={this.handleChange} 
-              s={12} type='range' label='Year 1975 - 2017' min='1975' max='2017'
-            >
-              {/* {optionsArr} */}
-            </Input>
-        </Row>
+        {rangeInput()}
+
+        {/* todo: add a button to animate the Chart, change this.state.year automatically */}
 
         {/* <D3 data={this.state.stateData} /> */}
 

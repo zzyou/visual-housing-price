@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Button, Card, Col, Input, Pagination, ProgressBar, Row } from 'react-materialize';
 
+// todo: consider this later, now only put range input in App.js
+
 class ChartControl extends Component {
     render() {
         return (
