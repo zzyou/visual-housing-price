@@ -4,6 +4,8 @@ import { select } from 'd3-selection';
 import { axisBottom, axisLeft } from 'd3-axis';
 import { max } from 'd3-array';
 
+// todo: tried this method, only for reference now...
+
 class D3 extends Component {
     render() {
         const data = this.props.data;
