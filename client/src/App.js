@@ -19,11 +19,12 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      response: [],
+      stateData: [],
+      cityData: [],
       level: 'State',
       year: '2017',
       stateName: ''
-    }
+    };
     this.getData = this.getData.bind(this);
     this.handleChange = this.handleChange.bind(this);
   }
@@ -36,10 +37,8 @@ class App extends Component {
       callApi(`/states/${level}`)
         .then(res => {
           const data = JSON.parse(JSON.stringify(res));
-          const sortedData = data.sort((a, b) => (a.index_nsa - b.index_nsa));
-
           return this.setState({
-            response: sortedData
+            stateData: data
           })
         })
         .catch(err => {
@@ -59,17 +58,15 @@ class App extends Component {
   }
 
   // // will only update the state when the page is first loaded.
-  // //  won't update the state when the page is being refresed.
+  // //  won't update the state when the page is being refreshed.
   // // need to think an alternative way.
   // UNSAFE_componentWillMount() {
   //   callApi('/states/2017/CA')
   //   .then(res => {
   //     console.log(res);
   //     const data = JSON.parse(JSON.stringify(res));
-  //     const sortedStateData = data.sort((a, b) => (a.index_nsa - b.index_nsa));
-
   //     return this.setState({
-  //       response: sortedStateData
+  //       stateData: data
   //     })
   //   })
   //   .catch(err => {
@@ -81,10 +78,8 @@ class App extends Component {
   //   callApi('/states/2017')
   //   .then(res => {
   //     const data = JSON.parse(JSON.stringify(res));
-  //     const sortedStateData = data.sort((a, b) => (a.index_nsa - b.index_nsa));
-
   //     return this.setState({
-  //       response: sortedStateData
+  //       stateData: data
   //     })
   //   })
   //   .catch(err => {
@@ -104,7 +99,7 @@ class App extends Component {
 
         <Row>
             <Input 
-              value={this.state.year} 
+              defaultValue={this.state.year} 
               onChange={this.handleChange} 
               s={12} type='range' label='Year 1975 - 2017' min='1975' max='2017'
             >
@@ -112,9 +107,9 @@ class App extends Component {
             </Input>
         </Row>
 
-        {/* <D3 data={this.state.response} /> */}
+        {/* <D3 data={this.state.stateData} /> */}
 
-        <Chart data={this.state.response} year={this.state.year} />
+        <Chart data={this.state.stateData} year={this.state.year} />
 
         <BottomNav />
       </div>
