@@ -50,19 +50,20 @@ class Bars extends Component {
         const { height } = svgDimensions;
 
         const bars = (
-            data.map(datum => 
+            data.map(datum => (
                 <rect
-                    // onClick={this.props.onClick}
-                    key={datum.place_id}
-                    x={xScale(datum.place_id)}
+                    onClick={() => this.props.onClick(datum.place_id)}
+                    value={datum.place_name}
+                    key={datum.place_name}
+                    x={xScale(datum.place_name)}
                     y={yScale(datum.index_nsa)}
                     height={height - margins.bottom - scales.yScale(datum.index_nsa)}
                     width={xScale.bandwidth()}
                     fill={colorGenerator(datum.index_nsa)}
                     // fill={this.colorGenerator(datum.index_nsa)}
                     // fill={this.colorScale()(datum.index_nsa)}
-                />,
-            )
+                />
+            ))
         );
 
         return (

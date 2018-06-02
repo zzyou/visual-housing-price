@@ -60,11 +60,10 @@ const mysqlConnect = (getData) => {
 // });
 
 
-app.get('/states/:level', (req, res) => {
-    const level = req.params.level;
-    const sqlQuery = 'SELECT place_id, index_nsa, yr FROM HPIyear WHERE level = ? ORDER BY index_nsa';
+app.get('/states/alldata', (req, res) => {
+    const sqlQuery = 'SELECT level, place_name, place_id, index_nsa, yr FROM HPIyear WHERE level = ? OR level = ? ORDER BY index_nsa';
     mysqlConnect((closeConnection) => {
-        connection.query(sqlQuery, [level], function(error, result, field) {
+        connection.query(sqlQuery, ['MSA', 'State'], function(error, result, field) {
             if (error) throw error;
             const data = JSON.parse(JSON.stringify(result));
             return res.send(data);
@@ -73,20 +72,34 @@ app.get('/states/:level', (req, res) => {
     })
 });
 
-// cannot use route '/data', seems to be a reserved word?
-app.get('/states/:level/:year', (req, res) => {
-    const level = req.params.level;
-    const year = req.params.year;
-    const sqlQuery = 'SELECT place_id, index_nsa FROM HPIyear WHERE level = ? AND yr = ? ORDER BY index_nsa';
-    mysqlConnect((closeConnection) => {
-        connection.query(sqlQuery, [level, year], function(error, result, field) {
-            if (error) throw error;
-            const data = JSON.parse(JSON.stringify(result));
-            return res.send(data);
-        })
-        closeConnection();
-    })
-});
+// app.get('/states/:level', (req, res) => {
+//     const level = req.params.level;
+//     const sqlQuery = 'SELECT place_id, index_nsa, yr FROM HPIyear WHERE level = ? ORDER BY index_nsa';
+//     mysqlConnect((closeConnection) => {
+//         connection.query(sqlQuery, [level], function(error, result, field) {
+//             if (error) throw error;
+//             const data = JSON.parse(JSON.stringify(result));
+//             return res.send(data);
+//         })
+//         closeConnection();
+//     })
+// });
+
+// // cannot use route '/data', seems to be a reserved word?
+// app.get('/states/:level/:stateName', (req, res) => {
+//     const level = req.params.level;
+//     const stateName = req.params.stateName;
+//     const nameQuery = `, %${stateName}%`;
+//     const sqlQuery = 'SELECT place_name, place_id, index_nsa, yr FROM HPIyear WHERE level = ? AND place_name =? ORDER BY index_nsa';
+//     mysqlConnect((closeConnection) => {
+//         connection.query(sqlQuery, [level, nameQuery], function(error, result, field) {
+//             if (error) throw error;
+//             const data = JSON.parse(JSON.stringify(result));
+//             return res.send(data);
+//         })
+//         closeConnection();
+//     })
+// });
 
 // app.get('/states/:state/:year', (req, res) => {
 //     const stateName = req.params.state;
