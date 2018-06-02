@@ -12,6 +12,13 @@ class Chart extends Component {
         this.xScale = scaleBand();
         this.yScale = scaleLinear();
 
+        // if put rangeInput in Chart.js
+        // add another state { year }
+        // then setState to { year } according to data change.
+
+        // Or, just get min yr and max yr when manipulating the data in render().
+        // then pass the min yr and max yr to rangeInput.
+
         this.state = {
             level: 'State',
             stateName: ''
@@ -29,6 +36,10 @@ class Chart extends Component {
     }
 
     render() {
+        // if put rangeInput here, year will be this.state.year.
+        // Once this.state.level changes, this.state.year should be set to 2017 again.
+        // in order to avoid missing city data in certain year.
+
         const rawData = this.props.data;
         // d.yr is number, while this.props.year is string.
         const year = +this.props.year;

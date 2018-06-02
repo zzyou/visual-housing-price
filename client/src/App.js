@@ -99,6 +99,9 @@ class App extends Component {
     //   optionsArr.push(<option value={yr} key={yr}>{yr}</option>);
     // }
     
+    // maybe put rangeInput in Chart.js? 
+    // so I can change min and max according to the actural data range.
+    // city data in certain year is missing, now it shows blank in chart. 
     const rangeInput = () => (
       <Row>
           <Input 
