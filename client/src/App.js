@@ -18,34 +18,57 @@ class App extends Component {
   // rethink this.state
   constructor(props) {
     super(props);
+
     this.state = {
-      stateData: [],
-      cityData: [],
-      level: 'State',
+      data: [],
       year: '2017',
-      stateName: ''
+      // stateData: [],
+      // cityData: [],
+      // level: 'State',
+      // stateName: ''
     };
+
     this.getData = this.getData.bind(this);
+    // this.getStateData = this.getStateData.bind(this);
+    // this.getCityData = this.getCityData.bind(this);
     this.handleChange = this.handleChange.bind(this);
   }
 
-  getData() {
-    const level = this.state.level;
-    const stateName = this.state.stateName;
+  // getStateData() {
+  //   const level = this.state.level;
+  //   const stateName = this.state.stateName;
 
-    if (stateName === '') {
-      callApi(`/states/${level}`)
-        .then(res => {
-          const data = JSON.parse(JSON.stringify(res));
-          return this.setState({
-            stateData: data
-          })
-        })
-        .catch(err => {
-          console.log(err);
-        })
-    }
-  }
+  //   if (level === 'State' && stateName === '') {
+  //     callApi(`/states/${level}`)
+  //       .then(res => {
+  //         const data = JSON.parse(JSON.stringify(res));
+  //         return this.setState({
+  //           stateData: data
+  //         })
+  //       })
+  //       .catch(err => {
+  //         console.log(err);
+  //       })
+  //   }
+  // }
+
+  // getCityData() {
+  //   const level = this.state.level;
+  //   const stateName = this.state.stateName;
+
+  //   if (level === 'MSA' && stateName) {
+  //     callApi(`/states/${level}/${stateName}`)
+  //       .then(res => {
+  //         const data = JSON.parse(JSON.stringify(res));
+  //         return this.setState({
+  //           cityData: data
+  //         })
+  //       })
+  //       .catch(err => {
+  //         console.log(err);
+  //       })
+  //   }
+  // }
 
   handleChange(e) {
     this.setState({
@@ -53,45 +76,29 @@ class App extends Component {
     });
   }
 
+  getData() {
+    callApi('/states/alldata')
+      .then(res => {
+        const data = JSON.parse(JSON.stringify(res));
+        return this.setState({
+          data: data
+        })
+      })
+      .catch(err => {
+        console.log(err);
+      })
+  }
+
   componentDidMount() {
     this.getData();
   }
-
-  // // will only update the state when the page is first loaded.
-  // //  won't update the state when the page is being refreshed.
-  // // need to think an alternative way.
-  // UNSAFE_componentWillMount() {
-  //   callApi('/states/2017/CA')
-  //   .then(res => {
-  //     console.log(res);
-  //     const data = JSON.parse(JSON.stringify(res));
-  //     return this.setState({
-  //       stateData: data
-  //     })
-  //   })
-  //   .catch(err => {
-  //     console.log(err);
-  //   })
-  // }
-
-  // UNSAFE_componentWillMount() {
-  //   callApi('/states/2017')
-  //   .then(res => {
-  //     const data = JSON.parse(JSON.stringify(res));
-  //     return this.setState({
-  //       stateData: data
-  //     })
-  //   })
-  //   .catch(err => {
-  //     console.log(err);
-  //   })
-  // }
 
   render() {
     // let optionsArr = [];
     // for (let yr = 2017; yr >= 1975; yr--) {
     //   optionsArr.push(<option value={yr} key={yr}>{yr}</option>);
     // }
+    
     const rangeInput = () => (
       <Row>
           <Input 
@@ -113,7 +120,7 @@ class App extends Component {
 
         {/* <D3 data={this.state.stateData} /> */}
 
-        <Chart data={this.state.stateData} year={this.state.year} />
+        <Chart data={this.state.data} year={this.state.year} />
 
         <BottomNav />
       </div>

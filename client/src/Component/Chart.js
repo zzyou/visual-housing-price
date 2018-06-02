@@ -8,18 +8,45 @@ import ResponsiveWrapper from './ResponsiveWrapper';
 class Chart extends Component {
     constructor(props) {
         super(props);
+
         this.xScale = scaleBand();
         this.yScale = scaleLinear();
+
+        this.state = {
+            level: 'State',
+            stateName: ''
+        }
+
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick(placeName) {
+        const level = this.state.level;
+        this.setState({
+            level: level === 'State' ? 'MSA' : 'State',
+            stateName: placeName
+        });
     }
 
     render() {
         const rawData = this.props.data;
         // d.yr is number, while this.props.year is string.
         const year = +this.props.year;
+        const level = this.state.level;
+        const stateName = this.state.stateName;
+        let data;
+        let data2017;
 
-        const data = rawData.filter(d => d.yr === year);
-
-        const data2017 = rawData.filter(d => d.yr === 2017);
+        if (level === 'State') {
+            const stateData = rawData.filter(d => d.level === 'State');    
+            data = stateData.filter(d => d.yr === year);
+            data2017 = stateData.filter(d => d.yr === 2017);
+        }
+        else if (level === 'MSA') {
+            const cityData = rawData.filter(d => d.level === 'MSA' && d.place_name.includes(`, ${stateName}`));
+            data = cityData.filter(d => d.yr === year);
+            data2017 = cityData.filter(d => d.yr === 2017);
+        }
 
         const margins = { top: 50, right: 20, bottom: 100, left: 60 };
         const svgDimensions = { 
@@ -31,7 +58,7 @@ class Chart extends Component {
 
         const xScale = this.xScale
             .padding(0.5)
-            .domain(data2017.map(d => d.place_id))
+            .domain(data2017.map(d => d.place_name))
             .range([margins.left, svgDimensions.width - margins.right]);
         
         const yScale = this.yScale
@@ -47,7 +74,7 @@ class Chart extends Component {
                 />
 
                 <Bars
-                    // onClick={this.handleClick}
+                    onClick={this.handleClick}
                     scales={{ xScale, yScale }}
                     margins={margins}
                     data={data}
