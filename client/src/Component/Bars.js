@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+// import { select as d3Select, selectAll as d3SelectAll } from 'd3-selection';
+// import { transition } from 'd3-transition';
 // import { scaleLinear } from 'd3-scale';
 // import { interpolateLab } from 'd3-interpolate';
 
@@ -44,6 +46,16 @@ class Bars extends Component {
     //     }
     // }
 
+    // handleHover = () => {
+    //     d3SelectAll('rect')
+    //         .transition()
+    //         .delay((d, i) => i * 100)
+    //         .duration(1000)
+    //         .style('fill', 'pink')
+    //         // .attr('y', '-height')
+    //         .each('end')
+    // }
+
     render(){
         const { scales, margins, data, svgDimensions } = this.props;
         const { xScale, yScale } = scales;
@@ -53,7 +65,6 @@ class Bars extends Component {
             data.map(datum => (
                 <rect
                     onClick={() => this.props.onClick(datum.place_id)}
-                    value={datum.place_name}
                     key={datum.place_name}
                     x={xScale(datum.place_name)}
                     y={yScale(datum.index_nsa)}
@@ -67,7 +78,11 @@ class Bars extends Component {
         );
 
         return (
-            <g>{bars}</g>
+            <g 
+                // onMouseOver={this.handleHover}
+            >
+                {bars}
+            </g>
         );
     }
 
