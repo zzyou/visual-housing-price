@@ -48,17 +48,15 @@ IGNORE 1 ROWS
 
 
 ### Function and Feature
-Visualization of Housing Price Index (HPI) in the U.S., using chart and map.
-* Chart of price change in country level, state level, city level.
-* Chart of one location's price change across time (1975 - 2017).
-* Map of price change in state level.
-* Map of price change across time (1975 - 2017).
+Visualization of Housing Price Index (HPI) in the U.S., using D3 charts.
+* Charts of price change in state level, city level.
+* Charts of one location's price change across time (1975 - 2017).
 
 
 ### Wireframe
 |Visual Housing Price|Dropdown|  
 |---|---|  
-|**_Map/Chart_**|  
+|**_Chart_**|  
 |Copyright/Social Logo|
 
 
@@ -76,5 +74,5 @@ Visualization of Housing Price Index (HPI) in the U.S., using chart and map.
 * **Color**: white
 * **Font**: google font Slabo
 * **Text size**: 26px for page title, 11px for chart description and menu/button.
-* **Image**: map and chart
-* **Responsive design**: Navbar will become hamburger icon for mobile users. Map and chart will stay full screen for both computer users and mobile users.
+* **Image**: chart
+* **Responsive design**: Navbar will become hamburger icon for mobile users. Chart will stay full screen for both computer users and mobile users.
