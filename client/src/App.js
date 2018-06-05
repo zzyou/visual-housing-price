@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Input, Row } from 'react-materialize';
+import { Button, Input, Row } from 'react-materialize';
 
 // import D3 from './d3';
 import Chart from './Component/Chart';
@@ -32,6 +32,18 @@ class App extends Component {
     // this.getStateData = this.getStateData.bind(this);
     // this.getCityData = this.getCityData.bind(this);
     this.handleChange = this.handleChange.bind(this);
+  }
+
+  goTo(route) {
+    this.props.history.replace(`/${route}`)
+  }
+
+  login() {
+    this.props.auth.login();
+  }
+
+  logout() {
+    this.props.auth.logout();
   }
 
   // getStateData() {
@@ -94,6 +106,8 @@ class App extends Component {
   }
 
   render() {
+    const { isAuthenticated } = this.props.auth;
+
     // let optionsArr = [];
     // for (let yr = 2017; yr >= 1975; yr--) {
     //   optionsArr.push(<option value={yr} key={yr}>{yr}</option>);
@@ -116,6 +130,32 @@ class App extends Component {
     return (
       <div>
         <TopNav />
+
+        <Button 
+          onClick={this.goTo.bind(this, 'home')}
+        >
+          home
+        </Button>
+
+        {/* how to load data again after logged in */}
+        {/* {
+          !isAuthenticated() && (
+            <Button
+              onClick={this.login.bind(this)}
+            >
+              Log In
+            </Button>
+          )
+        } */}
+        {
+          isAuthenticated && (
+            <Button
+              onClick={this.logout.bind(this)}
+            >
+              Log Out
+            </Button>
+          )
+        }
 
         {rangeInput()}
 

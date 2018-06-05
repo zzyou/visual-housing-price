@@ -1,8 +1,5 @@
 const express = require('express');
-// const session = require('express-session');
 const bodyParser = require('body-parser');
-// const passport = require('passport');
-// const Auth0Strategy = require('passport-auth0');
 const mysql = require('mysql');
 require('dotenv').config();
 
@@ -13,13 +10,6 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-// app.use(session({
-//     secret: process.env.SECRET,
-//     resave: false,
-//     saveUninitialized: true
-// }));
-// app.use(passport.initialize());
-// app.use(passport.session());
 
 const reactPort = process.env.REACT_PORT || 4000;
 const mysqlPort = process.env.MYSQL_PORT || 3306;
@@ -38,26 +28,6 @@ const mysqlConnect = (getData) => {
         getData(() => connection.end());
     })
 };
-
-// passport.use('auth0', new Auth0Strategy(
-//     {
-//         domain: process.env.AUTH0_DOMAIN,
-//         clientID: process.env.AUTH0_CLIENT_ID,
-//         clientSecret: process.env.AUTH0_SECRET,
-//         callbackURL: '/api/auth/callback'
-//     }, (accessToken, refreshToken, params, user, done) => {
-//         // save user to database?
-//         return done(null, user);
-//     }
-// ));
-
-// passport.serializeUser((user, done) => {
-//     return done(null, user);
-// });
-
-// passport.deserializeUser((user, done) => {
-//     return done(null, user);
-// });
 
 
 app.get('/states/alldata', (req, res) => {
