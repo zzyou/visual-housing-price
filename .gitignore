@@ -78,3 +78,5 @@ keys.js
 .vscode/
 package-lock.json
 yarn.lock
+
+*auth0-variables.js
