@@ -3,51 +3,21 @@ import { Col, ProgressBar } from 'react-materialize';
 import Chart from './Component/Chart';
 import TopNav from './Component/TopNav';
 import BottomNav from './Component/BottomNav';
+import FetchData from './FetchData';
 
 class User extends Component {
     constructor(props) {
         super(props);
     
         this.state = {
-          data: [],
-          year: '2017',
-          isLoading: false
+          year: '2017'
         };
-    
-        this.getData = this.getData.bind(this);
       }
 
     login() {
         this.props.auth.login();
     }
     
-    getData() {
-        this.setState({
-            isLoading: true
-        });
-
-        fetch('/states/alldata')
-            .then(res => res.json())
-            .then(res => {
-                const data = JSON.parse(JSON.stringify(res));
-                return this.setState({
-                    data: data,
-                    isLoading: false
-                });
-            })
-            .catch(err => {
-                console.error(err.toString());
-            });
-    }
-
-    componentDidMount() {
-        this.getData();
-    }
-
-    // componentDidUpdate() {
-    //     this.getData();
-    // }
-
     render() {
         const { isAuthenticated } = this.props.auth;
 
@@ -77,10 +47,12 @@ class User extends Component {
                     )
                 }
                 
-                { this.state.isLoading ? 
-                    (<Col s={12}><ProgressBar /></Col>) :
-                    (<Chart data={this.state.data} year={this.state.year} />)
-                }
+                { this.props.error && (<p>{this.props.error.message}</p>) }
+        
+                { this.props.isLoading && (<Col s={12}><ProgressBar /></Col>) }  
+                
+                { this.props.data.length > 0
+                    && (<Chart data={this.props.data} year={this.state.year} />) }
 
                 <BottomNav {...this.props} />
             </div>
@@ -88,4 +60,4 @@ class User extends Component {
     }
 }
 
-export default User;
+export default FetchData('/states/alldata')(User);

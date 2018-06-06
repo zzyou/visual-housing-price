@@ -6,47 +6,23 @@ import Chart from './Component/Chart';
 import TopNav from './Component/TopNav';
 import BottomNav from './Component/BottomNav';
 import './App.css';
+import FetchData from './FetchData';
 
 class App extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      data: [],
-      year: '2017',
-      isLoading: false
+      year: '2017'
     };
 
     this.handleChange = this.handleChange.bind(this);
-    this.getData = this.getData.bind(this);
   }
 
   handleChange(e) {
     this.setState({
       year: e.target.value
     });
-  }
-
-  getData() {
-    this.setState({
-      isLoading: true
-    });
-    fetch('/states/alldata')
-      .then(res => res.json())
-      .then(res => {
-        const data = JSON.parse(JSON.stringify(res));
-        return this.setState({
-          data: data,
-          isLoading: false
-        });
-      })
-      .catch(err => {
-        console.error(err.toString());
-      });
-  }
-
-  componentDidMount() {
-    this.getData();
   }
 
   render() {   
@@ -76,13 +52,14 @@ class App extends Component {
         {rangeInput()}
 
         {/* todo: add a button to animate the Chart, change this.state.year automatically */}
-
         {/* <D3 data={this.state.stateData} /> */}
 
-        { this.state.isLoading ? 
-          (<Col s={12}><ProgressBar /></Col>) :
-          (<Chart data={this.state.data} year={this.state.year} />)
-        }
+        { this.props.error && (<p>{this.props.error.message}</p>) }
+        
+        { this.props.isLoading && (<Col s={12}><ProgressBar /></Col>) }  
+        
+        { this.props.data.length > 0 
+          && (<Chart data={this.props.data} year={this.state.year} />) }
 
         <BottomNav />
       </div>
@@ -90,4 +67,4 @@ class App extends Component {
   }
 };
 
-export default App;
+export default FetchData('/states/alldata')(App);
