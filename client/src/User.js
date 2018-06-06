@@ -51,8 +51,7 @@ class User extends Component {
         
                 { this.props.isLoading && (<Col s={12}><ProgressBar /></Col>) }  
                 
-                { !this.props.error 
-                    && !this.props.isLoading 
+                { this.props.data.length > 0
                     && (<Chart data={this.props.data} year={this.state.year} />) }
 
                 <BottomNav {...this.props} />
