@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const FetchData = (url) => (Comp) =>
+const FetchDataWrapper = (url) => (Comp) =>
   class FetchData extends Component {
     constructor(props) {
       super(props);
@@ -32,4 +32,4 @@ const FetchData = (url) => (Comp) =>
     }
   }
 
-export default FetchData;
+export default FetchDataWrapper;

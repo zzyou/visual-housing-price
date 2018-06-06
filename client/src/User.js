@@ -3,7 +3,7 @@ import { Col, ProgressBar } from 'react-materialize';
 import Chart from './Component/Chart';
 import TopNav from './Component/TopNav';
 import BottomNav from './Component/BottomNav';
-import FetchData from './FetchData';
+import FetchDataWrapper from './FetchDataWrapper';
 
 class User extends Component {
     constructor(props) {
@@ -60,4 +60,4 @@ class User extends Component {
     }
 }
 
-export default FetchData('/states/alldata')(User);
+export default FetchDataWrapper('/states/alldata')(User);

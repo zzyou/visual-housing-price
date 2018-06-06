@@ -6,7 +6,7 @@ import Chart from './Component/Chart';
 import TopNav from './Component/TopNav';
 import BottomNav from './Component/BottomNav';
 import './App.css';
-import FetchData from './FetchData';
+import FetchDataWrapper from './FetchDataWrapper';
 
 class App extends Component {
   constructor(props) {
@@ -67,4 +67,4 @@ class App extends Component {
   }
 };
 
-export default FetchData('/states/alldata')(App);
+export default FetchDataWrapper('/states/alldata')(App);
