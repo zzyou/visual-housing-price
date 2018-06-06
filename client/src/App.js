@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Input, Row } from 'react-materialize';
+import { Col, Input, ProgressBar, Row } from 'react-materialize';
 
 // import D3 from './d3';
 import Chart from './Component/Chart';
@@ -8,13 +8,13 @@ import BottomNav from './Component/BottomNav';
 import './App.css';
 
 class App extends Component {
-  // rethink this.state
   constructor(props) {
     super(props);
 
     this.state = {
       data: [],
-      year: '2017'
+      year: '2017',
+      isLoading: false
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -28,17 +28,21 @@ class App extends Component {
   }
 
   getData() {
+    this.setState({
+      isLoading: true
+    });
     fetch('/states/alldata')
       .then(res => res.json())
       .then(res => {
         const data = JSON.parse(JSON.stringify(res));
         return this.setState({
-          data: data
+          data: data,
+          isLoading: false
         });
       })
       .catch(err => {
         console.error(err.toString());
-      })
+      });
   }
 
   componentDidMount() {
@@ -75,7 +79,10 @@ class App extends Component {
 
         {/* <D3 data={this.state.stateData} /> */}
 
-        <Chart data={this.state.data} year={this.state.year} />
+        { this.state.isLoading ? 
+          (<Col s={12}><ProgressBar /></Col>) :
+          (<Chart data={this.state.data} year={this.state.year} />)
+        }
 
         <BottomNav />
       </div>

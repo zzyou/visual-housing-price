@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Col, ProgressBar } from 'react-materialize';
 import Chart from './Component/Chart';
 import TopNav from './Component/TopNav';
 import BottomNav from './Component/BottomNav';
@@ -9,7 +10,8 @@ class User extends Component {
     
         this.state = {
           data: [],
-          year: '2017'
+          year: '2017',
+          isLoading: false
         };
     
         this.getData = this.getData.bind(this);
@@ -20,17 +22,22 @@ class User extends Component {
     }
     
     getData() {
+        this.setState({
+            isLoading: true
+        });
+
         fetch('/states/alldata')
             .then(res => res.json())
             .then(res => {
                 const data = JSON.parse(JSON.stringify(res));
                 return this.setState({
-                    data: data
+                    data: data,
+                    isLoading: false
                 });
             })
             .catch(err => {
                 console.error(err.toString());
-            })
+            });
     }
 
     componentDidMount() {
@@ -47,16 +54,17 @@ class User extends Component {
         return (
             <div>
                 <TopNav {...this.props} />
+
                 {
                     isAuthenticated() && (
-                        <h4>
+                        <h6>
                             You are logged in!
-                        </h4>
+                        </h6>
                     )
                 }
                 {
                     !isAuthenticated() && (
-                        <h4>
+                        <h6>
                             You are not logged in! please{' '}
                             <a
                                 style={{ cursor: 'pointer' }}
@@ -65,10 +73,14 @@ class User extends Component {
                                 Log In
                             </a>
                             {' '}to continue.
-                        </h4>
+                        </h6>
                     )
                 }
-                <Chart data={this.state.data} year={this.state.year} />
+                
+                { this.state.isLoading ? 
+                    (<Col s={12}><ProgressBar /></Col>) :
+                    (<Chart data={this.state.data} year={this.state.year} />)
+                }
 
                 <BottomNav {...this.props} />
             </div>
