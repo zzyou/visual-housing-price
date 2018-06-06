@@ -7,13 +7,6 @@ import TopNav from './Component/TopNav';
 import BottomNav from './Component/BottomNav';
 import './App.css';
 
-// cannot use route '/data', seems to be a reserved word?
-const callApi = async (route) => {
-  const response = await fetch(route);
-  const body = await response.json();
-  return body;
-};
-
 class App extends Component {
   // rethink this.state
   constructor(props) {
@@ -24,8 +17,8 @@ class App extends Component {
       year: '2017'
     };
 
-    this.getData = this.getData.bind(this);
     this.handleChange = this.handleChange.bind(this);
+    this.getData = this.getData.bind(this);
   }
 
   handleChange(e) {
@@ -35,7 +28,8 @@ class App extends Component {
   }
 
   getData() {
-    callApi('/states/alldata')
+    fetch('/states/alldata')
+      .then(res => res.json())
       .then(res => {
         const data = JSON.parse(JSON.stringify(res));
         return this.setState({
