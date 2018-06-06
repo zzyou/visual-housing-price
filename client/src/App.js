@@ -21,54 +21,12 @@ class App extends Component {
 
     this.state = {
       data: [],
-      year: '2017',
-      // stateData: [],
-      // cityData: [],
-      // level: 'State',
-      // stateName: ''
+      year: '2017'
     };
 
     this.getData = this.getData.bind(this);
-    // this.getStateData = this.getStateData.bind(this);
-    // this.getCityData = this.getCityData.bind(this);
     this.handleChange = this.handleChange.bind(this);
   }
-
-  // getStateData() {
-  //   const level = this.state.level;
-  //   const stateName = this.state.stateName;
-
-  //   if (level === 'State' && stateName === '') {
-  //     callApi(`/states/${level}`)
-  //       .then(res => {
-  //         const data = JSON.parse(JSON.stringify(res));
-  //         return this.setState({
-  //           stateData: data
-  //         })
-  //       })
-  //       .catch(err => {
-  //         console.log(err);
-  //       })
-  //   }
-  // }
-
-  // getCityData() {
-  //   const level = this.state.level;
-  //   const stateName = this.state.stateName;
-
-  //   if (level === 'MSA' && stateName) {
-  //     callApi(`/states/${level}/${stateName}`)
-  //       .then(res => {
-  //         const data = JSON.parse(JSON.stringify(res));
-  //         return this.setState({
-  //           cityData: data
-  //         })
-  //       })
-  //       .catch(err => {
-  //         console.log(err);
-  //       })
-  //   }
-  // }
 
   handleChange(e) {
     this.setState({
@@ -82,10 +40,10 @@ class App extends Component {
         const data = JSON.parse(JSON.stringify(res));
         return this.setState({
           data: data
-        })
+        });
       })
       .catch(err => {
-        console.log(err);
+        console.error(err.toString());
       })
   }
 
