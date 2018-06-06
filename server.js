@@ -10,80 +10,30 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-
 const reactPort = process.env.REACT_PORT || 4000;
 const mysqlPort = process.env.MYSQL_PORT || 3306;
 
-const connection = mysql.createConnection({
-    host: '127.0.0.1',
-    port: 3306,
-    user: 'root',
-    password: '',
-    database: 'finalProject'
-});
-
-const mysqlConnect = (getData) => {
-    connection.connect((err) => {
-        if (err) throw err;        
-        getData(() => connection.end());
-    })
-};
-
-
 app.get('/states/alldata', (req, res) => {
+    const connection = mysql.createConnection({
+        host: '127.0.0.1',
+        port: 3306,
+        user: 'root',
+        password: '',
+        database: 'finalProject'
+    });
+
+    connection.connect();
+
     const sqlQuery = 'SELECT level, place_name, place_id, index_nsa, yr FROM HPIyear WHERE level = ? OR level = ? ORDER BY index_nsa';
-    mysqlConnect((closeConnection) => {
-        connection.query(sqlQuery, ['MSA', 'State'], function(error, result, field) {
-            if (error) throw error;
-            const data = JSON.parse(JSON.stringify(result));
-            return res.send(data);
-        })
-        closeConnection();
-    })
+
+    connection.query(sqlQuery, ['MSA', 'State'], function(error, result, field) {
+        if (error) console.error(error.toString());
+        const data = JSON.parse(JSON.stringify(result));
+        return res.send(data);
+    });
+
+    connection.end();
 });
-
-// app.get('/states/:level', (req, res) => {
-//     const level = req.params.level;
-//     const sqlQuery = 'SELECT place_id, index_nsa, yr FROM HPIyear WHERE level = ? ORDER BY index_nsa';
-//     mysqlConnect((closeConnection) => {
-//         connection.query(sqlQuery, [level], function(error, result, field) {
-//             if (error) throw error;
-//             const data = JSON.parse(JSON.stringify(result));
-//             return res.send(data);
-//         })
-//         closeConnection();
-//     })
-// });
-
-// // cannot use route '/data', seems to be a reserved word?
-// app.get('/states/:level/:stateName', (req, res) => {
-//     const level = req.params.level;
-//     const stateName = req.params.stateName;
-//     const nameQuery = `, %${stateName}%`;
-//     const sqlQuery = 'SELECT place_name, place_id, index_nsa, yr FROM HPIyear WHERE level = ? AND place_name =? ORDER BY index_nsa';
-//     mysqlConnect((closeConnection) => {
-//         connection.query(sqlQuery, [level, nameQuery], function(error, result, field) {
-//             if (error) throw error;
-//             const data = JSON.parse(JSON.stringify(result));
-//             return res.send(data);
-//         })
-//         closeConnection();
-//     })
-// });
-
-// app.get('/states/:state/:year', (req, res) => {
-//     const stateName = req.params.state;
-//     const year = req.params.year;
-//     const sqlQuery = `SELECT place_name, index_nsa FROM HPIyear WHERE level = 'MSA' AND place_name LIKE ? AND yr = ? ORDER BY index_nsa`;
-//     mysqlConnect((closeConnection) => {
-//         connection.query(sqlQuery, [`%, ${stateName}%`, year], function(error, result, field) {
-//             if (error) throw error;
-//             const data = JSON.parse(JSON.stringify(result));
-//             return res.send(data);
-//         })
-//         closeConnection();
-//     })
-// });
 
 app.listen(reactPort, () => {
     console.log(`Listening on port ${reactPort}.`);
