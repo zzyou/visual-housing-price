@@ -27,9 +27,12 @@ app.get('/states/alldata', (req, res) => {
     const sqlQuery = 'SELECT level, place_name, place_id, index_nsa, yr FROM HPIyear WHERE level = ? OR level = ? ORDER BY index_nsa';
 
     connection.query(sqlQuery, ['MSA', 'State'], function(error, result, field) {
-        if (error) console.error(error.toString());
-        const data = JSON.parse(JSON.stringify(result));
-        return res.send(data);
+        if (error) {
+            console.error(error.toString());
+        } else {
+            const data = JSON.parse(JSON.stringify(result));
+            return res.send(data);
+        }
     });
 
     connection.end();

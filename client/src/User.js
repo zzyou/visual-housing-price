@@ -1,46 +1,41 @@
 import React, { Component } from 'react';
-// import Chart from './Component/Chart';
+import Chart from './Component/Chart';
 import TopNav from './Component/TopNav';
 import BottomNav from './Component/BottomNav';
 
-// const callApi = async (route) => {
-//     const response = await fetch(route);
-//     const body = await response.json();
-//     return body;
-// };
-
 class User extends Component {
-    // constructor(props) {
-    //     super(props);
+    constructor(props) {
+        super(props);
     
-    //     this.state = {
-    //       data: [],
-    //       year: '2017'
-    //     };
+        this.state = {
+          data: [],
+          year: '2017'
+        };
     
-    //     this.getData = this.getData.bind(this);
-    //   }
+        this.getData = this.getData.bind(this);
+      }
 
     login() {
         this.props.auth.login();
     }
     
-    // getData() {
-    //     callApi('/states/alldata')
-    //         .then(res => {
-    //             const data = JSON.parse(JSON.stringify(res));
-    //             return this.setState({
-    //                 data: data
-    //             });
-    //         })
-    //         .catch(err => {
-    //             console.error(err.toString());
-    //         })
-    // }
+    getData() {
+        fetch('/states/alldata')
+            .then(res => res.json())
+            .then(res => {
+                const data = JSON.parse(JSON.stringify(res));
+                return this.setState({
+                    data: data
+                });
+            })
+            .catch(err => {
+                console.error(err.toString());
+            })
+    }
 
-    // componentDidMount() {
-    //     this.getData();
-    // }
+    componentDidMount() {
+        this.getData();
+    }
 
     // componentDidUpdate() {
     //     this.getData();
@@ -73,7 +68,7 @@ class User extends Component {
                         </h4>
                     )
                 }
-                {/* <Chart data={this.state.data} year={this.state.year} /> */}
+                <Chart data={this.state.data} year={this.state.year} />
 
                 <BottomNav {...this.props} />
             </div>
