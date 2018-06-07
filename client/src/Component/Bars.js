@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-// import { select as d3Select, selectAll as d3SelectAll } from 'd3-selection';
-// import { transition } from 'd3-transition';
+import { selectAll as d3SelectAll } from 'd3-selection';
+import { transition } from 'd3-transition';
 // import { scaleLinear } from 'd3-scale';
 // import { interpolateLab } from 'd3-interpolate';
 
@@ -46,15 +46,49 @@ class Bars extends Component {
     //     }
     // }
 
-    // handleHover = () => {
-    //     d3SelectAll('rect')
-    //         .transition()
-    //         .delay((d, i) => i * 100)
-    //         .duration(1000)
-    //         .style('fill', 'pink')
-    //         // .attr('y', '-height')
-    //         .each('end')
-    // }
+    onMouseOver = (e) => {
+        e.target.style.opacity = '0.5';
+    }
+
+    onMouseLeave = (e) => {
+        e.target.style.opacity = '1';
+    }
+
+    componentDidMount() {
+        d3SelectAll('rect')
+            .transition()
+            .delay((d, i) => i * 100)
+            .duration(15)
+            .style('opacity', '0.1')
+            .transition()
+            .style('opacity', '0.2')
+            .transition()
+            .style('opacity', '0.3')
+            .transition()
+            .style('opacity', '0.4')
+            .transition()
+            .style('opacity', '0.5')
+            .transition()
+            .style('opacity', '0.6')
+            .transition()
+            .style('opacity', '0.7')
+            .transition()
+            .style('opacity', '0.8')
+            .transition()
+            .style('opacity', '0.9')
+            .transition()
+            .style('opacity', '1');
+    }
+
+    componentDidUpdate() {
+        d3SelectAll('rect')
+            .transition()
+            .style('opacity', '0.8')
+            .transition()
+            .style('opacity', '0.9')
+            .transition()
+            .style('opacity', '1');
+    }
 
     render(){
         const { scales, margins, data, svgDimensions } = this.props;
@@ -64,13 +98,17 @@ class Bars extends Component {
         const bars = (
             data.map(datum => (
                 <rect
+                    style={{ cursor: 'pointer' }}
                     onClick={() => this.props.onClick(datum.place_id)}
+                    onMouseOver={this.onMouseOver}
+                    onMouseLeave={this.onMouseLeave}
                     key={datum.place_name}
                     x={xScale(datum.place_name)}
                     y={yScale(datum.index_nsa)}
                     height={height - margins.bottom - scales.yScale(datum.index_nsa)}
                     width={xScale.bandwidth()}
                     fill={colorGenerator(datum.index_nsa)}
+                    opacity={0}
                     // fill={this.colorGenerator(datum.index_nsa)}
                     // fill={this.colorScale()(datum.index_nsa)}
                 />

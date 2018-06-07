@@ -28,19 +28,19 @@ class User extends Component {
                 {
                     isAuthenticated() && (
                         <h6>
-                            You are logged in!
+                            Welcome!
                         </h6>
                     )
                 }
                 {
                     !isAuthenticated() && (
                         <h6>
-                            You are not logged in! please{' '}
+                            You can also{' '}
                             <a
                                 style={{ cursor: 'pointer' }}
                                 onClick={this.login.bind(this)}
                             >
-                                Log In
+                                log in
                             </a>
                             {' '}to continue.
                         </h6>

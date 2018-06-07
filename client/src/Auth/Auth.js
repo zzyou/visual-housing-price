@@ -13,11 +13,23 @@ export default class Auth {
     });
 
     constructor() {
+        // this.signup = this.signup.bind(this);
         this.login = this.login.bind(this);
         this.logout = this.logout.bind(this);
         this.handleAuthentication = this.handleAuthentication.bind(this);
         this.isAuthenticated = this.isAuthenticated.bind(this);
     }
+
+    // signup() {
+    //     this.auth0.signup({
+    //         connection: 'CONNECTION',
+    //         email: 'EMAIL',
+    //         password: 'PASSWORD'
+    //     }, (err) => {
+    //         if (err) return alert('Something went wrong: ' + err.message);
+    //         return alert('Success signup!')
+    //     });
+    // }
 
     login() {
         this.auth0.authorize();
@@ -28,6 +40,9 @@ export default class Auth {
             if (authResult && authResult.accessToken && authResult.idToken) {
                 this.setSession(authResult);
                 history.replace('/user');
+                // this.auth0.client.userInfo(authResult.accessToken, function(err, user) {
+                //     console.log(user.sub); // 'google-oauth2|105319624062776683575'
+                // });
             }
             else if (err) {
                 history.replace('/');
