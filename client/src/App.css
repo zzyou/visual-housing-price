@@ -1,28 +1,60 @@
-.App {
+.nav-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.year-range {
+  margin: 3% 1% 0 3%;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 34px;
+  width: 16px;
+  border-radius: 10%;
+  background: #26a69a;
+  cursor: pointer;
+  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  box-shadow: 1px 1px 1px #26a69a, 0px 0px 1px #26a69a;
+}
+
+input[type=range]::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 34px;
+  width: 16px;
+  border-radius: 10%;
+  background: #26a69a;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #26a69a, 0px 0px 1px #26a69a;
+}
+
+input[type=range]::-ms-thumb {
+  -webkit-appearance: none;
+  height: 34px;
+  width: 16px;
+  border-radius: 10%;
+  background: #26a69a;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #26a69a, 0px 0px 1px #26a69a;
+}
+
+h5 {
+  margin-top: 2%;
+  color: rgb(77, 74, 74);
   text-align: center;
 }
 
-.App-logo {
+.Responsive-wrapper {
+  margin-bottom: 5%;
+}
+
+
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-}
+} */
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+} */
