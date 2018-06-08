@@ -6,13 +6,13 @@ import BottomNav from './Component/BottomNav';
 import FetchDataWrapper from './FetchDataWrapper';
 
 class User extends Component {
-    constructor(props) {
-        super(props);
+    // constructor(props) {
+    //     super(props);
     
-        this.state = {
-          year: '2017'
-        };
-      }
+    //     this.state = {
+    //       year: '2017'
+    //     };
+    //   }
 
     login() {
         this.props.auth.login();
@@ -52,7 +52,7 @@ class User extends Component {
                 { this.props.isLoading && (<Col s={12}><ProgressBar /></Col>) }  
                 
                 { this.props.data.length > 0
-                    && (<Chart data={this.props.data} year={this.state.year} />) }
+                    && (<Chart data={this.props.data} />) }
 
                 <BottomNav {...this.props} />
             </div>
