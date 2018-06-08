@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { scaleBand, scaleLinear } from 'd3-scale';
+import { Input, Row } from 'react-materialize';
 
 import Axes from './Axes';
 import Bars from './Bars';
+// import Text from './Text';
 import ResponsiveWrapper from './ResponsiveWrapper';
 
 class Chart extends Component {
@@ -12,37 +14,52 @@ class Chart extends Component {
         this.xScale = scaleBand();
         this.yScale = scaleLinear();
 
-        // if put rangeInput in Chart.js
-        // add another state { year }
-        // then setState to { year } according to data change.
-
         // Or, just get min yr and max yr when manipulating the data in render().
         // then pass the min yr and max yr to rangeInput.
 
         this.state = {
+            year: '2017',
             level: 'State',
-            stateName: ''
+            stateName: '',
+            longStateName: ''
         }
 
+        this.handleChange = this.handleChange.bind(this);
         this.handleClick = this.handleClick.bind(this);
     }
 
-    handleClick(placeName) {
+    handleChange(e) {
+        this.setState({
+          year: e.target.value
+        });
+    }
+
+    handleClick(shortName, longName ) {
         const level = this.state.level;
         this.setState({
             level: level === 'State' ? 'MSA' : 'State',
-            stateName: placeName
+            stateName: shortName,
+            longStateName: longName
         });
     }
 
     render() {
-        // if put rangeInput here, year will be this.state.year.
         // Once this.state.level changes, this.state.year should be set to 2017 again.
         // in order to avoid missing city data in certain year.
 
+        const rangeInput = () => (
+            <Row className='year-range'>
+                <Input
+                  defaultValue={this.state.year} 
+                  onChange={this.handleChange} 
+                  s={12} type='range' label='' min='1975' max='2017'>
+                </Input>
+            </Row>
+        );
+
         const rawData = this.props.data;
-        // d.yr is number, while this.props.year is string.
-        const year = +this.props.year;
+        // d.yr is number, while this.state.year is string.
+        const year = +this.state.year;
         const level = this.state.level;
         const stateName = this.state.stateName;
         let data;
@@ -77,22 +94,35 @@ class Chart extends Component {
             .range([svgDimensions.height - margins.bottom, margins.top]);
         
         return (
-            <svg width={svgDimensions.width} height={svgDimensions.height}>
-                <Axes
-                    scales={{ xScale, yScale }}
-                    margins={margins}
-                    svgDimensions={svgDimensions}
-                />
+            <div>
+                { this.state.level === 'State' ? 
+                    (<h5><i>States in the U.S., {this.state.year}</i></h5>) :
+                    (<h5><i>Cities in {this.state.longStateName}, {this.state.year}</i></h5>)  }
+                
+                {rangeInput()}
 
-                <Bars
-                    onClick={this.handleClick}
-                    scales={{ xScale, yScale }}
-                    margins={margins}
-                    data={data}
-                    maxValue={maxValue}
-                    svgDimensions={svgDimensions}
-                />
-            </svg>
+                <svg width={svgDimensions.width} height={svgDimensions.height}>
+                    <Axes
+                        scales={{ xScale, yScale }}
+                        margins={margins}
+                        svgDimensions={svgDimensions}
+                    />
+
+                    <Bars
+                        onClick={this.handleClick}
+                        scales={{ xScale, yScale }}
+                        margins={margins}
+                        data={data}
+                        maxValue={maxValue}
+                        svgDimensions={svgDimensions}
+                    />
+
+                    {/* <Text
+                        scales={{ xScale, yScale }}
+                        data={data}
+                    /> */}
+                </svg>
+            </div>
         );
     }
 }

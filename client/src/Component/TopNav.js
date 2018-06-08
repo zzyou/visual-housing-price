@@ -10,7 +10,7 @@ class TopNav extends Component {
                 brand='Visual Housing Price' 
                 right
             >
-                    <LoginButton />
+                <LoginButton />
             </Navbar>
         );
     }

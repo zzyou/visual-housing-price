@@ -17,35 +17,6 @@ const colorGenerator = (d) => {
 }
 
 class Bars extends Component {
-    // constructor(props) {
-    //     super(props);
-
-    //     // this.colorScale = this.colorScale.bind(this);
-    //     this.colorGenerator = this.colorGenerator.bind(this);    
-    // }
-
-    // // colorScale() {
-    // //     const maxValue = this.props.maxValue;
-    // //     return scaleLinear()
-    // //         .domain([0, maxValue])
-    // //         .range(['#F3E5F5', '#7B1FA2'])
-    // //         .interpolate(interpolateLab);
-    // // }
-
-    // colorGenerator(d) {
-    //     if (d === this.props.maxValue) {
-    //         return "#d73027";
-    //     } else if (d >= 400) {
-    //         return "#fc8d59";
-    //     } else if (d >= 300) {
-    //         return "#fee08b";
-    //     } else if (d >= 200) {
-    //         return "#d9ef8b";
-    //     } else if (d < 200 ) {
-    //         return "#91cf60";
-    //     }
-    // }
-
     onMouseOver = (e) => {
         e.target.style.opacity = '0.5';
     }
@@ -90,7 +61,7 @@ class Bars extends Component {
             .style('opacity', '1');
     }
 
-    render(){
+    render() {
         const { scales, margins, data, svgDimensions } = this.props;
         const { xScale, yScale } = scales;
         const { height } = svgDimensions;
@@ -99,7 +70,7 @@ class Bars extends Component {
             data.map(datum => (
                 <rect
                     style={{ cursor: 'pointer' }}
-                    onClick={() => this.props.onClick(datum.place_id)}
+                    onClick={() => this.props.onClick(datum.place_id, datum.place_name)}
                     onMouseOver={this.onMouseOver}
                     onMouseLeave={this.onMouseLeave}
                     key={datum.place_name}
@@ -109,8 +80,6 @@ class Bars extends Component {
                     width={xScale.bandwidth()}
                     fill={colorGenerator(datum.index_nsa)}
                     opacity={0}
-                    // fill={this.colorGenerator(datum.index_nsa)}
-                    // fill={this.colorScale()(datum.index_nsa)}
                 />
             ))
         );
