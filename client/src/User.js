@@ -6,14 +6,6 @@ import BottomNav from './Component/BottomNav';
 import FetchDataWrapper from './FetchDataWrapper';
 
 class User extends Component {
-    // constructor(props) {
-    //     super(props);
-    
-    //     this.state = {
-    //       year: '2017'
-    //     };
-    //   }
-
     login() {
         this.props.auth.login();
     }

@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <TopNav />
+        <TopNav {...this.props} />
 
         {/* todo: add a button to animate the Chart, change this.state.year automatically */}
         {/* <D3 data={this.state.stateData} /> */}

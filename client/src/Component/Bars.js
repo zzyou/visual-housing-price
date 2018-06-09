@@ -6,13 +6,13 @@ import { transition } from 'd3-transition';
 
 const colorGenerator = (d) => {
     if (d < 200) {
-        return "green";
+        return "#00B628";
     } else if (d < 300) {
-        return "yellow";
+        return "#A6E885";
     } else if (d < 400) {
-        return "orange";
+        return "#FEAED8";
     } else if (d >= 400 ) {
-        return "red";
+        return "#E60086";
     }
 }
 
@@ -85,11 +85,7 @@ class Bars extends Component {
         );
 
         return (
-            <g 
-                // onMouseOver={this.handleHover}
-            >
-                {bars}
-            </g>
+            <g>{bars}</g>
         );
     }
 

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { Button, Dropdown, NavItem } from 'react-materialize';
 import Auth from '../Auth/Auth';
+import history from '../history';
 
 const auth = new Auth();
 
 class LoginButton extends Component {
-    // goTo(route) {
-    //     this.props.history.replace(`/${route}`)
-    // }
+    goTo(route) {
+        history.replace(`/${route}`)
+    }
 
     login() {
         auth.login();
@@ -28,7 +29,6 @@ class LoginButton extends Component {
                     home
                 </Button> */}
 
-                {/* how to load data again after logged in */}
                 {
                     !isAuthenticated() && (
                         <Button
@@ -41,9 +41,9 @@ class LoginButton extends Component {
                 {
                     isAuthenticated() && (
                         <Dropdown trigger={
-                            <Button>My Profile</Button>
+                            <Button>My Info</Button>
                         }>
-                            <NavItem>My Location</NavItem>
+                            <NavItem onClick={this.goTo.bind(this, 'profile')}>My Profile</NavItem>
                             <NavItem divider />
                             <NavItem onClick={this.logout.bind(this)}>
                                 Log Out

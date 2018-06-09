@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { scaleBand, scaleLinear } from 'd3-scale';
-import { Input, Row } from 'react-materialize';
+import { Button, Input, Row } from 'react-materialize';
 
 import Axes from './Axes';
 import Bars from './Bars';
@@ -24,11 +24,32 @@ class Chart extends Component {
             longStateName: ''
         }
 
-        this.handleChange = this.handleChange.bind(this);
+        this.handleBackClick = this.handleBackClick.bind(this);
+        this.handleYearChange = this.handleYearChange.bind(this);
         this.handleClick = this.handleClick.bind(this);
     }
 
-    handleChange(e) {
+    handleBackClick(e) {
+        this.setState({
+            level: 'State'
+        })
+    }
+
+    // handleLevelChange(e) {
+    //     const currentLocation = e.target.value;
+    //     if (currentLocation === 'All States' && this.state.level === 'MSA') {
+    //         this.setState({
+    //             level: 'State'
+    //         });
+    //     }
+    //     else if (currentLocation !== 'All States' && this.state.level === 'MSA' && currentLocation !== this.state.longStateName) {
+    //         this.setState({
+
+    //         })
+    //     }
+    // }
+
+    handleYearChange(e) {
         this.setState({
           year: e.target.value
         });
@@ -46,16 +67,6 @@ class Chart extends Component {
     render() {
         // Once this.state.level changes, this.state.year should be set to 2017 again.
         // in order to avoid missing city data in certain year.
-
-        const rangeInput = () => (
-            <Row className='year-range'>
-                <Input
-                  defaultValue={this.state.year} 
-                  onChange={this.handleChange} 
-                  s={12} type='range' label='' min='1975' max='2017'>
-                </Input>
-            </Row>
-        );
 
         const rawData = this.props.data;
         // d.yr is number, while this.state.year is string.
@@ -92,14 +103,100 @@ class Chart extends Component {
         const yScale = this.yScale
             .domain([0, maxValue2017])
             .range([svgDimensions.height - margins.bottom, margins.top]);
+
+        // const statesArr = [
+        //     "AL: Alabama",
+        //     "AK: Alaska",
+        //     "AZ: Arizona",
+        //     "AR: Arkansas",
+        //     "CA: California",
+        //     "CO: Colorado",
+        //     "CT: Connecticut",
+        //     "DE: Delaware",
+        //     "DC: District of Columbia",
+        //     "FL: Florida",
+        //     "GA: Georgia",
+        //     "HI: Hawaii",
+        //     "ID: Idaho",
+        //     "IL: Illinois",
+        //     "IN: Indiana",
+        //     "IA: Iowa",
+        //     "KS: Kansas",
+        //     "KS: Kentucky",
+        //     "LA: Louisiana",
+        //     "ME: Maine",
+        //     "MD: Maryland",
+        //     "MA: Massachusetts",
+        //     "MI: Michigan",
+        //     "MN: Minnesota",
+        //     "MS: Mississippi",
+        //     "MO: Missouri",
+        //     "MT: Montana",
+        //     "NV: Nebraska",
+        //     "NV: Nevada",
+        //     "NH: New Hampshire",
+        //     "NJ: New Jersey",
+        //     "NM: New Mexico",
+        //     "NY: New York",
+        //     "NC: North Carolina",
+        //     "ND: North Dakota",
+        //     "OH: Ohio",
+        //     "OK: Oklahoma",
+        //     "OR: Oregon",
+        //     "PA: Pennsylvania",
+        //     "RI: Rhode Island",
+        //     "SC: South Carolina",
+        //     "SD: South Dakota",
+        //     "TN: Tennessee",
+        //     "TX: Texas",
+        //     "UT: Utah",
+        //     "VT: Vermont",
+        //     "VA: Virginia",
+        //     "WA: Washington",
+        //     "WV: West Virginia",
+        //     "WI: Wisconsin",
+        //     "WY: Wyoming" ];
+
+        // const levelOptionsArr = () => (
+        //     statesArr.map(state => (
+        //         <option value={state.slice()} key={state}>{state}</option>
+        //     ))
+        // );
+        
+        // const levelInput = () => (
+        //     <Row>
+        //         <Input
+        //             onChange={this.handleLevelChange}
+        //             defaultValue='All States'
+        //             s={4} type='select' label='Level'>
+        //             <option value='All States' key='All States'>All States</option>
+        //             {levelOptionsArr}
+        //         </Input>
+        //     </Row>
+        // );
+        
+        const yearInput = () => (
+            <Row className='year-range'>
+                <Input 
+                    onChange={this.handleYearChange} 
+                    defaultValue={this.state.year}
+                    s={12} type='range' label='Year' min='1975' max='2017'>
+                </Input>
+            </Row>
+        );
         
         return (
             <div>
-                { this.state.level === 'State' ? 
-                    (<h5><i>States in the U.S., {this.state.year}</i></h5>) :
-                    (<h5><i>Cities in {this.state.longStateName}, {this.state.year}</i></h5>)  }
+                { this.state.level === 'MSA' 
+                    && (<Button onClick={this.handleBackClick}>Back to State Level</Button>) }
+
                 
-                {rangeInput()}
+
+                { this.state.level === 'State' ? 
+                    (<h5><i>Housing Price Index by States in the U.S., {this.state.year}</i></h5>) :
+                    (<h5><i>Housing Price Index by Cities in {this.state.longStateName}, {this.state.year}</i></h5>)  }
+                
+                {yearInput()}
 
                 <svg width={svgDimensions.width} height={svgDimensions.height}>
                     <Axes
