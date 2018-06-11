@@ -82,7 +82,9 @@ class Chart extends Component {
             data2017 = stateData.filter(d => d.yr === 2017);
         }
         else if (level === 'MSA') {
-            const cityData = rawData.filter(d => d.level === 'MSA' && d.place_name.includes(`, ${stateName}`));
+            const cityData = rawData.filter(d => d.level === 'MSA' 
+                && ( d.place_name.includes(`, ${stateName}`)
+                || d.place_name.includes(`-${stateName}`) ) );
             data = cityData.filter(d => d.yr === year);
             data2017 = cityData.filter(d => d.yr === 2017);
         }

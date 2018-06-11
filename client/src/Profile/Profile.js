@@ -22,7 +22,6 @@ class Profile extends Component {
 
   render() {
     const { profile } = this.state;
-    console.log(profile);
 
     return (
       <SideNavItem 
@@ -30,7 +29,8 @@ class Profile extends Component {
         user={{
           background: profile.picture,
           image: profile.picture,
-          name: profile.name
+          name: profile.name,
+          email: profile.email
         }}
       />
     );
