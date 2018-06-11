@@ -190,13 +190,11 @@ class Chart extends Component {
         return (
             <div>
                 { this.state.level === 'MSA' 
-                    && (<Button onClick={this.handleBackClick}>Back to State Level</Button>) }
-
-                
+                    && (<Button onClick={this.handleBackClick}>Back to State Level</Button>) }                
 
                 { this.state.level === 'State' ? 
-                    (<h5><i>Housing Price Index by States in the U.S., {this.state.year}</i></h5>) :
-                    (<h5><i>Housing Price Index by Cities in {this.state.longStateName}, {this.state.year}</i></h5>)  }
+                    (<h5><i>Housing Price Index by <b>States</b> in the U.S., <b>{this.state.year}</b></i></h5>) :
+                    (<h5><i>Housing Price Index by Cities in <b>{this.state.longStateName}</b>, <b>{this.state.year}</b></i></h5>)  }
                 
                 {yearInput()}
 
