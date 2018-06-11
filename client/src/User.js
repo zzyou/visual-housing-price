@@ -6,18 +6,18 @@ import BottomNav from './Component/BottomNav';
 import FetchDataWrapper from './FetchDataWrapper';
 
 class User extends Component {
-    login() {
-        this.props.auth.login();
-    }
+    // login() {
+    //     this.props.auth.login();
+    // }
     
     render() {
-        const { isAuthenticated } = this.props.auth;
+        // const { isAuthenticated } = this.props.auth;
 
         return (
             <div>
                 <TopNav {...this.props} />
 
-                {
+                {/* {
                     isAuthenticated() && (
                         <h6>
                             Welcome!
@@ -37,7 +37,7 @@ class User extends Component {
                             {' '}to continue.
                         </h6>
                     )
-                }
+                } */}
                 
                 { this.props.error && (<p>{this.props.error.message}</p>) }
         
