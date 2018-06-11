@@ -8,14 +8,14 @@ class BottomNav extends Component {
                 <Footer 
                     copyrights="&copy; 2018 Zhenzhen You" 
                     moreLinks={
-                        <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+                        <a className="grey-text text-lighten-4 right" href="https://github.com/zzyou/visual-housing-price" target="_blank" rel="noopener noreferrer">Code</a>
                     }
                     links={
                         <ul>
-                        <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                        <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        <li><a className="grey-text text-lighten-3" href="https://github.com/zzyou" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        <li><a className="grey-text text-lighten-3" href="https://www.linkedin.com/in/zhenzhenyou/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        <li><a className="grey-text text-lighten-3" href="https://twitter.com/zhenzhen_you" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                        <li><a className="grey-text text-lighten-3" href="mailto:youzhenzhen@gmail.com" target="_top">Email</a></li>
                         </ul>
                     }
                     className='example'
