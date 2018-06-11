@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Button, Dropdown, NavItem } from 'react-materialize';
+import { Button, SideNav, SideNavItem } from 'react-materialize';
 import Auth from '../Auth/Auth';
 import history from '../history';
+import Profile from '../Profile/Profile';
 
 const auth = new Auth();
 
@@ -40,15 +41,15 @@ class LoginButton extends Component {
                 }
                 {
                     isAuthenticated() && (
-                        <Dropdown trigger={
-                            <Button>My Info</Button>
-                        }>
-                            <NavItem onClick={this.goTo.bind(this, 'profile')}>My Profile</NavItem>
-                            <NavItem divider />
-                            <NavItem onClick={this.logout.bind(this)}>
+                        <SideNav 
+                            trigger={ <Button className='profile-button'>Profile</Button> }
+                            options={{ closeOnClick: true }} >
+                            <Profile auth={auth}/>
+                            <SideNavItem divider />
+                            <SideNavItem onClick={this.logout.bind(this)}>
                                 Log Out
-                            </NavItem>
-                        </Dropdown>
+                            </SideNavItem>
+                        </SideNav>
                     )
                 }
             </div>

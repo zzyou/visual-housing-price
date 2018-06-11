@@ -1,34 +1,38 @@
 import React, { Component } from 'react';
-import { Card, CardTitle, Col } from 'react-materialize';
+import { SideNavItem } from 'react-materialize';
 import './Profile.css';
 
 class Profile extends Component {
-  componentWillMount() {
-    this.setState({ profile: {} });
+  state = {
+    profile: {}
+  }
+
+  componentDidMount() {
     const { userProfile, getProfile } = this.props.auth;
+    
     if (!userProfile) {
       getProfile((err, profile) => {
         this.setState({ profile });
       });
-    } else {
+    } 
+    else {
       this.setState({ profile: userProfile });
     }
   }
 
   render() {
     const { profile } = this.state;
+    console.log(profile);
+
     return (
-        <Col m={12} s={12}>
-            <Card 
-                className='small'
-                header={<CardTitle image={profile.picture}>{profile.name}</CardTitle>} 
-                textClassName='white-text' 
-                title={profile.name}
-                actions={[<a href='#'>This is a link</a>]} >
-                {profile.nickname} 
-            </Card>
-            {/* <pre>{JSON.stringify(profile, null, 2)}</pre> */}
-        </Col>
+      <SideNavItem 
+        userView
+        user={{
+          background: profile.picture,
+          image: profile.picture,
+          name: profile.name
+        }}
+      />
     );
   }
 }

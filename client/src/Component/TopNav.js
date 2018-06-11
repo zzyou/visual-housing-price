@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar } from 'react-materialize';
+import { Navbar, Button, NavItem } from 'react-materialize';
 import LoginButton from './LoginButton';
 
 class TopNav extends Component {
@@ -10,7 +10,8 @@ class TopNav extends Component {
                 brand='Visual Housing Price' 
                 right
             >
-                <LoginButton {...this.props} />
+                <NavItem href='#data'>Data</NavItem>
+                <li><LoginButton {...this.props} /></li>
             </Navbar>
         );
     }

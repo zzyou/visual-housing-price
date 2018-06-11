@@ -1,8 +1,4 @@
-.profile-area img {
-    max-width: 150px;
-    margin-bottom: 20px;
-}
-  
-.panel-body h3 {
-    margin-top: 0;
+.background img {
+    filter: blur(3px);
+    /* opacity: 0.5; */
 }
