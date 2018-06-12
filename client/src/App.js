@@ -6,8 +6,8 @@ import Chart from './Component/Chart';
 import TopNav from './Component/TopNav';
 import BottomNav from './Component/BottomNav';
 import FetchDataWrapper from './FetchDataWrapper';
-import background1 from './img/aerial-view-architecture-autumn.jpg';
-import background2 from './img/bicycles-bikes-buildings.jpg';
+import background1 from './img/architecture-autumn.jpg';
+import background2 from './img/bikes-buildings.jpg';
 import './App.css';
 
 class App extends Component {
@@ -20,7 +20,7 @@ class App extends Component {
           <Parallax imageSrc={background1}/>
             <div className="section white">
               <div className="row container">
-                <h2 className="header">House Price Index</h2>
+                <h5 className="header">House Price Index</h5>
                 <p className="grey-text text-darken-3 lighten-3">Data based on House Price Index (HPI): a weighted, repeat-sales index, measuring average price changes in repeat sales or refinancings on the same single-family houses in the United States.</p>
               </div>
             </div>
