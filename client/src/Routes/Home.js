@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import { Col, Parallax, ProgressBar } from "react-materialize";
+import { Parallax } from "react-materialize";
 import "./Home.css";
-import Chart from "./Chart";
 import NavTop from "../Components/NavTop";
 import NavBottom from "../Components/NavBottom";
-import FetchDataWrapper from "./FetchDataWrapper";
+import ChartRender from "./ChartRender";
 import background1 from "../images/architecture-autumn.jpg";
 import background2 from "../images/bikes-buildings.jpg";
 
@@ -45,15 +44,7 @@ class Home extends Component {
         {/* todo: add a button to animate the Chart, change this.state.year automatically */}
         {/* <D3 data={this.state.stateData} /> */}
 
-        {this.props.error && <p>{this.props.error.message}</p>}
-
-        {this.props.isLoading && (
-          <Col s={12}>
-            <ProgressBar />
-          </Col>
-        )}
-
-        {this.props.data.length > 0 && <Chart data={this.props.data} />}
+        <ChartRender />
 
         <NavBottom />
       </div>
@@ -61,4 +52,4 @@ class Home extends Component {
   }
 }
 
-export default FetchDataWrapper("/states/alldata")(Home);
+export default Home;
