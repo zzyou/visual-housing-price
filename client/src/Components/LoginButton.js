@@ -24,12 +24,6 @@ class LoginButton extends Component {
 
     return (
       <div>
-        {/* <Button 
-                    onClick={this.goTo.bind(this, 'home')}
-                >
-                    home
-                </Button> */}
-
         {!isAuthenticated() && (
           <Button onClick={this.login.bind(this)}>Log In</Button>
         )}
