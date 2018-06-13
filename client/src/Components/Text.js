@@ -16,9 +16,9 @@ class Text extends Component {
                     y={yScale(datum.index_nsa)}
                     fill='grey'
                     textAnchor='start'
-                    // opacity={0}
+                // opacity={0}
                 >
-                 {datum.index_nsa}
+                    {datum.index_nsa}
                 </text>
             ))
         );

@@ -24,7 +24,7 @@ class Axis extends Component {
         d3Select(this.axisElement).call(axis);
     }
 
-        render() {
+    render() {
         return (
             <g
                 className={`Axis Axis-${this.props.orient}`}

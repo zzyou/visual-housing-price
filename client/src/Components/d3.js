@@ -17,11 +17,11 @@ class D3 extends Component {
         }
 
         const height = 500,
-              width = 25;
+            width = 25;
 
         const scaledData = scaleLinear()
-                           .domain([0, Math.max(...statePrice)])
-                           .range([0, height]);
+            .domain([0, Math.max(...statePrice)])
+            .range([0, height]);
 
         const node = this.node;
 
@@ -32,33 +32,33 @@ class D3 extends Component {
             .data(statePrice)
             .enter()
             .append("g")
-            .attr("transform", function(d, i) {
-                return "translate(" + i * width + ", " + (height - scaledData(d)) + ")"; 
-                });
+            .attr("transform", function (d, i) {
+                return "translate(" + i * width + ", " + (height - scaledData(d)) + ")";
+            });
 
         // .attr("fill", callback), the callback function cannot be defined elsewhere?
         g.append("rect")
-        .attr("fill", function(d) {
-            if (d < 300) {
-                return "#1a9641";
-            } else if (d < 400) {
-                return "#a6d96a";
-            } else if (d < 500) {
-                return "#fdae61";
-            } else if (d >= 500 ) {
-                return "#d7191c";
-            }
-        })
-        .attr("stroke", "black")
-        .attr("stroke-width", 0.5)
-        .attr("height", scaledData)
-        .attr("width", width);
+            .attr("fill", function (d) {
+                if (d < 300) {
+                    return "#1a9641";
+                } else if (d < 400) {
+                    return "#a6d96a";
+                } else if (d < 500) {
+                    return "#fdae61";
+                } else if (d >= 500) {
+                    return "#d7191c";
+                }
+            })
+            .attr("stroke", "black")
+            .attr("stroke-width", 0.5)
+            .attr("height", scaledData)
+            .attr("width", width);
 
         g.append("text")
-        .attr("x", 0)
-        .attr("y", scaledData)
-        .attr("dy", "-0.35em")
-        .text(function(d) { return stateName[statePrice.indexOf(d)]; });
+            .attr("x", 0)
+            .attr("y", scaledData)
+            .attr("dy", "-0.35em")
+            .text(function (d) { return stateName[statePrice.indexOf(d)]; });
 
         return <svg ref={node => this.node = node} width={500} height={500}></svg>;
     }

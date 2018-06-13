@@ -28,7 +28,7 @@ const FetchDataWrapper = (url) => (Comp) =>
     }
 
     render() {
-      return <Comp { ...this.props } { ...this.state } />
+      return <Comp {...this.props} {...this.state} />
     }
   }
 

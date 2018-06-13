@@ -1,21 +1,20 @@
-import React, { Component } from 'react';
-import { SideNavItem } from 'react-materialize';
-import './Profile.css';
+import React, { Component } from "react";
+import { SideNavItem } from "react-materialize";
+import "./Profile.css";
 
 class Profile extends Component {
   state = {
     profile: {}
-  }
+  };
 
   componentDidMount() {
     const { userProfile, getProfile } = this.props.auth;
-    
+
     if (!userProfile) {
       getProfile((err, profile) => {
         this.setState({ profile });
       });
-    } 
-    else {
+    } else {
       this.setState({ profile: userProfile });
     }
   }
@@ -24,7 +23,7 @@ class Profile extends Component {
     const { profile } = this.state;
 
     return (
-      <SideNavItem 
+      <SideNavItem
         userView
         user={{
           background: profile.picture,

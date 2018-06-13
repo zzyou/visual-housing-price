@@ -11,7 +11,7 @@ const colorGenerator = (d) => {
         return "#A6E885";
     } else if (d < 400) {
         return "#FEAED8";
-    } else if (d >= 400 ) {
+    } else if (d >= 400) {
         return "#E60086";
     }
 }

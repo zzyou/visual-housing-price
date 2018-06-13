@@ -4,7 +4,7 @@ import Axis from './Axis';
 
 const Axes = ({ scales, margins, svgDimensions }) => {
     const { height, width } = svgDimensions;
-    
+
     const xProps = {
         orient: 'Bottom',
         scale: scales.xScale,
