@@ -19,7 +19,7 @@ class ChartControl extends Component {
 
                 <Col m={6} s={12}>
                     <Card className='blue-grey darken-1' textClassName='white-text' title='Card title' actions={[<a href='#' key='#'>This is a link</a>]}>
-                    I am a very simple card.
+                        I am a very simple card.
                     </Card>
                 </Col>
 
@@ -31,12 +31,12 @@ class ChartControl extends Component {
                 </Row>
 
                 <Row>
-                    <Input name='on' type='date' onChange={function(e, value) {}} />
+                    <Input name='on' type='date' onChange={function (e, value) { }} />
                 </Row>
 
                 <Row>
                     <Col s={12}>
-                        <ProgressBar progress={70}/>
+                        <ProgressBar progress={70} />
                     </Col>
                     <Col s={12}>
                         <ProgressBar />
