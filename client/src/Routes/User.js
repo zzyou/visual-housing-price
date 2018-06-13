@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { Col, ProgressBar } from "react-materialize";
-import Chart from "./Chart";
 import NavTop from "../Components/NavTop";
 import NavBottom from "../Components/NavBottom";
-import FetchDataWrapper from "./FetchDataWrapper";
+import ChartRender from "./ChartRender";
 
 class User extends Component {
   // login() {
@@ -39,15 +37,7 @@ class User extends Component {
                     )
                 } */}
 
-        {this.props.error && <p>{this.props.error.message}</p>}
-
-        {this.props.isLoading && (
-          <Col s={12}>
-            <ProgressBar />
-          </Col>
-        )}
-
-        {this.props.data.length > 0 && <Chart data={this.props.data} />}
+        <ChartRender />
 
         <NavBottom />
       </div>
@@ -55,4 +45,4 @@ class User extends Component {
   }
 }
 
-export default FetchDataWrapper("/states/alldata")(User);
+export default User;

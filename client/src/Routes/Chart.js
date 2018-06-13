@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import { scaleBand, scaleLinear } from "d3-scale";
 import { Button, Input, Row } from "react-materialize";
-
 import Axes from "../Components/Axes";
 import Bars from "../Components/Bars";
-// import Text from './Text';
 import ResponsiveWrapper from "./ResponsiveWrapper";
 
 class Chart extends Component {
@@ -23,19 +21,15 @@ class Chart extends Component {
       stateName: "",
       longStateName: ""
     };
-
-    this.handleBackClick = this.handleBackClick.bind(this);
-    this.handleYearChange = this.handleYearChange.bind(this);
-    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleBackClick(e) {
+  handleBackClick = e => {
     this.setState({
       level: "State"
     });
-  }
+  };
 
-  // handleLevelChange(e) {
+  // handleLevelChange = e => {
   //     const currentLocation = e.target.value;
   //     if (currentLocation === 'All States' && this.state.level === 'MSA') {
   //         this.setState({
@@ -49,20 +43,20 @@ class Chart extends Component {
   //     }
   // }
 
-  handleYearChange(e) {
+  handleYearChange = e => {
     this.setState({
       year: e.target.value
     });
-  }
+  };
 
-  handleClick(shortName, longName) {
+  handleClick = (shortName, longName) => {
     const level = this.state.level;
     this.setState({
       level: level === "State" ? "MSA" : "State",
       stateName: shortName,
       longStateName: longName
     });
-  }
+  };
 
   render() {
     // Once this.state.level changes, this.state.year should be set to 2017 again.
