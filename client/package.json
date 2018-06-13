@@ -1,0 +1,33 @@
+{
+  "name": "visual",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "ajv-keywords": "^3.2.0",
+    "auth0-js": "^9.6.0",
+    "d3-array": "^1.2.1",
+    "d3-axis": "^1.0.8",
+    "d3-brush": "^1.0.4",
+    "d3-fetch": "^1.1.0",
+    "d3-geo": "^1.10.0",
+    "d3-interpolate": "^1.2.0",
+    "d3-scale": "^2.0.0",
+    "d3-selection": "^1.3.0",
+    "d3-shape": "^1.2.0",
+    "d3-svg-legend": "^2.25.6",
+    "d3-transition": "^1.1.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-materialize": "^2.2.1",
+    "react-router-dom": "^4.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:4000"
+}

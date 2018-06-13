@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    
+    <!-- <link href="css/d3.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
+
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
+
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Visual Housing Price</title>
+  </head>
+  <body>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+
+    <div id="root"></div>
+
+
+    <!-- <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">Visual Housing Price</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Map</a></li>
+          <li><a href="#">Chart</a></li>
+          <li><a href="#">Menu</a></li>
+        </ul>
+  
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#">Menu</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Map</i></a>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Chart</i></a>
+      </div>
+    </nav>
+  
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header center teal-text text-lighten-2">Housing Price Index</h1>
+          <div class="row center">
+            <h5 class="header col s12 light">More accurate tracking of price change for the U.S. from 1975 to 2017</h5>
+          </div>
+          <div class="row center">
+            <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Visualization</a>
+          </div>
+          <br><br>
+  
+        </div>
+      </div>
+      <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    </div> -->
+  
+        <!--   Icon Section   -->  
+    <!-- <div class="container">
+      <div class="section">
+  
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+              <h5 class="center">Country Level</h5>
+  
+              <p class="light">Housing price change for the U.S. from 1975 to 2017.</p>
+            </div>
+          </div>
+  
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+              <h5 class="center">State Level</h5>
+  
+              <p class="light">Housing price change for all the states in the U.S. from 1975 to 2017.</p>
+            </div>
+          </div>
+  
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+              <h5 class="center">City Level</h5>
+  
+              <p class="light">Housing price change for all the cities in each state from 1975 to 2017.</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">Map &amp; D3 Visualization</h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+  
+    <div class="container">
+      <div class="section">
+  
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4>Housing Price Change</h4>
+            <p class="left-align light">2017</p>
+            <svg></svg>        
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">Final project at Techtonica</h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+  
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Author Bio</h5>
+            <p class="grey-text text-lighten-4">Journalism + Sociology + Anthropology + Tech</p>
+  
+  
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Settings</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Map</a></li>
+              <li><a class="white-text" href="#!">Chart</a></li>
+              <li><a class="white-text" href="#!">List</a></li>
+              <li><a class="white-text" href="#!">State</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="white-text" href="#!">GitHub</a></li>
+              <li><a class="white-text" href="#!">LinkedIn</a></li>
+              <li><a class="white-text" href="#!">Twitter</a></li>
+              <li><a class="white-text" href="#!">Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        Made by <a class="brown-text text-lighten-3" href="#">Zhenzhen You</a>
+        </div>
+      </div>
+    </footer> -->
+
+    <!-- <svg width="960" height="600"></svg> -->
+  
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!-- <script src="path/to/your/bundle.js"></script> -->
+
+    <!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script> -->
+
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script> -->
+
+    <!-- <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="//d3js.org/topojson.v1.min.js"></script> -->
+
+    <!-- <script src="https://d3js.org/d3.v5.js"></script> -->
+    <script>
+// /* bar chart with x and y axis */
+//       var margin = {top: 80, right: 20, bottom: 80, left: 40},
+//           width = 1400 - margin.left - margin.right,
+//           height = 500 - margin.top - margin.bottom;
+
+//       var x = d3.scale.ordinal()
+//           .rangeRoundBands([0, width], .1, .3);
+
+//       var y = d3.scale.linear()
+//           .range([height, 0]);
+
+//       var xAxis = d3.svg.axis()
+//           .scale(x)
+//           .orient("bottom");
+
+//       var yAxis = d3.svg.axis()
+//           .scale(y)
+//           .orient("left")
+//           .ticks(8);
+
+//       var svg = d3.select("body").append("svg")
+//           .attr("width", width + margin.left + margin.right)
+//           .attr("height", height + margin.top + margin.bottom)
+//           .append("g")
+//           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+//       d3.csv("data/HPIyear.csv", type, function(error, data) {
+//         const stateData = data.filter(obj => obj.level === "State" && obj.yr === "2017");
+//         const sortedStateData = stateData.sort((a, b) => (a.index_nsa - b.index_nsa));         
+//         const statePrice = sortedStateData.map(obj => obj.index_nsa);
+//         const stateName = sortedStateData.map(obj=> obj.place_id);
+
+//         x.domain(stateName);
+//         y.domain([0, d3.max(statePrice)]);
+
+//         svg.append("text")
+//             .attr("class", "title")
+//             .attr("x", x(stateName[0]))
+//             .attr("y", -26)
+//             .text("Housing Price in 2017");
+
+//         svg.append("g")
+//             .attr("class", "x axis")
+//             .attr("transform", "translate(0," + height + ")")
+//             .call(xAxis)
+//             .selectAll(".tick text")
+//             .call(wrap, x.rangeBand());
+
+//         svg.append("g")
+//             .attr("class", "y axis")
+//             .call(yAxis);
+
+//         svg.selectAll(".bar")
+//             .data(sortedStateData)
+//             .enter()
+//             .append("rect")
+//             .attr("class", "bar")
+//             .attr("x", function(d) { return x(d.place_id); })
+//             .attr("width", x.rangeBand())
+//             .attr("y", function(d) { return y(d.index_nsa); })
+//             .attr("height", function(d) { return height - y(d.index_nsa); });
+//       });
+
+//       function wrap(text, width) {
+//         text.each(function() {
+//           var text = d3.select(this),
+//               words = text.text().split(/\s+/).reverse(),
+//               word,
+//               line = [],
+//               lineNumber = 0,
+//               lineHeight = 1.1, // ems
+//               y = text.attr("y"),
+//               dy = parseFloat(text.attr("dy")),
+//               tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+//           while (word = words.pop()) {
+//             line.push(word);
+//             tspan.text(line.join(" "));
+//             if (tspan.node().getComputedTextLength() > width) {
+//               line.pop();
+//               tspan.text(line.join(" "));
+//               line = [word];
+//               tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+//             }
+//           }
+//         });
+//       }
+
+//       function type(d) {
+//         d.value = +d.value;
+//         return d;
+//       }
+
+
+
+
+// /* only map of USA */
+//       var svg = d3.select("svg");
+
+//       var path = d3.geoPath();
+
+//       d3.json("data/states.json", function(error, us) {
+//         if (error) throw error;
+
+//         svg.append("g")
+//           .attr("class", "states")
+//           .selectAll("path")
+//           .data(topojson.feature(us, us.objects.states).features)
+//           .enter()
+//           .append("path")
+//           .attr("d", path);
+
+//         svg.append("path")
+//             .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+//             .attr("class", "border border--state")
+//             .attr("d", path);
+
+//         svg.append("path")
+//             .attr("class", "state-borders")
+//             .attr("d", path(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; })));
+//       });
+
+
+// /* bubble map of population */
+//       var width = 960,
+//           height = 600;
+
+//       var formatNumber = d3.format(",.0f");
+
+//       var path = d3.geo.path()
+//           .projection(null);
+
+//       var radius = d3.scale.sqrt()
+//           .domain([0, 1e6])
+//           .range([0, 15]);
+
+//       var svg = d3.select("body").append("svg")
+//           .attr("width", width)
+//           .attr("height", height);
+
+//       var legend = svg.append("g")
+//           .attr("class", "legend")
+//           .attr("transform", "translate(" + (width - 50) + "," + (height - 20) + ")")
+//         .selectAll("g")
+//           .data([1e6, 5e6, 1e7])
+//         .enter().append("g");
+
+//       legend.append("circle")
+//           .attr("cy", function(d) { return -radius(d); })
+//           .attr("r", radius);
+
+//       legend.append("text")
+//           .attr("y", function(d) { return -2 * radius(d); })
+//           .attr("dy", "1.3em")
+//           .text(d3.format(".1s"));
+
+//       d3.json("data/us.json", function(error, us) {
+//         if (error) throw error;
+
+//         svg.append("path")
+//             .datum(topojson.feature(us, us.objects.nation))
+//             .attr("class", "land")
+//             .attr("d", path);
+
+//         svg.append("path")
+//             .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+//             .attr("class", "border border--state")
+//             .attr("d", path);
+
+//         svg.append("g")
+//             .attr("class", "bubble")
+//           .selectAll("circle")
+//             .data(topojson.feature(us, us.objects.counties).features
+//               .sort(function(a, b) { return b.properties.population - a.properties.population; }))
+//           .enter().append("circle")
+//             .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
+//             .attr("r", function(d) { return radius(d.properties.population); })
+//           .append("title")
+//             .text(function(d) {
+//               return d.properties.name
+//                   + "\nPopulation " + formatNumber(d.properties.population);
+//             });
+//       });
+
+//       d3.select(self.frameElement).style("height", height + "px");
+
+
+// /* one city price change */
+
+        // d3.csv("data/HPIyear.csv")
+        // .then(function(data) {
+
+// /* one city price change from 1975 to 2017 */
+          // const dataSF = data.filter(obj => (obj.level === "MSA" && obj.place_name.includes("San Francisco")));
+          // console.log(dataSF);
+
+          // const priceSF = dataSF.map(obj => obj.index_nsa);
+          // console.log(priceSF);
+
+          // const year = dataSF.map(obj => obj.yr);
+          // console.log(year);
+
+          // const height = 500,
+          //     width = 45;
+
+          // const scaledData = d3.scaleLinear()
+          //             .domain([0, Math.max(...priceSF)])
+          //             .range([0, height]);
+
+          // const g = d3.select("svg")
+          //     .attr("height", height)
+          //     .attr("width", width * priceSF.length)
+          //     .selectAll("g")
+          //     .data(priceSF)
+          //     .enter()
+          //     .append("g")
+          //     .attr("transform", function(d, i) {
+          //         return "translate(" + i * width + ", " + (height - scaledData(d)) + ")"; 
+          //         });
+
+          // g.append("rect")
+          // .attr("fill", function(d) {
+          //   if (d < 200) {
+          //       return "green";
+          //     } else if (d < 300) {
+          //       return "yellow";
+          //     } else if (d < 400) {
+          //       return "orange";
+          //     } else if (d >= 300 ) {
+          //       return "red";
+          //     }
+          // })
+          // .attr("stroke", "black")
+          // .attr("stroke-width", 0.5)
+          // .attr("height", scaledData)
+          // .attr("width", width);
+
+          // g.append("text")
+          // .attr("x", 0)
+          // .attr("y", scaledData)
+          // .attr("dy", "-0.35em")
+          // .text(function(d) { return year[priceSF.indexOf(d)]; });
+
+
+// // cities in one state in 2017
+          // // cannot use regular expression?
+          // const cityCA = data.filter(obj => (obj.level === "MSA" && obj.place_name.includes(", CA") && obj.yr === "2017"));
+
+          // const sortedCityCA = cityCA.sort((a, b) => (a.index_nsa - b.index_nsa));
+
+          // const priceCA = sortedCityCA.map(obj => obj.index_nsa);
+          // console.log(priceCA);
+
+          // const nameCA = sortedCityCA.map(obj => obj.place_name);
+          // console.log(nameCA);
+
+          // const height = 500,
+          //     width = 65;
+
+          // const scaledData = d3.scaleLinear()
+          //             .domain([0, Math.max(...priceCA)])
+          //             .range([0, height]);
+
+          // const g = d3.select("svg")
+          //     .attr("height", height)
+          //     .attr("width", width * priceCA.length)
+          //     .selectAll("g")
+          //     .data(priceCA)
+          //     .enter()
+          //     .append("g")
+          //     .attr("transform", function(d, i) {
+          //         return "translate(" + i * width + ", " + (height - scaledData(d)) + ")"; 
+          //         });
+
+          // g.append("rect")
+          // .attr("fill", function(d) {
+          //   if (d < 200) {
+          //       return "green";
+          //     } else if (d < 300) {
+          //       return "yellow";
+          //     } else if (d < 400) {
+          //       return "orange";
+          //     } else if (d >= 300 ) {
+          //       return "red";
+          //     }
+          // })
+          // .attr("stroke", "black")
+          // .attr("stroke-width", 0.5)
+          // .attr("height", scaledData)
+          // .attr("width", width);
+
+          // g.append("text")
+          // .attr("x", 0)
+          // .attr("y", scaledData)
+          // .attr("dy", "-0.35em")
+          // .text(function(d) { return nameCA[priceCA.indexOf(d)]; });
+
+
+// /* one state price change from 1975 to 2017 */
+          // const dataCA = data.filter(obj => obj.level === "State" && obj.place_id === "CA");
+
+          // const priceCA = dataCA.map(obj => obj.index_nsa);
+          // console.log(priceCA);
+
+          // const year = dataCA.map(obj => obj.yr);
+
+          // const height = 500,
+          //     width = 35;
+
+          // const scaledData = d3.scaleLinear()
+          //             .domain([0, Math.max(...priceCA)])
+          //             .range([0, height]);
+
+          // const g = d3.select("svg")
+          //     .attr("height", height)
+          //     .attr("width", width * priceCA.length)
+          //     .selectAll("g")
+          //     .data(priceCA)
+          //     .enter()
+          //     .append("g")
+          //     .attr("transform", function(d, i) {
+          //         return "translate(" + i * width + ", " + (height - scaledData(d)) + ")"; 
+          //         });
+
+          // g.append("rect")
+          // .attr("fill", function(d) {
+          //   if (d < 100) {
+          //       return "green";
+          //     } else if (d < 200) {
+          //       return "yellow";
+          //     } else if (d < 300) {
+          //       return "orange";
+          //     } else if (d >= 300 ) {
+          //       return "red";
+          //     }
+          // })
+          // .attr("stroke", "black")
+          // .attr("stroke-width", 0.5)
+          // .attr("height", scaledData)
+          // .attr("width", width);
+
+          // g.append("text")
+          // .attr("x", 0)
+          // .attr("y", scaledData)
+          // .attr("dy", "-0.35em")
+          // .text(function(d) { return year[priceCA.indexOf(d)]; });
+
+
+// /* all states' price change in 2017 */
+//           const stateData = data.filter(obj => obj.level === "State" && obj.yr === "2017");
+//           const sortedStateData = stateData.sort((a, b) => (a.index_nsa - b.index_nsa));         
+//           const statePrice = sortedStateData.map(obj => obj.index_nsa);
+//           const stateName = sortedStateData.map(obj=> obj.place_id);
+
+//           const height = 500,
+//               width = 25;
+
+//           const scaledData = d3.scaleLinear()
+//                       .domain([0, Math.max(...statePrice)])
+//                       .range([0, height]);
+
+//           const g = d3.select("body").append("svg")
+//               .attr("height", height)
+//               .attr("width", width * statePrice.length)
+//               .selectAll("g")
+//               .data(statePrice)
+//               .enter()
+//               .append("g")
+//               .attr("transform", function(d, i) {
+//                   return "translate(" + i * width + ", " + (height - scaledData(d)) + ")"; 
+//                   });
+
+//           // .attr("fill", callback), the callback function cannot be defined elsewhere?
+//           g.append("rect")
+//           .attr("fill", function(d) {
+//             if (d < 300) {
+//                 return "green";
+//               } else if (d < 400) {
+//                 return "yellow";
+//               } else if (d < 500) {
+//                 return "orange";
+//               } else if (d >= 500 ) {
+//                 return "red";
+//               }
+//             })
+//           .attr("stroke", "black")
+//           .attr("stroke-width", 0.5)
+//           .attr("height", scaledData)
+//           .attr("width", width);
+
+//           g.append("text")
+//           .attr("x", 0)
+//           .attr("y", scaledData)
+//           .attr("dy", "-0.35em")
+//           .text(function(d) { return stateName[statePrice.indexOf(d)]; });
+
+//         });
+    </script>
+  </body>
+</html>
