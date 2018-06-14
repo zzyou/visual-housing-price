@@ -11,8 +11,8 @@ class TopNav extends Component {
   render() {
     return (
       <Navbar brand="Viztory" right>
-        <NavItem onClick={() => this.goTo("Chart")}>HPI Charts</NavItem>
-        <NavItem href="#footer">Contact</NavItem>
+        <NavItem onClick={() => this.goTo("Chart")}>Visual House Price</NavItem>
+        <NavItem href="#footer">Contact Info</NavItem>
         <li>
           <LoginButton />
         </li>
