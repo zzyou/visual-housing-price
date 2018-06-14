@@ -88,7 +88,7 @@ export default class Auth {
     localStorage.removeItem("id_token");
     localStorage.removeItem("expires_at");
     this.userProfile = null;
-    history.replace("/user");
+    history.replace("/");
   }
 
   isAuthenticated() {

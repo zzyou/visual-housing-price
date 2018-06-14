@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Route, Router, Switch } from "react-router-dom";
 import Home from "./Routes/Home";
-import ChartRender from "./Routes/ChartRender";
+import Chart from "./Routes/Chart";
 import User from "./Routes/User";
 import Callback from "./Auth0/Callback/Callback";
 import Auth from "./Auth0/Auth/Auth";
@@ -21,11 +21,7 @@ class App extends Component {
       <Router history={history}>
         <Switch>
           <Route exact path="/" render={props => <Home {...props} />} />
-          <Route
-            exact
-            path="/chart"
-            render={props => <ChartRender {...props} />}
-          />
+          <Route exact path="/chart" render={props => <Chart {...props} />} />
           <Route
             exact
             path="/user"

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Col, ProgressBar } from "react-materialize";
-import Chart from "./Chart";
+import ChartLogic from "./ChartLogic";
 import FetchDataWrapper from "./FetchDataWrapper";
 
 class ChartRender extends Component {
@@ -15,7 +15,7 @@ class ChartRender extends Component {
           </Col>
         )}
 
-        {this.props.data.length > 0 && <Chart data={this.props.data} />}
+        {this.props.data.length > 0 && <ChartLogic data={this.props.data} />}
       </div>
     );
   }

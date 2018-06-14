@@ -1,9 +1,14 @@
 import React, { Component } from "react";
-import { Parallax } from "react-materialize";
+import { Button, Parallax } from "react-materialize";
 import background1 from "../images/architecture-autumn.jpg";
 import background2 from "../images/bikes-buildings.jpg";
+import history from "../Auth0/history";
 
 class HomeParallax extends Component {
+  goTo(route) {
+    history.replace(`/${route}`);
+  }
+
   render() {
     return (
       <div>
@@ -29,6 +34,9 @@ class HomeParallax extends Component {
               refinancings on the same single-family houses in the United
               States.
             </p>
+            <Button onClick={() => this.goTo("Chart")}>
+              Data Visualization for HPI
+            </Button>
           </div>
         </div>
         <Parallax imageSrc={background2} />
