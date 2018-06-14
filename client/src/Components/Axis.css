@@ -12,3 +12,8 @@
   transform: rotate(-45deg);
   text-anchor: end;
 }
+
+/* text:hover {
+  text-overflow: ellipsis;
+  overflow: visible;
+} */
