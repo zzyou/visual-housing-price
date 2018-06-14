@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Route, Router, Switch } from "react-router-dom";
+import "./App.css";
 import Home from "./Routes/Home";
 import Chart from "./Routes/Chart";
 import User from "./Routes/User";
