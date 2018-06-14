@@ -3,6 +3,7 @@ import { Button, Parallax } from "react-materialize";
 import background1 from "../images/architecture-autumn.jpg";
 import background2 from "../images/bikes-buildings.jpg";
 import history from "../Auth0/history";
+import "./Parallax.css";
 
 class HomeParallax extends Component {
   goTo(route) {

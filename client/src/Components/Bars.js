@@ -4,15 +4,18 @@ import "d3-transition";
 // import { scaleLinear } from 'd3-scale';
 // import { interpolateLab } from 'd3-interpolate';
 
+const accessGR = ["#00B628", "#A6E885", "#FEAED8", "#E60086"];
+// const lightGR = ["#a8e6cf", "#fdffab", "#ffd3b6", "#ffaaa5"];
+
 const colorGenerator = d => {
   if (d < 200) {
-    return "#00B628";
+    return accessGR[0];
   } else if (d < 300) {
-    return "#A6E885";
+    return accessGR[1];
   } else if (d < 400) {
-    return "#FEAED8";
+    return accessGR[2];
   } else if (d >= 400) {
-    return "#E60086";
+    return accessGR[3];
   }
 };
 

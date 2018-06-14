@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Button, SideNav, SideNavItem } from "react-materialize";
 import Auth from "../Auth0/Auth/Auth";
 import Profile from "./Profile";
+import "./LoginButton.css";
 
 const auth = new Auth();
 

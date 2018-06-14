@@ -11,8 +11,6 @@ class Home extends Component {
 
         <Parallax />
 
-        {/* todo: add a button to animate the Chart, change this.state.year automatically */}
-
         <NavBottom />
       </div>
     );

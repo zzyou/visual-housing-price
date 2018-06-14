@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./ResponsiveWrapper.css";
 
 const ResponsiveWrapper = ChartComponent =>
   class ResponsiveChart extends Component {

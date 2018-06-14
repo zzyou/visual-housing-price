@@ -4,6 +4,7 @@ import { Button, Input, Row } from "react-materialize";
 import Axes from "./Axes";
 import Bars from "./Bars";
 import ResponsiveWrapper from "./ResponsiveWrapper";
+import "./ChartLogic.css";
 
 class ChartLogic extends Component {
   constructor(props) {
