@@ -1,16 +1,11 @@
 import React, { Component } from "react";
 import { Button, SideNav, SideNavItem } from "react-materialize";
 import Auth from "../Auth0/Auth/Auth";
-import history from "../Auth0/history";
 import Profile from "./Profile";
 
 const auth = new Auth();
 
 class LoginButton extends Component {
-  goTo(route) {
-    history.replace(`/${route}`);
-  }
-
   login() {
     auth.login();
   }

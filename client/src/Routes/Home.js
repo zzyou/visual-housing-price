@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./Home.css";
 import NavTop from "../Components/NavTop";
 import NavBottom from "../Components/NavBottom";
 import Parallax from "../Components/Parallax";

@@ -1,18 +1,17 @@
 import React, { Component } from "react";
 import ChartRender from "../Components/ChartRender";
-import { Button } from "react-materialize";
-import history from "../Auth0/history";
+import NavTop from "../Components/NavTop";
+import NavBottom from "../Components/NavBottom";
 
 class Chart extends Component {
-  goTo(route) {
-    history.replace(`/${route}`);
-  }
-
   render() {
     return (
       <div>
-        <Button onClick={() => this.goTo("")}>Back to Home</Button>
+        <NavTop />
+
         <ChartRender />
+
+        <NavBottom />
       </div>
     );
   }
