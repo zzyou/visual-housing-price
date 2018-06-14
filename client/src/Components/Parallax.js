@@ -14,7 +14,7 @@ class HomeParallax extends Component {
     return (
       <div>
         <Parallax imageSrc={background1} />
-        <div className="section white parallax-section teal lighten-2">
+        <div className="section white parallax-section z-depth-4 teal lighten-2">
           <div className="row container center-align">
             <h5 className="header grey-text text-darken-3 lighten-3">
               Visualize House Price Change
@@ -38,7 +38,7 @@ class HomeParallax extends Component {
           </div>
         </div>
         <Parallax imageSrc={background1} />
-        <div className="section white parallax-section teal lighten-2">
+        <div className="section white parallax-section z-depth-4 teal lighten-2">
           <div className="row container center-align">
             <h5 className="header grey-text text-darken-3 lighten-3">
               Data based on House Price Index
