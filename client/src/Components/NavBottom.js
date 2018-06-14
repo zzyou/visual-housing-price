@@ -63,7 +63,7 @@ class BottomNav extends Component {
           className="example"
         >
           <h5 className="white-text">
-            <i>Viztory:</i> Visual House Price
+            <i>Viztory: Visual House Price</i>
           </h5>
           <p className="grey-text text-lighten-4">
             Data based on House Price Index (HPI): a weighted, repeat-sales
