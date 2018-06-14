@@ -98,7 +98,9 @@ class ChartLogic extends Component {
     return (
       <div>
         {this.state.level === "MSA" && (
-          <Button onClick={this.handleLevelClick}>Back to State Level</Button>
+          <div className="center-align">
+            <Button onClick={this.handleLevelClick}>Back to State Level</Button>
+          </div>
         )}
 
         {this.state.level === "State" ? (
