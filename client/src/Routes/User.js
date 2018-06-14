@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavTop from "../Components/NavTop";
 import NavBottom from "../Components/NavBottom";
-import ChartRender from "./ChartRender";
+import ChartRender from "../Components/ChartRender";
 
 class User extends Component {
   render() {

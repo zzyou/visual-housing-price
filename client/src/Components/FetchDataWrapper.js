@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-const FetchDataWrapper = (url) => (Comp) =>
+const FetchDataWrapper = url => Comp =>
   class FetchData extends Component {
     constructor(props) {
       super(props);
@@ -8,7 +8,7 @@ const FetchDataWrapper = (url) => (Comp) =>
       this.state = {
         data: [],
         isLoading: false,
-        error: null,
+        error: null
       };
     }
 
@@ -20,7 +20,7 @@ const FetchDataWrapper = (url) => (Comp) =>
           if (response.ok) {
             return response.json();
           } else {
-            throw new Error('Something went wrong ...');
+            throw new Error("Something went wrong ...");
           }
         })
         .then(data => this.setState({ data, isLoading: false }))
@@ -28,8 +28,8 @@ const FetchDataWrapper = (url) => (Comp) =>
     }
 
     render() {
-      return <Comp {...this.props} {...this.state} />
+      return <Comp {...this.props} {...this.state} />;
     }
-  }
+  };
 
 export default FetchDataWrapper;
