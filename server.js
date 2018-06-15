@@ -33,12 +33,17 @@ app.get("/states/alldata", (req, res) => {
     if (error) {
       console.error(error.toString());
     } else {
-      const data = JSON.parse(JSON.stringify(result));
+      const data = JSON.stringify(result);
       return res.send(data);
     }
   });
 
   connection.end();
+});
+
+app.post("/save_user", (req, res) => {
+  console.log("request", req.body);
+  res.send(JSON.stringify("User saved to database"));
 });
 
 app.listen(reactPort, () => {
