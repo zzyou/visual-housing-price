@@ -20,7 +20,7 @@ const FetchDataWrapper = url => Comp =>
           if (response.ok) {
             return response.json();
           } else {
-            throw new Error("Something went wrong ...");
+            throw new Error("Something went wrong with fetching data...");
           }
         })
         .then(data => this.setState({ data, isLoading: false }))
