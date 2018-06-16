@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { SideNavItem } from "react-materialize";
 import "./Profile.css";
-import SaveData from "./SaveData";
 
 class Profile extends Component {
   state = {
@@ -14,11 +13,9 @@ class Profile extends Component {
     if (!userProfile) {
       getProfile((err, profile) => {
         this.setState({ profile });
-        SaveData("/save_user", profile);
       });
     } else {
       this.setState({ profile: userProfile });
-      SaveData("/save_user", userProfile);
     }
   }
 

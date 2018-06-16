@@ -7,9 +7,9 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <NavTop />
+        <NavTop auth={this.props.auth} />
 
-        <Parallax />
+        <Parallax auth={this.props.auth} />
 
         <NavBottom />
       </div>

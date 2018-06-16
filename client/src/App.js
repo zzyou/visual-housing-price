@@ -21,8 +21,16 @@ class App extends Component {
     return (
       <Router history={history}>
         <Switch>
-          <Route exact path="/" render={props => <Home {...props} />} />
-          <Route exact path="/chart" render={props => <Chart {...props} />} />
+          <Route
+            exact
+            path="/"
+            render={props => <Home auth={auth} {...props} />}
+          />
+          <Route
+            exact
+            path="/chart"
+            render={props => <Chart auth={auth} {...props} />}
+          />
           <Route
             exact
             path="/user"

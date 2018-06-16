@@ -7,7 +7,7 @@ class Chart extends Component {
   render() {
     return (
       <div>
-        <NavTop />
+        <NavTop auth={this.props.auth} />
 
         <ChartRender />
 
