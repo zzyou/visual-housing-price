@@ -55,7 +55,7 @@ class User extends Component {
   render() {
     return (
       <div>
-        <NavTop auth={this.props.auth} profile={this.state.profile} />
+        <NavTop auth={this.props.auth} />
 
         <Row className="user-input">
           <Input
