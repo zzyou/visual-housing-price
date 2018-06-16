@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Footer } from "react-materialize";
 
-class BottomNav extends Component {
+class NavBottom extends Component {
   render() {
     return (
       <div id="footer">
@@ -76,4 +76,4 @@ class BottomNav extends Component {
   }
 }
 
-export default BottomNav;
+export default NavBottom;

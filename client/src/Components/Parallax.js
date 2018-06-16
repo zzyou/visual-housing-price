@@ -11,6 +11,11 @@ class HomeParallax extends Component {
   }
 
   render() {
+    const { isAuthenticated } = this.props.auth;
+    const renderChart = () => {
+      return isAuthenticated() ? this.goTo("User") : this.goTo("Chart");
+    };
+
     return (
       <div>
         <Parallax imageSrc={background1} />
@@ -32,9 +37,7 @@ class HomeParallax extends Component {
             <p className="grey-text text-darken-3 lighten-3">
               Which state had the highest price change in 1975?
             </p>
-            <Button onClick={() => this.goTo("Chart")}>
-              Data Visualization
-            </Button>
+            <Button onClick={renderChart}>Data Visualization</Button>
           </div>
         </div>
         <Parallax imageSrc={background1} />
@@ -54,9 +57,7 @@ class HomeParallax extends Component {
               reviewing repeat mortgage transactions on single-family properties
               whose mortgages have been purchased or securitized.
             </p>
-            <Button onClick={() => this.goTo("Chart")}>
-              Data Visualization
-            </Button>
+            <Button onClick={renderChart}>Data Visualization</Button>
           </div>
         </div>
         <Parallax imageSrc={background2} />
