@@ -65,7 +65,7 @@ IGNORE 1 ROWS
 
 #### House Price Index
 
-- **Level**: country level, state level, city level
+- **Level**: state level, city level
 - **Name**: state name or city name
 - **Year**: 1975 - 2017
 - **Price**: house price index
@@ -76,5 +76,5 @@ IGNORE 1 ROWS
 
 Visualization of House Price Index (HPI) in the U.S., using D3 charts.
 
-- Charts of price change in state level, city level.
-- Charts of one location's price change across time (1975 - 2017).
+- Charts of house price change in state level and city level.
+- Charts of one location's house price change across time (1975 - 2017).
