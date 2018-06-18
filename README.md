@@ -4,7 +4,11 @@
 
 Final Project at Techtonica.
 
-**Tools**: _Node, Express, API, React, D3_
+**Tools**: _Node, Express, MySQL, React, D3, OAuth_
+
+<img src="./client/public/Viztory.gif" alt="Viztory GIF" />
+
+###
 
 ### [Data](https://catalog.data.gov/dataset/fhfa-house-price-indexes-hpis)
 
@@ -13,6 +17,8 @@ Final Project at Techtonica.
 > The HPI is a broad measure of the movement of single-family house prices in the United States. The HPI is a weighted, repeat-sales index, meaning that it measures average price changes in repeat sales or refinancings on the same properties. This information is obtained by reviewing repeat mortgage transactions on single-family properties whose mortgages have been purchased or securitized by Fannie Mae or Freddie Mac since January 1975.
 >
 > -- _Federal Housing Finance Agency_
+
+###
 
 ### How to Set Up
 
@@ -53,35 +59,22 @@ IGNORE 1 ROWS
 - In terminal, `cd ../` to go back to the root directory, run `npm install`, install all node modules for server side.
 - In terminal, still in the root directory, run `yarn dev`, enjoy!
 
-### Function and Feature
-
-Visualization of House Price Index (HPI) in the U.S., using D3 charts.
-
-- Charts of price change in state level, city level.
-- Charts of one location's price change across time (1975 - 2017).
-
-### Wireframe
-
-| Visual House Price    | Dropdown |
-| --------------------- | -------- |
-| **_Chart_**           |
-| Copyright/Social Logo |
+###
 
 ### Data Model
 
 #### House Price Index
 
-- **Level**: country level, state level, city level
+- **Level**: state level, city level
 - **Name**: state name or city name
 - **Year**: 1975 - 2017
 - **Price**: house price index
 
-### Visual Design
+###
 
-- **Audience**: homebuyer or anyone interested in house price change.
-- **Category**: descriptive analysis of house price change.
-- **Color**: white
-- **Font**: google font Slabo
-- **Text size**: 26px for page title, 11px for chart description and menu/button.
-- **Image**: chart
-- **Responsive design**: Navbar will become hamburger icon for mobile users. Chart will stay full screen for both computer users and mobile users.
+### Function and Feature
+
+Visualization of House Price Index (HPI) in the U.S., using D3 charts.
+
+- Charts of house price change in state level and city level.
+- Charts of one location's house price change across time (1975 - 2017).
