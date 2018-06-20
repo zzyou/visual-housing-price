@@ -70,7 +70,6 @@ class User extends Component {
       <div>
         <NavTop
           auth={this.props.auth}
-          level={this.state.level}
           year={this.state.year}
           stateName={this.state.stateName}
         />
@@ -104,7 +103,11 @@ class User extends Component {
           </Button>
         </Row>
 
-        <ChartRender />
+        <ChartRender
+          level={this.state.level}
+          year={this.state.year}
+          stateName={this.state.stateName}
+        />
 
         <NavBottom />
       </div>

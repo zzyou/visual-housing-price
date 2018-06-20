@@ -14,10 +14,10 @@ class ChartLogic extends Component {
     this.yScale = scaleLinear();
 
     this.state = {
-      year: "2017",
-      level: "State",
-      stateName: "",
-      longStateName: ""
+      year: this.props.year || "2017",
+      level: this.props.level || "State",
+      stateName: this.props.stateName || "",
+      longStateName: this.props.stateName || ""
     };
   }
 
