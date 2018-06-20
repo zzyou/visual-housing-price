@@ -42,7 +42,7 @@ app.get("/states/alldata", (req, res) => {
 });
 
 app.post("/save_user", (req, res) => {
-  console.log("request", req.body);
+  console.log("request", req.body.user, req.body.year, req.body.state);
   res.send(JSON.stringify("User saved to database"));
 });
 

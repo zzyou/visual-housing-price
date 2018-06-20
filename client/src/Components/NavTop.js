@@ -14,14 +14,19 @@ class NavTop extends Component {
     const renderChart = () => {
       return isAuthenticated() ? this.goTo("User") : this.goTo("Chart");
     };
+    const renderLoginButton = () => {
+      return isAuthenticated() ? (
+        <LoginButton year={this.props.year} stateName={this.props.stateName} />
+      ) : (
+        <LoginButton />
+      );
+    };
 
     return (
       <Navbar brand="Viztory" right>
         <NavItem onClick={renderChart}>Visual House Price</NavItem>
         <NavItem href="#footer">Contact Info</NavItem>
-        <li>
-          <LoginButton />
-        </li>
+        <li>{renderLoginButton()}</li>
       </Navbar>
     );
   }

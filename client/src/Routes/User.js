@@ -10,30 +10,20 @@ import stateOptions from "../Components/stateOptions";
 
 class User extends Component {
   state = {
-    level: "State",
+    level: "",
     year: "",
     stateName: "",
-    profile: {}
+    profile: {},
+    save: false
   };
 
   handleYearChange = e => {
-    console.log("year", e.target.value);
     this.setState({
       year: e.target.value
     });
-
-    if (this.state.profile.sub) {
-      SaveData(
-        "/save_user",
-        this.state.profile.sub,
-        e.target.value,
-        this.state.stateName
-      );
-    }
   };
 
   handleStateChange = e => {
-    console.log("state", e.target.value);
     if (e.target.value === "AllStates") {
       this.setState({
         level: "State",
@@ -45,13 +35,18 @@ class User extends Component {
         stateName: e.target.value
       });
     }
+  };
 
+  handleSubmit = () => {
     if (this.state.profile.sub) {
+      this.setState({
+        save: true
+      });
       SaveData(
         "/save_user",
         this.state.profile.sub,
         this.state.year,
-        e.target.value
+        this.state.stateName
       );
     }
   };
@@ -73,7 +68,12 @@ class User extends Component {
   render() {
     return (
       <div>
-        <NavTop auth={this.props.auth} />
+        <NavTop
+          auth={this.props.auth}
+          level={this.state.level}
+          year={this.state.year}
+          stateName={this.state.stateName}
+        />
 
         <Row className="user-input">
           <Input
@@ -95,7 +95,11 @@ class User extends Component {
             {stateOptions()}
           </Input>
 
-          <Button className="save-button" type="submit">
+          <Button
+            onClick={this.handleSubmit}
+            className="save-button"
+            type="submit"
+          >
             Save
           </Button>
         </Row>
