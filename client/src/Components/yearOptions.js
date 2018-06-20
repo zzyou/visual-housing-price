@@ -1,11 +1,15 @@
 import React from "react";
 
 const yearOptions = () => {
-  let optionArr = [];
+  let yearOptionArr = [];
   for (let year = 2017; year >= 1975; year--) {
-    optionArr.push(<option value={year}>{year}</option>);
+    yearOptionArr.push(
+      <option key={year} value={year}>
+        {year}
+      </option>
+    );
   }
-  return optionArr;
+  return yearOptionArr;
 };
 
 export default yearOptions;

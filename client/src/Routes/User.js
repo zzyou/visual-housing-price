@@ -6,6 +6,7 @@ import ChartRender from "../Components/ChartRender";
 import SaveData from "../Components/SaveData";
 import "./User.css";
 import yearOptions from "../Components/yearOptions";
+import stateOptions from "../Components/stateOptions";
 
 class User extends Component {
   state = {
@@ -67,16 +68,17 @@ class User extends Component {
           >
             {yearOptions()}
           </Input>
+
           <Input
             onChange={this.handleStateChange}
             type="select"
             label="Your Preference of State"
-            defaultValue="CA"
+            defaultValue="AllStates"
           >
             <option value="AllStates">All States</option>
-            <option value="NY">New York</option>
-            <option value="WA">Washington</option>
+            {stateOptions()}
           </Input>
+
           <Button className="save-button" type="submit">
             Save
           </Button>
