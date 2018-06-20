@@ -5,6 +5,7 @@ import NavBottom from "../Components/NavBottom";
 import ChartRender from "../Components/ChartRender";
 import SaveData from "../Components/SaveData";
 import "./User.css";
+import yearOptions from "../Components/yearOptions";
 
 class User extends Component {
   state = {
@@ -39,7 +40,7 @@ class User extends Component {
   componentDidMount() {
     const { isAuthenticated, userProfile, getProfile } = this.props.auth;
 
-    if (isAuthenticated) {
+    if (isAuthenticated()) {
       if (!userProfile) {
         getProfile((err, profile) => {
           this.setState({ profile });
@@ -64,9 +65,7 @@ class User extends Component {
             label="Your Preference of Year"
             defaultValue="2017"
           >
-            <option value="2017">2017</option>
-            <option value="2008">2008</option>
-            <option value="1975">1975</option>
+            {yearOptions()}
           </Input>
           <Input
             onChange={this.handleStateChange}
