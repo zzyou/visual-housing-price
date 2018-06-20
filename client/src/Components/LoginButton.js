@@ -29,6 +29,10 @@ class LoginButton extends Component {
             options={{ closeOnClick: true }}
           >
             <Profile auth={auth} />
+            <SideNavItem>Preference of Year: {this.props.year}</SideNavItem>
+            <SideNavItem>
+              Preference of State: {this.props.stateName}
+            </SideNavItem>
             <SideNavItem divider />
             <SideNavItem onClick={this.logout.bind(this)}>Log Out</SideNavItem>
           </SideNav>
