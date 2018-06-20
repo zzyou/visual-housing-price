@@ -11,7 +11,7 @@ import stateOptions from "../Components/stateOptions";
 class User extends Component {
   state = {
     level: "State",
-    year: "2017",
+    year: "",
     stateName: "",
     profile: {}
   };
@@ -21,6 +21,15 @@ class User extends Component {
     this.setState({
       year: e.target.value
     });
+
+    if (this.state.profile.sub) {
+      SaveData(
+        "/save_user",
+        this.state.profile.sub,
+        e.target.value,
+        this.state.stateName
+      );
+    }
   };
 
   handleStateChange = e => {
@@ -28,13 +37,22 @@ class User extends Component {
     if (e.target.value === "AllStates") {
       this.setState({
         level: "State",
-        stateName: ""
+        stateName: e.target.value
       });
     } else {
       this.setState({
         level: "MSA",
         stateName: e.target.value
       });
+    }
+
+    if (this.state.profile.sub) {
+      SaveData(
+        "/save_user",
+        this.state.profile.sub,
+        this.state.year,
+        e.target.value
+      );
     }
   };
 
@@ -45,11 +63,9 @@ class User extends Component {
       if (!userProfile) {
         getProfile((err, profile) => {
           this.setState({ profile });
-          SaveData("/save_user", profile);
         });
       } else {
         this.setState({ profile: userProfile });
-        SaveData("/save_user", userProfile);
       }
     }
   }

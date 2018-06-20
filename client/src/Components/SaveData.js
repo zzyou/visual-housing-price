@@ -1,8 +1,10 @@
-const SaveData = (url, data) => {
+const SaveData = (url, profile, year, state) => {
   fetch(url, {
     method: "POST",
     body: JSON.stringify({
-      user: data
+      user: profile,
+      year: year,
+      state: state
     }),
     headers: {
       "Content-Type": "application/json"
