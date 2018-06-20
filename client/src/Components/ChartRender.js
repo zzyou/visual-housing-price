@@ -15,7 +15,14 @@ class ChartRender extends Component {
           </Col>
         )}
 
-        {this.props.data.length > 0 && <ChartLogic data={this.props.data} />}
+        {this.props.data.length > 0 && (
+          <ChartLogic
+            data={this.props.data}
+            level={this.props.level}
+            year={this.props.year}
+            stateName={this.props.stateName}
+          />
+        )}
       </div>
     );
   }
