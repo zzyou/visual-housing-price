@@ -12,14 +12,26 @@ app.use(
   })
 );
 
-app.get("/states/alldata", (req, res) => {
-  const connection = process.env.DB_CONNECTION.createConnection({
+let connectionConfig;
+if (process.env.NODE_ENV === "development" || !process.env.NODE_ENV) {
+  connectionConfig = {
+    host: "127.0.0.1",
+    port: 3306,
+    user: "root",
+    password: "",
+    database: "finalProject"
+  };
+} else {
+  connectionConfig = {
     host: process.env.DB_HOST,
-    // port: process.env.DB_PORT,
     user: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE
-  });
+  };
+}
+
+app.get("/states/alldata", (req, res) => {
+  const connection = mysql.createConnection(connectionConfig);
 
   connection.connect();
 
@@ -39,13 +51,7 @@ app.get("/states/alldata", (req, res) => {
 });
 
 app.get("/user/:email", (req, res) => {
-  const connection = process.env.DB_CONNECTION.createConnection({
-    host: process.env.DB_HOST,
-    // port: process.env.DB_PORT,
-    user: process.env.DB_USERNAME,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_DATABASE
-  });
+  const connection = mysql.createConnection(connectionConfig);
 
   connection.connect();
 
@@ -66,13 +72,7 @@ app.get("/user/:email", (req, res) => {
 });
 
 app.post("/save_user", (req, res) => {
-  const connection = process.env.DB_CONNECTION.createConnection({
-    host: process.env.DB_HOST,
-    // port: process.env.DB_PORT,
-    user: process.env.DB_USERNAME,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_DATABASE
-  });
+  const connection = mysql.createConnection(connectionConfig);
 
   connection.connect();
 
