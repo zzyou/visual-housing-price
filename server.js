@@ -96,7 +96,7 @@ app.post("/save_user", (req, res) => {
   connection.end();
 });
 
-const port = process.env.PORT;
+const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}.`);
