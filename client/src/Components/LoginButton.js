@@ -19,25 +19,9 @@ class LoginButton extends Component {
     auth.logout();
   }
 
-  componentDidMount() {
-    const { isAuthenticated } = auth;
-    // I still cannot access this.props.email here
-    // but I can access this.props.email in the return function.
-    const email = this.props.email;
-    if (isAuthenticated()) {
-      // why I cannot grab this.props.email and this.email here?
-      fetch(`/user/${email}`)
-        .then(res => res.json())
-        .then(data => {
-          this.setState({
-            data: data
-          });
-        });
-    }
-  }
-
   render() {
     const { isAuthenticated } = auth;
+    const preference = this.props.preference;
 
     return (
       <div>
@@ -50,8 +34,18 @@ class LoginButton extends Component {
             options={{ closeOnClick: true }}
           >
             <Profile auth={auth} />
-            {/* <SideNavItem>Preference of name: {this.props.name}</SideNavItem>
-            <SideNavItem>Preference of email: {this.props.email}</SideNavItem> */}
+            {preference !== undefined &&
+              preference[0] !== undefined && (
+                <SideNavItem>
+                  Preference of year: {preference[0].year}
+                </SideNavItem>
+              )}
+            {preference !== undefined &&
+              preference[0] !== undefined && (
+                <SideNavItem>
+                  Preference of state: {preference[0].state}
+                </SideNavItem>
+              )}
             <SideNavItem divider />
             <SideNavItem onClick={this.logout.bind(this)}>Log Out</SideNavItem>
           </SideNav>

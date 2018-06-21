@@ -53,7 +53,7 @@ app.get("/user/:email", (req, res) => {
   connection.connect();
 
   const preferenceQuery =
-    "SELECT year, state FROM users WHERE email = ? ORDER BY id DESC LIMIT 1";
+    "SELECT year, state, level FROM users WHERE email = ? ORDER BY id DESC LIMIT 1";
   const email = req.params.email;
 
   connection.query(preferenceQuery, email, function(error, result, field) {
@@ -84,7 +84,8 @@ app.post("/save_user", (req, res) => {
     name: req.body.name,
     email: req.body.email,
     year: req.body.year,
-    state: req.body.state
+    state: req.body.state,
+    level: req.body.level
   };
 
   connection.query(userQuery, userInfo, function(error, result, field) {

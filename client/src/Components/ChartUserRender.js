@@ -20,6 +20,7 @@ class ChartUserRender extends Component {
             data={this.props.data}
             name={this.props.name}
             email={this.props.email}
+            preference={this.props.preference}
           />
         )}
       </div>

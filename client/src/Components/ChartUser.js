@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { scaleBand, scaleLinear } from "d3-scale";
-import { Button, Input, Row } from "react-materialize";
+import { Input, Row, Toast } from "react-materialize";
 import "./ChartUser.css";
 import Axes from "./Axes";
 import Bars from "./Bars";
@@ -20,7 +20,6 @@ class ChartUser extends Component {
       level: "State",
       year: "2017",
       stateName: "",
-      longStateName: "",
       save: false
     };
   }
@@ -55,7 +54,8 @@ class ChartUser extends Component {
         this.props.name,
         this.props.email,
         +this.state.year,
-        this.state.stateName
+        this.state.stateName,
+        this.state.level
       );
     }
   };
@@ -64,8 +64,7 @@ class ChartUser extends Component {
     const level = this.state.level;
     this.setState({
       level: level === "State" ? "MSA" : "State",
-      stateName: shortName,
-      longStateName: longName
+      stateName: shortName
     });
   };
 
@@ -121,14 +120,15 @@ class ChartUser extends Component {
         ) : (
           <h5>
             <i>
-              House Price Index by Cities in <b>{this.state.longStateName}</b>,{" "}
+              House Price Index by Cities in <b>{this.state.stateName}</b>,{" "}
               <b>{this.state.year}</b>
             </i>
           </h5>
         )}
 
-        <Row className="user-input">
+        <Row className="user-input-row">
           <Input
+            className="user-input"
             onChange={this.handleYearChange}
             type="select"
             label="Your Preference of Year"
@@ -138,6 +138,7 @@ class ChartUser extends Component {
           </Input>
 
           <Input
+            className="user-input"
             onChange={this.handleStateChange}
             type="select"
             label="Your Preference of State"
@@ -147,13 +148,21 @@ class ChartUser extends Component {
             {stateOptions()}
           </Input>
 
-          <Button
+          <Toast
+            onClick={this.handleSubmit}
+            className="save-button"
+            toast="Saved!"
+          >
+            Save
+          </Toast>
+
+          {/* <Button
             onClick={this.handleSubmit}
             className="save-button"
             type="submit"
           >
             Save
-          </Button>
+          </Button> */}
         </Row>
 
         <svg width={svgDimensions.width} height={svgDimensions.height}>
