@@ -15,7 +15,7 @@ app.use(
 app.get("/states/alldata", (req, res) => {
   const connection = process.env.DB_CONNECTION.createConnection({
     host: process.env.DB_HOST,
-    port: process.env.DB_PORT,
+    // port: process.env.DB_PORT,
     user: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE
@@ -41,7 +41,7 @@ app.get("/states/alldata", (req, res) => {
 app.get("/user/:email", (req, res) => {
   const connection = process.env.DB_CONNECTION.createConnection({
     host: process.env.DB_HOST,
-    port: process.env.DB_PORT,
+    // port: process.env.DB_PORT,
     user: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE
@@ -68,7 +68,7 @@ app.get("/user/:email", (req, res) => {
 app.post("/save_user", (req, res) => {
   const connection = process.env.DB_CONNECTION.createConnection({
     host: process.env.DB_HOST,
-    port: process.env.DB_PORT,
+    // port: process.env.DB_PORT,
     user: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE
@@ -96,7 +96,7 @@ app.post("/save_user", (req, res) => {
   connection.end();
 });
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT;
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}.`);
