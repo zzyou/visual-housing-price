@@ -26,7 +26,11 @@ class User extends Component {
   render() {
     return (
       <div>
-        <NavTop auth={this.props.auth} />
+        <NavTop
+          auth={this.props.auth}
+          name={this.state.profile.name}
+          email={this.state.profile.email}
+        />
 
         <ChartUserRender
           name={this.state.profile.name}
