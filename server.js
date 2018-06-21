@@ -14,6 +14,7 @@ app.use(
 
 let connectionConfig;
 let port;
+
 if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
   connectionConfig = {
     host: "127.0.0.1",
@@ -23,7 +24,7 @@ if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
     database: "finalProject"
   };
 
-  port = process.env.PORT;
+  port = process.env.PORT || 4000;
 } else {
   connectionConfig = {
     host: process.env.DB_HOST,
