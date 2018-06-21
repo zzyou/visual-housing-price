@@ -12,8 +12,6 @@ app.use(
   })
 );
 
-const port = process.env.PORT || 4000;
-
 app.get("/states/alldata", (req, res) => {
   const connection = process.env.DB_CONNECTION.createConnection({
     host: process.env.DB_HOST,
@@ -97,6 +95,8 @@ app.post("/save_user", (req, res) => {
 
   connection.end();
 });
+
+const port = process.env.PORT;
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}.`);
