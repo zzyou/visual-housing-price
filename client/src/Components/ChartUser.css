@@ -7,3 +7,15 @@ h5 {
   color: lightseagreen;
   text-align: center;
 }
+
+.save-button {
+  margin-top: 10px;
+}
+
+.user-input {
+  margin-top: 20px;
+}
+
+.user-input-row {
+  margin-left: 35%;
+}
