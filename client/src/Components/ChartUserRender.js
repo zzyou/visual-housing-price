@@ -16,7 +16,11 @@ class ChartUserRender extends Component {
         )}
 
         {this.props.data.length > 0 && (
-          <ChartUser data={this.props.data} auth={this.props.auth} />
+          <ChartUser
+            data={this.props.data}
+            name={this.props.name}
+            email={this.props.email}
+          />
         )}
       </div>
     );
