@@ -2,7 +2,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "client": "cd client && yarn start",
-    "server": "nodemon server.js",
+    "server": "node server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn client\" \"yarn server\""
   },
   "dependencies": {
