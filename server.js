@@ -13,7 +13,7 @@ app.use(
 );
 
 app.get("/states/alldata", (req, res) => {
-  const connection = mysql.createConnection({
+  const connection = process.env.DB_CONNECTION.createConnection({
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
     user: process.env.DB_USERNAME,
@@ -39,7 +39,7 @@ app.get("/states/alldata", (req, res) => {
 });
 
 app.get("/user/:email", (req, res) => {
-  const connection = mysql.createConnection({
+  const connection = process.env.DB_CONNECTION.createConnection({
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
     user: process.env.DB_USERNAME,
@@ -66,7 +66,7 @@ app.get("/user/:email", (req, res) => {
 });
 
 app.post("/save_user", (req, res) => {
-  const connection = mysql.createConnection({
+  const connection = process.env.DB_CONNECTION.createConnection({
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
     user: process.env.DB_USERNAME,
