@@ -20,7 +20,6 @@ class ChartUser extends Component {
       level: "State",
       year: "2017",
       stateName: "",
-      longStateName: "",
       save: false
     };
   }
@@ -64,8 +63,7 @@ class ChartUser extends Component {
     const level = this.state.level;
     this.setState({
       level: level === "State" ? "MSA" : "State",
-      stateName: shortName,
-      longStateName: longName
+      stateName: shortName
     });
   };
 
@@ -121,7 +119,7 @@ class ChartUser extends Component {
         ) : (
           <h5>
             <i>
-              House Price Index by Cities in <b>{this.state.longStateName}</b>,{" "}
+              House Price Index by Cities in <b>{this.state.stateName}</b>,{" "}
               <b>{this.state.year}</b>
             </i>
           </h5>
