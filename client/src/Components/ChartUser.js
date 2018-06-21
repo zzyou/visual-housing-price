@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import { scaleBand, scaleLinear } from "d3-scale";
 import { Button, Input, Row } from "react-materialize";
+import "./ChartUser.css";
 import Axes from "./Axes";
 import Bars from "./Bars";
 import ResponsiveWrapper from "./ResponsiveWrapper";
-import "./ChartLogic.css";
+import SaveData from "./SaveData";
+import yearOptions from "./yearOptions";
+import stateOptions from "./stateOptions";
 
-class ChartLogic extends Component {
+class ChartUser extends Component {
   constructor(props) {
     super(props);
 
@@ -14,23 +17,48 @@ class ChartLogic extends Component {
     this.yScale = scaleLinear();
 
     this.state = {
-      year: "2017",
       level: "State",
+      year: "2017",
       stateName: "",
-      longStateName: ""
+      longStateName: "",
+      profile: {},
+      save: false
     };
   }
-
-  handleLevelClick = e => {
-    this.setState({
-      level: "State"
-    });
-  };
 
   handleYearChange = e => {
     this.setState({
       year: e.target.value
     });
+  };
+
+  handleStateChange = e => {
+    if (e.target.value === "AllStates") {
+      this.setState({
+        level: "State",
+        stateName: e.target.value
+      });
+    } else {
+      this.setState({
+        level: "MSA",
+        stateName: e.target.value
+      });
+    }
+  };
+
+  handleSubmit = () => {
+    if (this.state.profile.email) {
+      this.setState({
+        save: true
+      });
+      SaveData(
+        "/save_user",
+        this.state.profile.name,
+        this.state.profile.email,
+        +this.state.year,
+        this.state.stateName
+      );
+    }
   };
 
   handleBarClick = (shortName, longName) => {
@@ -41,6 +69,20 @@ class ChartLogic extends Component {
       longStateName: longName
     });
   };
+
+  componentDidMount() {
+    const { isAuthenticated, userProfile, getProfile } = this.props.auth;
+
+    if (isAuthenticated()) {
+      if (!userProfile) {
+        getProfile((err, profile) => {
+          this.setState({ profile });
+        });
+      } else {
+        this.setState({ profile: userProfile });
+      }
+    }
+  }
 
   render() {
     const rawData = this.props.data;
@@ -70,6 +112,8 @@ class ChartLogic extends Component {
       width: Math.max(this.props.parentWidth, 700),
       height: 650
     };
+    console.log("data", data[0]);
+    console.log("data2017", data2017[0]);
     const maxValue = Math.max(...data.map(d => d.index_nsa));
     const maxValue2017 = Math.max(...data2017.map(d => d.index_nsa));
 
@@ -82,28 +126,8 @@ class ChartLogic extends Component {
       .domain([0, maxValue2017])
       .range([svgDimensions.height - margins.bottom, margins.top]);
 
-    const yearInput = () => (
-      <Row className="year-range">
-        <Input
-          onChange={this.handleYearChange}
-          defaultValue={this.state.year}
-          s={12}
-          type="range"
-          label="Year"
-          min="1975"
-          max="2017"
-        />
-      </Row>
-    );
-
     return (
       <div>
-        {this.state.level === "MSA" && (
-          <div className="center-align">
-            <Button onClick={this.handleLevelClick}>Back to State Level</Button>
-          </div>
-        )}
-
         {this.state.level === "State" ? (
           <h5>
             <i>
@@ -120,7 +144,34 @@ class ChartLogic extends Component {
           </h5>
         )}
 
-        {yearInput()}
+        <Row className="user-input">
+          <Input
+            onChange={this.handleYearChange}
+            type="select"
+            label="Your Preference of Year"
+            defaultValue="2017"
+          >
+            {yearOptions()}
+          </Input>
+
+          <Input
+            onChange={this.handleStateChange}
+            type="select"
+            label="Your Preference of State"
+            defaultValue="AllStates"
+          >
+            <option value="AllStates">All States</option>
+            {stateOptions()}
+          </Input>
+
+          <Button
+            onClick={this.handleSubmit}
+            className="save-button"
+            type="submit"
+          >
+            Save
+          </Button>
+        </Row>
 
         <svg width={svgDimensions.width} height={svgDimensions.height}>
           <Axes
@@ -143,4 +194,4 @@ class ChartLogic extends Component {
   }
 }
 
-export default ResponsiveWrapper(ChartLogic);
+export default ResponsiveWrapper(ChartUser);

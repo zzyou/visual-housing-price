@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Col, ProgressBar } from "react-materialize";
-import ChartLogic from "./ChartLogic";
+import ChartUser from "./ChartUser";
 import FetchDataWrapper from "./FetchDataWrapper";
 
-class ChartRender extends Component {
+class ChartUserRender extends Component {
   render() {
     return (
       <div>
@@ -15,10 +15,12 @@ class ChartRender extends Component {
           </Col>
         )}
 
-        {this.props.data.length > 0 && <ChartLogic data={this.props.data} />}
+        {this.props.data.length > 0 && (
+          <ChartUser data={this.props.data} auth={this.props.auth} />
+        )}
       </div>
     );
   }
 }
 
-export default FetchDataWrapper("/states/alldata")(ChartRender);
+export default FetchDataWrapper("/states/alldata")(ChartUserRender);
