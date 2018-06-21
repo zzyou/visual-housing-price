@@ -16,9 +16,9 @@ class NavTop extends Component {
     };
     const renderLoginButton = () => {
       return isAuthenticated() ? (
-        <LoginButton year={this.props.year} stateName={this.props.stateName} />
+        <LoginButton name={this.props.name} email={this.props.email} />
       ) : (
-        <LoginButton />
+        <LoginButton name={this.props.name} email={this.props.email} />
       );
     };
 

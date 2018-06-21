@@ -41,7 +41,7 @@ app.get("/states/alldata", (req, res) => {
   connection.end();
 });
 
-app.get("/user/:name", (req, res) => {
+app.get("/user/:email", (req, res) => {
   const connection = mysql.createConnection({
     host: "127.0.0.1",
     port: 3306,
@@ -53,10 +53,10 @@ app.get("/user/:name", (req, res) => {
   connection.connect();
 
   const preferenceQuery =
-    "SELECT year, state FROM users WHERE name = ? ORDER BY id DESC";
-  const name = req.params.name;
+    "SELECT year, state FROM users WHERE email = ? ORDER BY id DESC LIMIT 1";
+  const email = req.params.email;
 
-  connection.query(preferenceQuery, name, function(error, result, field) {
+  connection.query(preferenceQuery, email, function(error, result, field) {
     if (error) {
       console.error(error.toString());
     } else {
