@@ -21,7 +21,6 @@ class ChartUser extends Component {
       year: "2017",
       stateName: "",
       longStateName: "",
-      profile: {},
       save: false
     };
   }
@@ -47,14 +46,14 @@ class ChartUser extends Component {
   };
 
   handleSubmit = () => {
-    if (this.state.profile.email) {
+    if (this.props.email) {
       this.setState({
         save: true
       });
       SaveData(
         "/save_user",
-        this.state.profile.name,
-        this.state.profile.email,
+        this.props.name,
+        this.props.email,
         +this.state.year,
         this.state.stateName
       );
@@ -69,20 +68,6 @@ class ChartUser extends Component {
       longStateName: longName
     });
   };
-
-  componentDidMount() {
-    const { isAuthenticated, userProfile, getProfile } = this.props.auth;
-
-    if (isAuthenticated()) {
-      if (!userProfile) {
-        getProfile((err, profile) => {
-          this.setState({ profile });
-        });
-      } else {
-        this.setState({ profile: userProfile });
-      }
-    }
-  }
 
   render() {
     const rawData = this.props.data;
@@ -112,8 +97,6 @@ class ChartUser extends Component {
       width: Math.max(this.props.parentWidth, 700),
       height: 650
     };
-    console.log("data", data[0]);
-    console.log("data2017", data2017[0]);
     const maxValue = Math.max(...data.map(d => d.index_nsa));
     const maxValue2017 = Math.max(...data2017.map(d => d.index_nsa));
 

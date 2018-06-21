@@ -41,6 +41,33 @@ app.get("/states/alldata", (req, res) => {
   connection.end();
 });
 
+app.get("/user/:name", (req, res) => {
+  const connection = mysql.createConnection({
+    host: "127.0.0.1",
+    port: 3306,
+    user: "root",
+    password: "",
+    database: "finalProject"
+  });
+
+  connection.connect();
+
+  const preferenceQuery =
+    "SELECT year, state FROM users WHERE name = ? ORDER BY id DESC";
+  const name = req.params.name;
+
+  connection.query(preferenceQuery, name, function(error, result, field) {
+    if (error) {
+      console.error(error.toString());
+    } else {
+      const data = JSON.stringify(result);
+      return res.send(data);
+    }
+  });
+
+  connection.end();
+});
+
 app.post("/save_user", (req, res) => {
   const connection = mysql.createConnection({
     host: "127.0.0.1",
