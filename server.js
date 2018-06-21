@@ -17,8 +17,8 @@ app.get("/states/alldata", (req, res) => {
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
     user: process.env.DB_USERNAME,
-    password: process.env.PASSWORD,
-    database: process.env.DATABASE
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE
   });
 
   connection.connect();
@@ -43,8 +43,8 @@ app.get("/user/:email", (req, res) => {
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
     user: process.env.DB_USERNAME,
-    password: process.env.PASSWORD,
-    database: process.env.DATABASE
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE
   });
 
   connection.connect();
@@ -70,8 +70,8 @@ app.post("/save_user", (req, res) => {
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
     user: process.env.DB_USERNAME,
-    password: process.env.PASSWORD,
-    database: process.env.DATABASE
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE
   });
 
   connection.connect();
