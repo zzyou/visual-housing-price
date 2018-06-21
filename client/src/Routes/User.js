@@ -38,14 +38,15 @@ class User extends Component {
   };
 
   handleSubmit = () => {
-    if (this.state.profile.sub) {
+    if (this.state.profile.email) {
       this.setState({
         save: true
       });
       SaveData(
         "/save_user",
-        this.state.profile.sub,
-        this.state.year,
+        this.state.profile.name,
+        this.state.profile.email,
+        +this.state.year,
         this.state.stateName
       );
     }
@@ -58,9 +59,11 @@ class User extends Component {
       if (!userProfile) {
         getProfile((err, profile) => {
           this.setState({ profile });
+          console.log(profile);
         });
       } else {
         this.setState({ profile: userProfile });
+        console.log(userProfile);
       }
     }
   }

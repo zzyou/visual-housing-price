@@ -12,7 +12,7 @@ app.use(
   })
 );
 
-const reactPort = process.env.REACT_PORT || 4000;
+const port = process.env.PORT || 4000;
 const mysqlPort = process.env.MYSQL_PORT || 3306;
 
 app.get("/states/alldata", (req, res) => {
@@ -26,10 +26,10 @@ app.get("/states/alldata", (req, res) => {
 
   connection.connect();
 
-  const sqlQuery =
+  const dataQuery =
     "SELECT level, place_name, place_id, index_nsa, yr FROM HPIyear WHERE level = ? OR level = ? ORDER BY index_nsa";
 
-  connection.query(sqlQuery, ["MSA", "State"], function(error, result, field) {
+  connection.query(dataQuery, ["MSA", "State"], function(error, result, field) {
     if (error) {
       console.error(error.toString());
     } else {
@@ -42,10 +42,35 @@ app.get("/states/alldata", (req, res) => {
 });
 
 app.post("/save_user", (req, res) => {
-  console.log("request", req.body.user, req.body.year, req.body.state);
-  res.send(JSON.stringify("User saved to database"));
+  const connection = mysql.createConnection({
+    host: "127.0.0.1",
+    port: 3306,
+    user: "root",
+    password: "",
+    database: "finalProject"
+  });
+
+  connection.connect();
+
+  const userQuery = "INSERT INTO users SET ?";
+  const userInfo = {
+    name: req.body.name,
+    email: req.body.email,
+    year: req.body.year,
+    state: req.body.state
+  };
+
+  connection.query(userQuery, userInfo, function(error, result, field) {
+    if (error) {
+      console.error(error.toString());
+    } else {
+      return res.send(JSON.stringify("User saved to database"));
+    }
+  });
+
+  connection.end();
 });
 
-app.listen(reactPort, () => {
-  console.log(`Listening on port ${reactPort}.`);
+app.listen(port, () => {
+  console.log(`Listening on port ${port}.`);
 });
