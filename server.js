@@ -13,7 +13,7 @@ app.use(
 );
 
 let connectionConfig;
-if (process.env.NODE_ENV === "development" || !process.env.NODE_ENV) {
+if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
   connectionConfig = {
     host: "127.0.0.1",
     port: 3306,
