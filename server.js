@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const mysql = require("mysql");
+// const mysql = require("mysql");
 require("dotenv").config();
 
 const app = express();
@@ -13,15 +13,14 @@ app.use(
 );
 
 const port = process.env.PORT || 4000;
-const mysqlPort = process.env.MYSQL_PORT || 3306;
 
 app.get("/states/alldata", (req, res) => {
-  const connection = mysql.createConnection({
-    host: "127.0.0.1",
-    port: 3306,
-    user: "root",
-    password: "",
-    database: "finalProject"
+  const connection = process.env.DB_CONNECTION.createConnection({
+    host: process.env.DB_HOST,
+    port: process.env.DB_PORT,
+    user: process.env.DB_USERNAME,
+    password: process.env.PASSWORD,
+    database: process.env.DATABASE
   });
 
   connection.connect();
@@ -42,12 +41,12 @@ app.get("/states/alldata", (req, res) => {
 });
 
 app.get("/user/:email", (req, res) => {
-  const connection = mysql.createConnection({
-    host: "127.0.0.1",
-    port: 3306,
-    user: "root",
-    password: "",
-    database: "finalProject"
+  const connection = process.env.DB_CONNECTION.createConnection({
+    host: process.env.DB_HOST,
+    port: process.env.DB_PORT,
+    user: process.env.DB_USERNAME,
+    password: process.env.PASSWORD,
+    database: process.env.DATABASE
   });
 
   connection.connect();
@@ -69,12 +68,12 @@ app.get("/user/:email", (req, res) => {
 });
 
 app.post("/save_user", (req, res) => {
-  const connection = mysql.createConnection({
-    host: "127.0.0.1",
-    port: 3306,
-    user: "root",
-    password: "",
-    database: "finalProject"
+  const connection = process.env.DB_CONNECTION.createConnection({
+    host: process.env.DB_HOST,
+    port: process.env.DB_PORT,
+    user: process.env.DB_USERNAME,
+    password: process.env.PASSWORD,
+    database: process.env.DATABASE
   });
 
   connection.connect();
