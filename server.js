@@ -16,7 +16,6 @@ app.use(
 app.use(express.static(path.join(__dirname, "client/build")));
 
 let connectionConfig;
-let port;
 
 if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
   connectionConfig = {
@@ -26,8 +25,6 @@ if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
     password: "",
     database: "finalProject"
   };
-
-  port = process.env.PORT || 4000;
 } else {
   connectionConfig = {
     host: process.env.DB_HOST,
@@ -35,8 +32,6 @@ if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE
   };
-
-  port = "tcp/80";
 }
 
 app.get("/states/alldata", (req, res) => {
@@ -104,6 +99,8 @@ app.post("/save_user", (req, res) => {
 
   connection.end();
 });
+
+const port = process.env.PORT;
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}.`);
