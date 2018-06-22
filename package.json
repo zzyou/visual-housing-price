@@ -1,8 +1,8 @@
 {
   "license": "Apache-2.0",
   "scripts": {
-    "start": "node server.js",
-    "heroku-postbuild": "cd client && npm install && npm run build",
+    "start": "npm install && node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build && cd ..",
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
