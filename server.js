@@ -1,8 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const path = require("path");
+// const path = require("path");
 const mysql = require("mysql");
-// require("dotenv").config();
+require("dotenv").config();
 
 const app = express();
 
@@ -12,8 +12,6 @@ app.use(
     extended: true
   })
 );
-
-app.use(express.static(path.join(__dirname, "client/build")));
 
 let connectionConfig;
 
@@ -32,6 +30,8 @@ if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE
   };
+
+  app.use(express.static("client/build"));
 }
 
 app.get("/states/alldata", (req, res) => {
