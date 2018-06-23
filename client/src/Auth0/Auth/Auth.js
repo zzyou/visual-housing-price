@@ -2,7 +2,7 @@ import history from "../history";
 import auth0 from "auth0-js";
 // import { AUTH_CONFIG } from "./auth0-variables";
 // once it's in production, this file should be in ./client/build?
-// require("dotenv").config({ path: "../../.env" });
+// require("dotenv").config({ path: "../../../../.env" });
 
 let auth0Config;
 // if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
