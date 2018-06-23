@@ -13,6 +13,8 @@ app.use(
   })
 );
 
+app.use(express.static("client/build"));
+
 let connectionConfig;
 
 if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
@@ -30,8 +32,6 @@ if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE
   };
-
-  app.use(express.static("client/build"));
 }
 
 app.get("/states/alldata", (req, res) => {
