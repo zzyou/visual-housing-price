@@ -57,6 +57,7 @@ class ChartUser extends Component {
         this.state.stateName,
         this.state.level
       );
+      console.log("user saved");
     }
   };
 
@@ -148,21 +149,11 @@ class ChartUser extends Component {
             {stateOptions()}
           </Input>
 
-          <Toast
-            onClick={this.handleSubmit}
-            className="save-button"
-            toast="Saved!"
-          >
-            Save
-          </Toast>
-
-          {/* <Button
-            onClick={this.handleSubmit}
-            className="save-button"
-            type="submit"
-          >
-            Save
-          </Button> */}
+          <div onClick={this.handleSubmit}>
+            <Toast className="save-button" toast="Saved!">
+              Save
+            </Toast>
+          </div>
         </Row>
 
         <svg width={svgDimensions.width} height={svgDimensions.height}>
