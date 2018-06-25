@@ -66,7 +66,7 @@ class LoginButton extends Component {
             trigger={<Button className="profile-button">Profile</Button>}
             options={{ closeOnClick: false }}
           >
-            <Profile profile={this.props.auth} />
+            <Profile auth={auth} />
             {preference !== undefined &&
               preference[0] !== undefined && (
                 <SideNavItem>
