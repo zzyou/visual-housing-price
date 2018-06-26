@@ -1,7 +1,7 @@
 import history from "../history";
 import auth0 from "auth0-js";
 import { AUTH_CONFIG } from "./auth0-variables";
-require("dotenv").config({ path: "../../../../.env" });
+// require("dotenv").config({ path: "../../../../.env" });
 
 // when deploying, remove AUTH_CONFIG and dotenv
 
