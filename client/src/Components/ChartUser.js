@@ -57,7 +57,6 @@ class ChartUser extends Component {
         this.state.stateName,
         this.state.level
       );
-      console.log("user saved");
     }
   };
 
@@ -68,6 +67,18 @@ class ChartUser extends Component {
       stateName: shortName
     });
   };
+
+  componentDidMount() {
+    const preference = this.props.preference;
+
+    if (preference !== undefined && preference[0] !== undefined) {
+      this.setState({
+        level: preference[0].level,
+        year: preference[0].year,
+        stateName: preference[0].state
+      });
+    }
+  }
 
   render() {
     const rawData = this.props.data;
