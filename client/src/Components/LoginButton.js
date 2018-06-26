@@ -70,22 +70,27 @@ class LoginButton extends Component {
             options={{ closeOnClick: false }}
           >
             <Profile auth={auth} />
+
             {preference !== undefined &&
               preference[0] !== undefined && (
                 <SideNavItem>
                   Preference of year: {preference[0].year}
                 </SideNavItem>
               )}
+
             {preference !== undefined &&
               preference[0] !== undefined && (
                 <SideNavItem>
                   Preference of state: {preference[0].state}
                 </SideNavItem>
               )}
+
             <SideNavItem onClick={this.handleClick}>
               <Button>Refresh</Button>
             </SideNavItem>
+
             <SideNavItem divider />
+
             <SideNavItem onClick={this.logout.bind(this)}>Log Out</SideNavItem>
           </SideNav>
         )}

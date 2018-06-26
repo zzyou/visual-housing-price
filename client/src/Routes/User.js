@@ -43,14 +43,17 @@ class User extends Component {
   }
 
   render() {
+    const preference = this.state.preference;
+    const profile = this.state.profile;
+
     return (
       <div>
-        <NavTop auth={this.props.auth} preference={this.state.preference} />
+        <NavTop auth={this.props.auth} preference={preference} />
 
         <ChartUserRender
-          name={this.state.profile.name}
-          email={this.state.profile.email}
-          preference={this.state.preference}
+          name={profile.name}
+          email={profile.email}
+          preference={preference}
         />
 
         <NavBottom />
