@@ -2,7 +2,9 @@ const express = require("express");
 const bodyParser = require("body-parser");
 // const path = require("path");
 const mysql = require("mysql");
-// require("dotenv").config();
+require("dotenv").config();
+
+// when deploying, remove dotenv
 
 const app = express();
 
