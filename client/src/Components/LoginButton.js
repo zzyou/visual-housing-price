@@ -9,7 +9,7 @@ const auth = new Auth();
 class LoginButton extends Component {
   state = {
     profile: {},
-    preference: this.props.preference
+    preference: []
   };
 
   login() {
@@ -54,7 +54,10 @@ class LoginButton extends Component {
 
   render() {
     const { isAuthenticated } = auth;
-    const preference = this.state.preference;
+    const preference =
+      this.state.preference.length === 0
+        ? this.props.preference
+        : this.state.preference;
 
     return (
       <div>
