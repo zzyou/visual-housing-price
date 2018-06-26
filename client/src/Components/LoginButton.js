@@ -74,14 +74,14 @@ class LoginButton extends Component {
             {preference !== undefined &&
               preference[0] !== undefined && (
                 <SideNavItem>
-                  Preference of year: {preference[0].year}
+                  Year Preference: <b>{preference[0].year}</b>
                 </SideNavItem>
               )}
 
             {preference !== undefined &&
               preference[0] !== undefined && (
                 <SideNavItem>
-                  Preference of state: {preference[0].state}
+                  State Preference: <b>{preference[0].state}</b>
                 </SideNavItem>
               )}
 

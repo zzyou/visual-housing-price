@@ -143,7 +143,7 @@ class ChartUser extends Component {
             className="user-input"
             onChange={this.handleYearChange}
             type="select"
-            label="Preference of Year"
+            label="Choose Year"
             defaultValue="2017"
           >
             {yearOptions()}
@@ -153,7 +153,7 @@ class ChartUser extends Component {
             className="user-input"
             onChange={this.handleStateChange}
             type="select"
-            label="Preference of State"
+            label="Choose State"
             defaultValue="AllStates"
           >
             <option value="AllStates">All States</option>
