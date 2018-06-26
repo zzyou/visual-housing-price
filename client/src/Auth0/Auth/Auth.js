@@ -1,30 +1,30 @@
 import history from "../history";
 import auth0 from "auth0-js";
-import { AUTH_CONFIG } from "./auth0-variables";
-require("dotenv").config({ path: "../../../../.env" });
+// import { AUTH_CONFIG } from "./auth0-variables";
+// require("dotenv").config({ path: "../../../../.env" });
 
 // when deploying, remove AUTH_CONFIG and dotenv
 
 let auth0Config;
-if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
-  auth0Config = {
-    domain: AUTH_CONFIG.domain,
-    clientID: AUTH_CONFIG.clientId,
-    redirectUri: AUTH_CONFIG.callbackUrl,
-    audience: `https://${AUTH_CONFIG.domain}/userinfo`,
-    responseType: "token id_token",
-    scope: "openid profile email"
-  };
-} else {
-  auth0Config = {
-    domain: process.env.REACT_APP_AUTH0_DOMAIN,
-    clientID: process.env.REACT_APP_AUTH0_CLIENT_ID,
-    redirectUri: process.env.REACT_APP_AUTH0_CALLBACK_URL,
-    audience: `https://${process.env.REACT_APP_AUTH0_DOMAIN}/userinfo`,
-    responseType: "token id_token",
-    scope: "openid profile email"
-  };
-}
+// if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
+//   auth0Config = {
+//     domain: AUTH_CONFIG.domain,
+//     clientID: AUTH_CONFIG.clientId,
+//     redirectUri: AUTH_CONFIG.callbackUrl,
+//     audience: `https://${AUTH_CONFIG.domain}/userinfo`,
+//     responseType: "token id_token",
+//     scope: "openid profile email"
+//   };
+// } else {
+auth0Config = {
+  domain: process.env.REACT_APP_AUTH0_DOMAIN,
+  clientID: process.env.REACT_APP_AUTH0_CLIENT_ID,
+  redirectUri: process.env.REACT_APP_AUTH0_CALLBACK_URL,
+  audience: `https://${process.env.REACT_APP_AUTH0_DOMAIN}/userinfo`,
+  responseType: "token id_token",
+  scope: "openid profile email"
+};
+// }
 
 export default class Auth {
   auth0 = new auth0.WebAuth(auth0Config);

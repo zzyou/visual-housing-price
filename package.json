@@ -9,7 +9,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "start": "node server.js",
-    "install": "cd client && npm install && npm run build && cd ..",
+    "heroku-postbuild": "cd client && npm install && rm -rf /build && npm run build",
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
