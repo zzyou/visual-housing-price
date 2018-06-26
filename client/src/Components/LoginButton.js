@@ -8,7 +8,8 @@ const auth = new Auth();
 
 class LoginButton extends Component {
   state = {
-    data: []
+    profile: {},
+    preference: []
   };
 
   login() {
@@ -19,9 +20,44 @@ class LoginButton extends Component {
     auth.logout();
   }
 
+  handleClick = () => {
+    const { isAuthenticated, userProfile, getProfile } = auth;
+
+    if (isAuthenticated()) {
+      if (!userProfile) {
+        getProfile((err, profile) => {
+          this.setState({ profile });
+
+          fetch(`/user/${profile.email}`)
+            .then(res => res.json())
+            .then(data => {
+              this.setState({
+                preference: data
+              });
+            })
+            .catch(err => console.error(err.toString()));
+        });
+      } else {
+        this.setState({ profile: userProfile });
+
+        fetch(`/user/${userProfile.email}`)
+          .then(res => res.json())
+          .then(data => {
+            this.setState({
+              preference: data
+            });
+          })
+          .catch(err => console.error(err.toString()));
+      }
+    }
+  };
+
   render() {
     const { isAuthenticated } = auth;
-    const preference = this.props.preference;
+    const preference =
+      this.state.preference.length === 0
+        ? this.props.preference
+        : this.state.preference;
 
     return (
       <div>
@@ -31,7 +67,7 @@ class LoginButton extends Component {
         {isAuthenticated() && (
           <SideNav
             trigger={<Button className="profile-button">Profile</Button>}
-            options={{ closeOnClick: true }}
+            options={{ closeOnClick: false }}
           >
             <Profile auth={auth} />
             {preference !== undefined &&
@@ -46,6 +82,9 @@ class LoginButton extends Component {
                   Preference of state: {preference[0].state}
                 </SideNavItem>
               )}
+            <SideNavItem onClick={this.handleClick}>
+              <Button>Refresh</Button>
+            </SideNavItem>
             <SideNavItem divider />
             <SideNavItem onClick={this.logout.bind(this)}>Log Out</SideNavItem>
           </SideNav>

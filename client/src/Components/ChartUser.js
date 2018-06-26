@@ -19,7 +19,7 @@ class ChartUser extends Component {
     this.state = {
       level: "State",
       year: "2017",
-      stateName: "",
+      stateName: "AllStates",
       save: false
     };
   }
@@ -132,7 +132,7 @@ class ChartUser extends Component {
             className="user-input"
             onChange={this.handleYearChange}
             type="select"
-            label="Your Preference of Year"
+            label="Preference of Year"
             defaultValue="2017"
           >
             {yearOptions()}
@@ -142,7 +142,7 @@ class ChartUser extends Component {
             className="user-input"
             onChange={this.handleStateChange}
             type="select"
-            label="Your Preference of State"
+            label="Preference of State"
             defaultValue="AllStates"
           >
             <option value="AllStates">All States</option>
