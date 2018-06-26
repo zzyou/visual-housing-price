@@ -1,4 +1,11 @@
 {
+  "name": "viztory",
+  "description": "visual house price",
+  "version": "1.0.0",
+  "engines": {
+    "node": "9.5.0",
+    "npm": "5.6.0"
+  },
   "license": "Apache-2.0",
   "scripts": {
     "start": "node server.js",
