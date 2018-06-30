@@ -6,7 +6,7 @@ Final Project at Techtonica.
 
 **Tools**: _Node, Express, MySQL, React, D3, OAuth_
 
-<img src="./client/public/Viztory.gif" alt="Viztory GIF" />
+<img src="./client/public/viztory0630.gif" alt="Viztory GIF" />
 
 ###
 
