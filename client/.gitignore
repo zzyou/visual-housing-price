@@ -77,3 +77,5 @@ package-lock.json
 yarn.lock
 
 /build
+
+src/__tests__/
