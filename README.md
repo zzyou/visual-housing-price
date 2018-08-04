@@ -55,8 +55,20 @@ IGNORE 1 ROWS
     (id, level, place_name, place_id, yr, index_nsa);
 ```
 
-- In terminal, `cd client`, run `npm install`, install all node modules for client side.
-- In terminal, `cd ../` to go back to the root directory, run `npm install`, install all node modules for server side.
+- Signup for [Auth0](https://auth0.com/signup), to get your auth0 variables: `clientId`, `domain`, and `callbackUrl`.
+- In terminal, `cd client/src/Auth0/Auth`, and `touch auth0-variables.js`.
+- Open auth0-variables.js in your text editor, and write the following code in auth0-variables.js:
+
+```
+export const AUTH_CONFIG = {
+  domain: "YOUR-DOMAIN-NAME",
+  clientId: "YOUR-CLIENT-ID",
+  callbackUrl: "YOUR-CALLBACK-URL"
+};
+```
+
+- In terminal, `cd ../../../`, to go back to `/client` folder, run `npm install`, install all node modules on client side.
+- In terminal, `cd ../` to go to the root directory, run `npm install`, install all node modules on server side.
 - In terminal, still in the root directory, run `yarn dev`, enjoy!
 
 ###
