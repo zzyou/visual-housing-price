@@ -1,11 +1,12 @@
 {
   "name": "viztory",
   "description": "visual house price",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
-    "node": "9.5.0",
-    "npm": "5.6.0"
+    "node": ">=9",
+    "npm": ">=5"
   },
+  "author": "Zhenzhen You (https://github.com/zzyou)",
   "license": "Apache-2.0",
   "scripts": {
     "start": "node server.js",
@@ -17,11 +18,11 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mysql": "^2.15.0",
+    "mysql": "^2.17.1",
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "dotenv": "^5.0.1",
-    "concurrently": "^3.5.1"
+    "concurrently": "^5.0.0",
+    "dotenv": "^8.2.0"
   }
 }
