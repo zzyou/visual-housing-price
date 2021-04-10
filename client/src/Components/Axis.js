@@ -28,6 +28,7 @@ class Axis extends Component {
         return (
             <g
                 className={`Axis Axis-${this.props.orient}`}
+                id="Axis2"
                 ref={el => this.axisElement = el}
                 transform={this.props.translate}
             />
